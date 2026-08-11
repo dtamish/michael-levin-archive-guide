@@ -25,3 +25,9 @@ test('site is unindexed and omits private production surfaces',()=>{
 test('site exposes editor navigation affordances',()=>{
  for(const marker of ['archive-search','data-media-filters','data-rights-filters','data-section-nav','item-template']) assert.match(html,new RegExp(marker));
 });
+test('v2 explains what the editor sees and why it matters',()=>{
+ for(const item of data.items){assert.ok(item.description.length>20,item.id);assert.ok(item.editorialUse.length>30,item.id);assert.ok(item.verificationNote.length>25,item.id)}
+ assert.equal(data.meta.sections.length,7);
+ for(const section of data.meta.sections){assert.ok(section.description.length>30,section.id);assert.ok(section.editorialUse.length>25,section.id)}
+ assert.match(html,/למה זה חשוב לסרט/);
+});

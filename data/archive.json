@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "מייקל לוין — מדריך חומרי גלם",
+    "title": "מייקל לוין — מדריך חומרי גלם לעורך",
     "subject": "סמ״ר מייקל (מיכאל) לוין ז״ל",
     "catalogDate": "2026-08-11",
     "generatedAt": "2026-08-11",
@@ -12,45 +12,59 @@
     "sections": [
       {
         "id": "01_ילדות_ומשפחה",
-        "label": "ילדות ומשפחה",
+        "label": "החיים לפני ישראל",
         "count": 10,
-        "driveUrl": "https://drive.google.com/drive/folders/1feOfgJsXbyKR7GezgSv_ZHZtTNfuM9Sz"
+        "driveUrl": "https://drive.google.com/drive/folders/1feOfgJsXbyKR7GezgSv_ZHZtTNfuM9Sz",
+        "description": "חומרי ילדות, משפחה והקשר אישי שמציגים את מייקל כאדם לפני שהפך לסמל.",
+        "editorialUse": "בונה הזדהות ודמות; מתאים לפתיח, פלאשבק ואלבומי משפחה."
       },
       {
         "id": "02_עלייה_וישראל",
-        "label": "עלייה וחיים בישראל",
+        "label": "הדרך לישראל",
         "count": 6,
-        "driveUrl": "https://drive.google.com/drive/folders/1rNQ1LY5hGWpOS6dVgxuESvXWv3IehQhr"
+        "driveUrl": "https://drive.google.com/drive/folders/1rNQ1LY5hGWpOS6dVgxuESvXWv3IehQhr",
+        "description": "עלייה, בחירה בישראל והמעבר אל מסלול החיים והגיוס.",
+        "editorialUse": "מחבר בין מניע אישי לפעולה ומבסס את קשת הבחירה."
       },
       {
         "id": "03_שירות_צבאי_וחברים",
-        "label": "שירות צבאי וחברים",
+        "label": "השירות והחברים",
         "count": 4,
-        "driveUrl": "https://drive.google.com/drive/folders/1sfpjD04VVghZ6h0qO7F7jsZ-M6ZyovmS"
+        "driveUrl": "https://drive.google.com/drive/folders/1sfpjD04VVghZ6h0qO7F7jsZ-M6ZyovmS",
+        "description": "חומרים מהצבא ועדויות של מי ששירתו והכירו אותו.",
+        "editorialUse": "נותן אופי, חברות ועדות ממקור ראשון; גשר מהביוגרפיה אל הסיפור הצבאי."
       },
       {
         "id": "04_הלוויה_והשבעה",
-        "label": "הלוויה והשבעה",
+        "label": "הנפילה והלוויה",
         "count": 9,
-        "driveUrl": "https://drive.google.com/drive/folders/16kU56BeO390oAC6Ow0bV3P_S5mVlDSBJ"
+        "driveUrl": "https://drive.google.com/drive/folders/16kU56BeO390oAC6Ow0bV3P_S5mVlDSBJ",
+        "description": "חדשות, סטילס ותיעוד מקצועי של ההלוויה והתגובה הציבורית.",
+        "editorialUse": "שיא רגשי והיסטורי; ממחיש את היקף האבל והמעבר מאדם פרטי לסמל."
       },
       {
         "id": "05_הנצחה_והקבר",
-        "label": "הנצחה והקבר",
+        "label": "זיכרון והנצחה",
         "count": 17,
-        "driveUrl": "https://drive.google.com/drive/folders/1jnJssE1hHAetP7K6QsBAf-bRowxCIpgi"
+        "driveUrl": "https://drive.google.com/drive/folders/1jnJssE1hHAetP7K6QsBAf-bRowxCIpgi",
+        "description": "טקסים, פרויקטים ופעולות הנצחה לאורך השנים.",
+        "editorialUse": "מאפשר מונטאז׳ זמן ומראה כיצד הזיכרון נשמר ומשתנה."
       },
       {
         "id": "06_מורשת_והשפעה",
         "label": "מורשת והשפעה",
         "count": 25,
-        "driveUrl": "https://drive.google.com/drive/folders/1czvb1dhmM2VyaOO6_ExvAJUMfkZLFiSq"
+        "driveUrl": "https://drive.google.com/drive/folders/1czvb1dhmM2VyaOO6_ExvAJUMfkZLFiSq",
+        "description": "ארגונים, חיילים בודדים ופעולות שנולדו בהשראתו.",
+        "editorialUse": "מבסס את טענת הסרט שהמורשת הפכה לפעולה ממשית."
       },
       {
         "id": "07_סרטים_וכתבות_לרישוי",
-        "label": "סרטים וכתבות לרישוי",
+        "label": "סרטים ומקורות־על",
         "count": 1,
-        "driveUrl": "https://drive.google.com/drive/folders/1e0muHd6E1Fyv1K-t7jhQAg7cqCTgV_nb"
+        "driveUrl": "https://drive.google.com/drive/folders/1e0muHd6E1Fyv1K-t7jhQAg7cqCTgV_nb",
+        "description": "סרטים ארוכים, כתבות ומאגרים שמרכזים שכבות רבות של הסיפור.",
+        "editorialUse": "נקודת כניסה למחקר עמוק, reference לעריכה ומפת דרכים לרישוי נוסף."
       }
     ],
     "rightsCounts": {
@@ -65,7 +79,50 @@
       "web": 6,
       "video": 41,
       "audio": 1
-    }
+    },
+    "projectTitle": "מייקל לוין",
+    "projectSubtitle": "מדריך חומרי גלם לעורך",
+    "metaDescription": "מדריך עריכתי ל-72 מקורות על מייקל לוין: מה רואים, למה זה חשוב לסרט, זכויות וקישורי מקור ו-Drive.",
+    "heroLede": "לא עוד רשימת לינקים: לכל מקור מוסבר מה רואים בו, למה הוא רלוונטי לסרט ומה צריך לאמת לפני קאט.",
+    "heroRule": "מה רואים · למה זה חשוב · ורק אז פותחים",
+    "heroRuleNote": "התיאור חוסך צפייה עיוורת; הוא אינו מחליף אימות shot-by-shot ורישוי.",
+    "metricTotalLabel": "מקורות מתוארים",
+    "metricSectionLabel": "תחנות בסיפור",
+    "metricOpenLabel": "פריטים ברישיון פתוח",
+    "startTitle": "חמש דלתות הכניסה החזקות",
+    "startIntro": "אם יש לעורך שעה אחת בלבד, מתחילים מכאן.",
+    "startLeads": [
+      {
+        "title": "משפחה והקרן",
+        "description": "ילדות, home movies, חומרים אישיים ו-A Hero in Heaven.",
+        "section": "01"
+      },
+      {
+        "title": "הבחירה בישראל",
+        "description": "עלייה, לימודים, צבא והמעבר מחו״ל לחיים ישראליים.",
+        "section": "02"
+      },
+      {
+        "title": "חברי גדוד 890",
+        "description": "עדויות, תמונות פרטיות והאישיות שמאחורי הסמל.",
+        "section": "03"
+      },
+      {
+        "title": "הלוויה בהר הרצל",
+        "description": "התיעוד המקצועי המרכזי של רגע השבר וההפיכה לסמל ציבורי.",
+        "section": "04"
+      },
+      {
+        "title": "מורשת והשפעה",
+        "description": "17+ שנות הנצחה, חיילים בודדים ופעולה שנולדה מתוך הזיכרון.",
+        "section": "06"
+      }
+    ],
+    "metricRouteValue": "2",
+    "metricRouteLabel": "נתיבים לכל פריט: מקור + Drive",
+    "journeyTitle": "ניווט לפי תקופה",
+    "collectionLabel": "פתיחת Drive ↗",
+    "itemCollectionLabel": "איתור ב־Drive ↗"
   },
   "items": [
     {
@@ -84,7 +141,11 @@
       "rightsGroup": "permission",
       "nextAction": "לפנות לקרן לקבלת קובצי מקור ותמונות משפחתיות עם captions.",
       "sourceUrl": "https://michaellevinlonesoldier.org/michaels-story",
-      "driveUrl": "https://drive.google.com/file/d/1EjrBlQbJ9KOFfWhlDWHndYscDFxVoiV_/view"
+      "driveUrl": "https://drive.google.com/file/d/1EjrBlQbJ9KOFfWhlDWHndYscDFxVoiV_/view",
+      "editorialUse": "יכול להמחיש חזותית: עמוד ביוגרפי רשמי; ילדות בפילדלפיה, משפחה, החלטה לעלות ותמונות של מייקל הצעיר. בונה הזדהות ודמות; מתאים לפתיח, פלאשבק ואלבומי משפחה.",
+      "relevanceType": "character",
+      "subcategory": "עמוד + תמונות",
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
     },
     {
       "id": "ML-002",
@@ -102,7 +163,11 @@
       "rightsGroup": "family",
       "nextAction": "לבקש את קובץ המקור והצלם/שנה המדויקים.",
       "sourceUrl": "https://www.chabad.org/news/article_cdo/aid/413533/jewish/Sgt-Michael-Levin.htm",
-      "driveUrl": "https://drive.google.com/file/d/1uZe1kx2Guc75NT5LN2sLc47U26uDTjJ2/view"
+      "driveUrl": "https://drive.google.com/file/d/1uZe1kx2Guc75NT5LN2sLc47U26uDTjJ2/view",
+      "editorialUse": "יכול להמחיש חזותית: כתבת זיכרון מוקדמת עם תצלום שמסומן במקור כ־Family photo וסיפור מן הילדות. בונה הזדהות ודמות; מתאים לפתיח, פלאשבק ואלבומי משפחה.",
+      "relevanceType": "character",
+      "subcategory": "כתבה + תצלום משפחתי",
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
     },
     {
       "id": "ML-003",
@@ -120,7 +185,11 @@
       "rightsGroup": "permission",
       "nextAction": "לבקש תמונות מקור ו־outtakes שלא פורסמו.",
       "sourceUrl": "https://www.jewishexponent.com/lone-soldiers-legacy-persists-15-years-after-death/",
-      "driveUrl": "https://drive.google.com/file/d/1b3rGjb1y7f9WFD90hCoBquRvG30ORTXu/view"
+      "driveUrl": "https://drive.google.com/file/d/1b3rGjb1y7f9WFD90hCoBquRvG30ORTXu/view",
+      "editorialUse": "יכול להמחיש חזותית: כתבת Jewish Exponent על ילדותו בפילדלפיה וההשפעה שנמשכה 15 שנה לאחר מותו. בונה הזדהות ודמות; מתאים לפתיח, פלאשבק ואלבומי משפחה.",
+      "relevanceType": "character",
+      "subcategory": "כתבה + תמונות",
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
     },
     {
       "id": "ML-004",
@@ -138,7 +207,11 @@
       "rightsGroup": "family",
       "nextAction": "שער ראשון במעלה: לבקש גישה, export מסודר, שמות מצולמים והרשאות.",
       "sourceUrl": "https://www.facebook.com/groups/51811314954/",
-      "driveUrl": "https://drive.google.com/file/d/1UZ9DF_SfUbRK-rzwEDmCW4MOpTO7K5cY/view"
+      "driveUrl": "https://drive.google.com/file/d/1UZ9DF_SfUbRK-rzwEDmCW4MOpTO7K5cY/view",
+      "editorialUse": "מספק הקשר ומפתח למקורות נוספים סביב: קבוצה שנפתחה כדי לאסוף תמונות, סרטונים וחוויות; תיאור החיפוש מציין שיש תמונות רבות שלא נראו. בונה הזדהות ודמות; מתאים לפתיח, פלאשבק ואלבומי משפחה.",
+      "relevanceType": "character",
+      "subcategory": "קבוצת Facebook",
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
     },
     {
       "id": "ML-005",
@@ -156,7 +229,11 @@
       "rightsGroup": "permission",
       "nextAction": "לבקש originals, captions ותאריכים.",
       "sourceUrl": "https://themichaellevinbase.org/michaels-story",
-      "driveUrl": "https://drive.google.com/file/d/1wQcJor0Ci_ewpvU9lHwO9ZGWe2sWfdA5/view"
+      "driveUrl": "https://drive.google.com/file/d/1wQcJor0Ci_ewpvU9lHwO9ZGWe2sWfdA5/view",
+      "editorialUse": "יכול להמחיש חזותית: עמוד הסיפור באתר The Michael Levin Base; שתי תמונות מרכזיות וקישור לערוץ הקרן. בונה הזדהות ודמות; מתאים לפתיח, פלאשבק ואלבומי משפחה.",
+      "relevanceType": "character",
+      "subcategory": "עמוד + 2 תמונות",
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
     },
     {
       "id": "ML-006",
@@ -174,7 +251,11 @@
       "rightsGroup": "permission",
       "nextAction": "לפנות לדובר צה״ל לקבלת master ו־archive list.",
       "sourceUrl": "https://www.youtube.com/watch?v=y29i9rfwmQI",
-      "driveUrl": "https://drive.google.com/file/d/12X3dEmtvzdcvudyS6uCQ0nMUUjWfuO86/view"
+      "driveUrl": "https://drive.google.com/file/d/12X3dEmtvzdcvudyS6uCQ0nMUUjWfuO86/view",
+      "editorialUse": "עשוי לספק רצף, סינק או שוטים של: סרט IDF באנגלית על העלייה, הדרך לגיוס, השירות והחזרה מארה״ב בעת המלחמה. מחבר בין מניע אישי לפעולה ומבסס את קשת הבחירה.",
+      "relevanceType": "character",
+      "subcategory": "וידאו, 06:24",
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
     },
     {
       "id": "ML-007",
@@ -192,7 +273,11 @@
       "rightsGroup": "permission",
       "nextAction": "לצפות ולבנות shot list; לאתר יוצר ובעלי ארכיון מאחורי הסרט.",
       "sourceUrl": "https://www.youtube.com/watch?v=aOERe4ncqkM",
-      "driveUrl": "https://drive.google.com/file/d/1pPXtif9iT4Q3rzCQlKHWAZV-O9NnWbl-/view"
+      "driveUrl": "https://drive.google.com/file/d/1pPXtif9iT4Q3rzCQlKHWAZV-O9NnWbl-/view",
+      "editorialUse": "עשוי לספק רצף, סינק או שוטים של: סרט עברי ארוך; פוטנציאל לחומרי ילדות, ישראל, שירות, חברים והלוויה. מחבר בין מניע אישי לפעולה ומבסס את קשת הבחירה.",
+      "relevanceType": "character",
+      "subcategory": "וידאו, 48:52",
+      "verificationNote": "מבוסס כותרת/מטא־דאטה ציבורית; נדרשת צפייה מלאה ו-shot list לפני קאט."
     },
     {
       "id": "ML-008",
@@ -210,7 +295,11 @@
       "rightsGroup": "permission",
       "nextAction": "לפנות ליוצר לקבלת master ורשימת מקורות.",
       "sourceUrl": "https://www.youtube.com/watch?v=jbEBUBJ4AbY",
-      "driveUrl": "https://drive.google.com/file/d/19g9d3Yv0aKm1vf3v8i3i_DzVcLyxL-o0/view"
+      "driveUrl": "https://drive.google.com/file/d/19g9d3Yv0aKm1vf3v8i3i_DzVcLyxL-o0/view",
+      "editorialUse": "עשוי לספק רצף, סינק או שוטים של: סרט תיעודי קצר על מייקל עם חומרי עבר ותמונות. מחבר בין מניע אישי לפעולה ומבסס את קשת הבחירה.",
+      "relevanceType": "character",
+      "subcategory": "דוקומנטרי, 09:09",
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
     },
     {
       "id": "ML-009",
@@ -228,7 +317,11 @@
       "rightsGroup": "permission",
       "nextAction": "לבקש קובץ מקור ו־cue sheet.",
       "sourceUrl": "https://www.youtube.com/watch?v=dh62xDQ3zjI",
-      "driveUrl": "https://drive.google.com/file/d/1h7JSWf2WlYJCLOoWwllqzmB3Zo8dW1SN/view"
+      "driveUrl": "https://drive.google.com/file/d/1h7JSWf2WlYJCLOoWwllqzmB3Zo8dW1SN/view",
+      "editorialUse": "עשוי לספק רצף, סינק או שוטים של: סרט זיכרון שהופק עבור יחידת דובר צה״ל; כולל תמונות וחומרי שירות. מחבר בין מניע אישי לפעולה ומבסס את קשת הבחירה.",
+      "relevanceType": "character",
+      "subcategory": "וידאו, 06:30",
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
     },
     {
       "id": "ML-010",
@@ -246,7 +339,11 @@
       "rightsGroup": "permission",
       "nextAction": "לבקש חומרי גלם מלאים, שמות חברים ופרטי קשר.",
       "sourceUrl": "https://www.ynet.co.il/activism/article/hj0u3uoyge",
-      "driveUrl": "https://drive.google.com/file/d/1bxD5wMDlQe1NX_Tf63hm63y19_41K3xM/view"
+      "driveUrl": "https://drive.google.com/file/d/1bxD5wMDlQe1NX_Tf63hm63y19_41K3xM/view",
+      "editorialUse": "עשוי לספק רצף, סינק או שוטים של: חברים מספרים על מייקל, שירותו והבחירה לחזור לישראל בזמן המלחמה. מחבר בין מניע אישי לפעולה ומבסס את קשת הבחירה.",
+      "relevanceType": "character",
+      "subcategory": "כתבה + וידאו/תמונות",
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
     },
     {
       "id": "ML-011",
@@ -264,7 +361,11 @@
       "rightsGroup": "permission",
       "nextAction": "לבקש תמונות פעילות מוקדמות ומייסדים.",
       "sourceUrl": "https://www.friendsofthelonesoldier.org/about-michael-levin",
-      "driveUrl": "https://drive.google.com/file/d/1EF1RQb2jnSIfHrKfZ-ycpAQd5Ee4lf4p/view"
+      "driveUrl": "https://drive.google.com/file/d/1EF1RQb2jnSIfHrKfZ-ycpAQd5Ee4lf4p/view",
+      "editorialUse": "מספק הקשר ומפתח למקורות נוספים סביב: תמצית הסיפור והקמת המרכז לזכרו. מחבר בין מניע אישי לפעולה ומבסס את קשת הבחירה.",
+      "relevanceType": "character",
+      "subcategory": "עמוד מורשת",
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
     },
     {
       "id": "ML-012",
@@ -282,7 +383,11 @@
       "rightsGroup": "permission",
       "nextAction": "לאתר את Andy Ratto ולבקש raw/full interview ותמונות משותפות.",
       "sourceUrl": "https://www.youtube.com/watch?v=8qGXEUGpOY4",
-      "driveUrl": "https://drive.google.com/file/d/1AVpca3NY-8Qxzz2PsLxpHFIeP_lN6OL4/view"
+      "driveUrl": "https://drive.google.com/file/d/1AVpca3NY-8Qxzz2PsLxpHFIeP_lN6OL4/view",
+      "editorialUse": "מספק הקשר ומפתח למקורות נוספים סביב: חבר חייל מספר על מייקל; מקור מרכזי לחברות, אופי ושירות. נותן אופי, חברות ועדות ממקור ראשון; גשר מהביוגרפיה אל הסיפור הצבאי.",
+      "relevanceType": "evidence",
+      "subcategory": "עדות חבר, 10:00",
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
     },
     {
       "id": "ML-013",
@@ -300,7 +405,11 @@
       "rightsGroup": "permission",
       "nextAction": "להצליב מול ML-006 ולבקש master בלבד.",
       "sourceUrl": "https://www.facebook.com/idfonline/videos/766815073341365/",
-      "driveUrl": "https://drive.google.com/file/d/1LpVRznHvc3IeJd3DaExOC3uV3fLUM0BF/view"
+      "driveUrl": "https://drive.google.com/file/d/1LpVRznHvc3IeJd3DaExOC3uV3fLUM0BF/view",
+      "editorialUse": "עשוי לספק רצף, סינק או שוטים של: גרסת Facebook של סרט דובר צה״ל; ייתכנו captions/תגובות ומזהי מקור נוספים. נותן אופי, חברות ועדות ממקור ראשון; גשר מהביוגרפיה אל הסיפור הצבאי.",
+      "relevanceType": "evidence",
+      "subcategory": "וידאו",
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
     },
     {
       "id": "ML-014",
@@ -318,7 +427,11 @@
       "rightsGroup": "permission",
       "nextAction": "לבקש master ושמות שני החיילים.",
       "sourceUrl": "https://www.facebook.com/yediotahronot/videos/1391453560882810/",
-      "driveUrl": "https://drive.google.com/file/d/1EjzXOOXMdLHHbYVhtR9KveSQep7uPVGe/view"
+      "driveUrl": "https://drive.google.com/file/d/1EjzXOOXMdLHHbYVhtR9KveSQep7uPVGe/view",
+      "editorialUse": "עשוי לספק רצף, סינק או שוטים של: מפגש הוריו עם שני חיילים שעלו והתגייסו בעקבותיו; גשר בין חייו להשפעה. נותן אופי, חברות ועדות ממקור ראשון; גשר מהביוגרפיה אל הסיפור הצבאי.",
+      "relevanceType": "evidence",
+      "subcategory": "וידאו Facebook",
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
     },
     {
       "id": "ML-015",
@@ -336,7 +449,11 @@
       "rightsGroup": "commercial",
       "nextAction": "לפנות ל־AP Archive עם video ID ולבקש master, shot list ומחיר.",
       "sourceUrl": "https://www.youtube.com/watch?v=6W7eHdOjSAU",
-      "driveUrl": "https://drive.google.com/file/d/1MUDEKGIf7ceeQKDPbv7jNtktYrCDgYYC/view"
+      "driveUrl": "https://drive.google.com/file/d/1MUDEKGIf7ceeQKDPbv7jNtktYrCDgYYC/view",
+      "editorialUse": "עשוי לספק רצף, סינק או שוטים של: צילומי AP מהלוויה בהר הרצל; קהל, חיילים, המשפחה והטקס. שיא רגשי והיסטורי; ממחיש את היקף האבל והמעבר מאדם פרטי לסמל.",
+      "relevanceType": "evidence",
+      "subcategory": "וידאו AP, 02:01",
+      "verificationNote": "מבוסס כותרת/מטא־דאטה ציבורית; נדרשת צפייה מלאה ו-shot list לפני קאט."
     },
     {
       "id": "ML-016",
@@ -354,7 +471,11 @@
       "rightsGroup": "commercial",
       "nextAction": "לרכוש דרך AP Images/Alamy ולבדוק מגבלות דוקומנטריות.",
       "sourceUrl": "https://www.alamy.com/israeli-soldiers-mourn-during-the-funeral-of-israeli-army-staff-sgt-michael-levin-22-originally-of-bucks-county-pennsylvania-at-the-mount-herzl-military-cemetery-in-jerusalem-thursday-aug-3-2006-levin-a-young-american-immigrant-who-cut-short-a-visit-to-his-family-in-america-earlier-this-week-to-return-to-his-israeli-army-unit-fighting-in-lebanon-died-in-the-lebanese-village-of-aita-al-shaab-when-an-anti-tank-missile-fired-by-hezbollah-guerrillas-struck-a-building-he-was-searching-tuesday-ap-photodavid-guttenfelder-image541385416.html",
-      "driveUrl": "https://drive.google.com/file/d/1lk_Xu43q2jNaWtjSaHxqfb8mSg6ttsnl/view"
+      "driveUrl": "https://drive.google.com/file/d/1lk_Xu43q2jNaWtjSaHxqfb8mSg6ttsnl/view",
+      "editorialUse": "יכול להמחיש חזותית: חיילים מתאבלים בלוויה בהר הרצל; תצלום David Guttenfelder/AP. שיא רגשי והיסטורי; ממחיש את היקף האבל והמעבר מאדם פרטי לסמל.",
+      "relevanceType": "evidence",
+      "subcategory": "צילום עיתונות",
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
     },
     {
       "id": "ML-017",
@@ -372,7 +493,11 @@
       "rightsGroup": "commercial",
       "nextAction": "לבקש מחיר, שימוש דוקומנטרי ו־hi-res.",
       "sourceUrl": "https://www.gettyimages.com/detail/news-photo/mourners-cover-their-ears-as-an-honor-guard-fires-a-volley-news-photo/71578740",
-      "driveUrl": "https://drive.google.com/file/d/1lfwAx8DGc56Gvw7Tm974jtDkJAQsXB1O/view"
+      "driveUrl": "https://drive.google.com/file/d/1lfwAx8DGc56Gvw7Tm974jtDkJAQsXB1O/view",
+      "editorialUse": "יכול להמחיש חזותית: מטס/ירי כבוד בסיום הלוויה; אבלים מכסים את אוזניהם. שיא רגשי והיסטורי; ממחיש את היקף האבל והמעבר מאדם פרטי לסמל.",
+      "relevanceType": "evidence",
+      "subcategory": "צילום עיתונות",
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
     },
     {
       "id": "ML-018",
@@ -390,7 +515,11 @@
       "rightsGroup": "permission",
       "nextAction": "לבקש original, זהות המצולמים וסיפור המגפון.",
       "sourceUrl": "https://www.facebook.com/themichaellevinbase/photos/on-the-eve-of-michaels-yarhzeit-remembering-michael-levin-zlfourteen-years-ago-d/162713652015653/",
-      "driveUrl": "https://drive.google.com/file/d/1fXECHeBUy6KzBpVBS6U6Ni4qLytDRu1_/view"
+      "driveUrl": "https://drive.google.com/file/d/1fXECHeBUy6KzBpVBS6U6Ni4qLytDRu1_/view",
+      "editorialUse": "יכול להמחיש חזותית: פוסט המספר שמכוניות נסעו בירושלים עם מגפון להזמין אנשים ללוויה. שיא רגשי והיסטורי; ממחיש את היקף האבל והמעבר מאדם פרטי לסמל.",
+      "relevanceType": "evidence",
+      "subcategory": "פוסט + צילום",
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
     },
     {
       "id": "ML-019",
@@ -400,7 +529,7 @@
       "title": "Har Herzl Memorial Service",
       "mediaType": "וידאו, 01:54",
       "mediaGroup": "video",
-      "description": "טקס זיכרון בקבר בהר הרצל.",
+      "description": "תיעוד טקס זיכרון ליד קברו של מייקל בהר הרצל; מתאים לאיתור רגעי הנצחה ממוסדים.",
       "source": "YouTube — SharonAl613",
       "rightsOwner": "המעלה / מארגני הטקס",
       "date": "2016-08-12",
@@ -408,7 +537,11 @@
       "rightsGroup": "permission",
       "nextAction": "לפנות למעלה ולבקש קובץ מקור וחומרים נוספים מהטקס.",
       "sourceUrl": "https://www.youtube.com/watch?v=W9Wj_EEdGXE",
-      "driveUrl": "https://drive.google.com/file/d/1Y8tQ9O2zTTxCbH6EtdxDsnI-I0td-xqc/view"
+      "driveUrl": "https://drive.google.com/file/d/1Y8tQ9O2zTTxCbH6EtdxDsnI-I0td-xqc/view",
+      "editorialUse": "עשוי לספק רצף, סינק או שוטים של: תיעוד טקס זיכרון ליד קברו של מייקל בהר הרצל; מתאים לאיתור רגעי הנצחה ממוסדים. מאפשר מונטאז׳ זמן ומראה כיצד הזיכרון נשמר ומשתנה.",
+      "relevanceType": "story",
+      "subcategory": "וידאו, 01:54",
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
     },
     {
       "id": "ML-020",
@@ -426,7 +559,11 @@
       "rightsGroup": "permission",
       "nextAction": "לבקש master ותמונות נוספות מהעלייה לקבר.",
       "sourceUrl": "https://www.youtube.com/watch?v=6OhLz4dzRoU",
-      "driveUrl": "https://drive.google.com/file/d/1dG6SSSIW37WayjqrDr3ICr_La_sFAlsD/view"
+      "driveUrl": "https://drive.google.com/file/d/1dG6SSSIW37WayjqrDr3ICr_La_sFAlsD/view",
+      "editorialUse": "עשוי לספק רצף, סינק או שוטים של: ד״ר טוביה בוק מדבר בקבר במלאת 15 שנה לנפילתו. מאפשר מונטאז׳ זמן ומראה כיצד הזיכרון נשמר ומשתנה.",
+      "relevanceType": "story",
+      "subcategory": "וידאו, 06:07",
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
     },
     {
       "id": "ML-021",
@@ -444,7 +581,11 @@
       "rightsGroup": "permission",
       "nextAction": "לפנות למעלה; לבקש את התמונות המקוריות ולא לחלץ מהווידאו.",
       "sourceUrl": "https://www.youtube.com/watch?v=8aNrAEkBG7U",
-      "driveUrl": "https://drive.google.com/file/d/1-gfWy5fez4De6L2f25IqNJgYB3qpatHd/view"
+      "driveUrl": "https://drive.google.com/file/d/1-gfWy5fez4De6L2f25IqNJgYB3qpatHd/view",
+      "editorialUse": "עשוי לספק רצף, סינק או שוטים של: סרט זיכרון קצר עם תמונות של מייקל. מאפשר מונטאז׳ זמן ומראה כיצד הזיכרון נשמר ומשתנה.",
+      "relevanceType": "story",
+      "subcategory": "וידאו, 02:05",
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
     },
     {
       "id": "ML-022",
@@ -462,7 +603,11 @@
       "rightsGroup": "permission",
       "nextAction": "לבקש master וחומרי B-roll של הקבר והמשתתפים.",
       "sourceUrl": "https://www.youtube.com/watch?v=rhFcKUmrmsI",
-      "driveUrl": "https://drive.google.com/file/d/1C7oyi3ECGwWLn2q0xKgBxCtDL5Wlm5W1/view"
+      "driveUrl": "https://drive.google.com/file/d/1C7oyi3ECGwWLn2q0xKgBxCtDL5Wlm5W1/view",
+      "editorialUse": "עשוי לספק רצף, סינק או שוטים של: טקס/אירוע זיכרון של The Michael Levin Base. מאפשר מונטאז׳ זמן ומראה כיצד הזיכרון נשמר ומשתנה.",
+      "relevanceType": "story",
+      "subcategory": "וידאו",
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
     },
     {
       "id": "ML-023",
@@ -480,7 +625,11 @@
       "rightsGroup": "permission",
       "nextAction": "לבקש master, נאומים ותמונות סטילס.",
       "sourceUrl": "https://www.youtube.com/watch?v=RcFYBTuLIcA",
-      "driveUrl": "https://drive.google.com/file/d/1tpq7x3xCW156ier8pp0du-y8AWBe7fvU/view"
+      "driveUrl": "https://drive.google.com/file/d/1tpq7x3xCW156ier8pp0du-y8AWBe7fvU/view",
+      "editorialUse": "עשוי לספק רצף, סינק או שוטים של: אירוע כנסת במלאת 20 שנה; ביטוי מוסדי למורשתו. מאפשר מונטאז׳ זמן ומראה כיצד הזיכרון נשמר ומשתנה.",
+      "relevanceType": "story",
+      "subcategory": "וידאו",
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
     },
     {
       "id": "ML-024",
@@ -498,7 +647,11 @@
       "rightsGroup": "permission",
       "nextAction": "לבקש multi-camera/masters ו־releases.",
       "sourceUrl": "https://www.youtube.com/watch?v=sZeveApk6Vc",
-      "driveUrl": "https://drive.google.com/file/d/1Nps_Si79VjrM0t0nJ5vI6OhZQF8Azel2/view"
+      "driveUrl": "https://drive.google.com/file/d/1Nps_Si79VjrM0t0nJ5vI6OhZQF8Azel2/view",
+      "editorialUse": "עשוי לספק רצף, סינק או שוטים של: טקס יום הזיכרון של הבסיס; קהילה, חיילים בודדים וזיכרון פעיל. מאפשר מונטאז׳ זמן ומראה כיצד הזיכרון נשמר ומשתנה.",
+      "relevanceType": "story",
+      "subcategory": "וידאו, 32:00",
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
     },
     {
       "id": "ML-025",
@@ -508,7 +661,7 @@
       "title": "Yom Hazikaron 2025 — The Base",
       "mediaType": "וידאו, 01:48:02",
       "mediaGroup": "video",
-      "description": "טקס מלא; עדויות, מוזיקה וקהל.",
+      "description": "תיעוד מלא של טקס יום הזיכרון ב־2025, הכולל עדויות, מוזיקה וקהל לפי תיאור המקור.",
       "source": "YouTube — The Michael Levin Base",
       "rightsOwner": "The Michael Levin Base",
       "date": "2025-04-29",
@@ -516,7 +669,11 @@
       "rightsGroup": "permission",
       "nextAction": "לבנות timecoded shot list ולבקש masters.",
       "sourceUrl": "https://www.youtube.com/watch?v=K8Ehyil0eh0",
-      "driveUrl": "https://drive.google.com/file/d/1yEPQByaZSWMkZf6rcPVr5FL9PIjQCbFD/view"
+      "driveUrl": "https://drive.google.com/file/d/1yEPQByaZSWMkZf6rcPVr5FL9PIjQCbFD/view",
+      "editorialUse": "עשוי לספק רצף, סינק או שוטים של: תיעוד מלא של טקס יום הזיכרון ב־2025, הכולל עדויות, מוזיקה וקהל לפי תיאור המקור. מאפשר מונטאז׳ זמן ומראה כיצד הזיכרון נשמר ומשתנה.",
+      "relevanceType": "story",
+      "subcategory": "וידאו, 01:48:02",
+      "verificationNote": "מבוסס כותרת/מטא־דאטה ציבורית; נדרשת צפייה מלאה ו-shot list לפני קאט."
     },
     {
       "id": "ML-026",
@@ -534,7 +691,11 @@
       "rightsGroup": "permission",
       "nextAction": "לבקש master, transcript, releases וחומרי גלם.",
       "sourceUrl": "https://www.youtube.com/watch?v=IRMwmMDg0mM",
-      "driveUrl": "https://drive.google.com/file/d/1KyamAugAH7GLCQ9wNQt5ewqsEGyYk5jR/view"
+      "driveUrl": "https://drive.google.com/file/d/1KyamAugAH7GLCQ9wNQt5ewqsEGyYk5jR/view",
+      "editorialUse": "עשוי לספק רצף, סינק או שוטים של: סרט על ההשפעה של מייקל על חיילים בודדים והקמת פעילות; קיימת גרסה עם כתוביות עברית. מבסס את טענת הסרט שהמורשת הפכה לפעולה ממשית.",
+      "relevanceType": "story",
+      "subcategory": "וידאו + עמוד",
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
     },
     {
       "id": "ML-027",
@@ -544,7 +705,7 @@
       "title": "Because of Michael — כתוביות עברית",
       "mediaType": "וידאו",
       "mediaGroup": "video",
-      "description": "גרסת הסרט עם כתוביות עברית.",
+      "description": "גרסת הסרט Because of Michael עם כתוביות עברית; שימושית להבנת מבנה הסרט והחומרים שכבר נבחרו.",
       "source": "YouTube — The Michael Levin Lone Soldier Foundation",
       "rightsOwner": "הקרן",
       "date": "נגיש 2026",
@@ -552,7 +713,11 @@
       "rightsGroup": "permission",
       "nextAction": "להשתמש לצפייה; לבקש master נפרד ללא כתוביות.",
       "sourceUrl": "https://www.youtube.com/watch?v=MYUnHt7_25I",
-      "driveUrl": "https://drive.google.com/file/d/1Kshg0L0hzzZDnEN86jKGgVBUtjQx46dU/view"
+      "driveUrl": "https://drive.google.com/file/d/1Kshg0L0hzzZDnEN86jKGgVBUtjQx46dU/view",
+      "editorialUse": "עשוי לספק רצף, סינק או שוטים של: גרסת הסרט Because of Michael עם כתוביות עברית; שימושית להבנת מבנה הסרט והחומרים שכבר נבחרו. מבסס את טענת הסרט שהמורשת הפכה לפעולה ממשית.",
+      "relevanceType": "story",
+      "subcategory": "וידאו",
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
     },
     {
       "id": "ML-028",
@@ -570,7 +735,11 @@
       "rightsGroup": "permission",
       "nextAction": "לבקש חומרי גלם ו־B-roll.",
       "sourceUrl": "https://www.youtube.com/watch?v=Uv9Rfgcyuio",
-      "driveUrl": "https://drive.google.com/file/d/1kov8wPFFrUL-ZE9UNXXYhIZy_FFMfVVr/view"
+      "driveUrl": "https://drive.google.com/file/d/1kov8wPFFrUL-ZE9UNXXYhIZy_FFMfVVr/view",
+      "editorialUse": "עשוי לספק רצף, סינק או שוטים של: סיכום פעילות הקרן והשפעת המורשת. מבסס את טענת הסרט שהמורשת הפכה לפעולה ממשית.",
+      "relevanceType": "story",
+      "subcategory": "וידאו, 01:25",
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
     },
     {
       "id": "ML-029",
@@ -588,7 +757,11 @@
       "rightsGroup": "permission",
       "nextAction": "לבקש master, תמונות ושמות המשתתפים.",
       "sourceUrl": "https://www.youtube.com/watch?v=Se1SQKy-Gus",
-      "driveUrl": "https://drive.google.com/file/d/1Rpk1GIyo6XllphxTwXugNaeBfLrNh4Gx/view"
+      "driveUrl": "https://drive.google.com/file/d/1Rpk1GIyo6XllphxTwXugNaeBfLrNh4Gx/view",
+      "editorialUse": "עשוי לספק רצף, סינק או שוטים של: הכנסת/הקדשת ספר תורה על שמו של מייקל. מבסס את טענת הסרט שהמורשת הפכה לפעולה ממשית.",
+      "relevanceType": "story",
+      "subcategory": "וידאו, 02:35",
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
     },
     {
       "id": "ML-030",
@@ -606,7 +779,11 @@
       "rightsGroup": "permission",
       "nextAction": "חשוב במיוחד לחומרי דור ראשון; לאתר master ומצולמים.",
       "sourceUrl": "https://www.youtube.com/watch?v=-iCMpxCbbsc",
-      "driveUrl": "https://drive.google.com/file/d/1IRSeFa_2-mY622Xp6OoL8_5MSsS3KpN2/view"
+      "driveUrl": "https://drive.google.com/file/d/1IRSeFa_2-mY622Xp6OoL8_5MSsS3KpN2/view",
+      "editorialUse": "עשוי לספק רצף, סינק או שוטים של: תיעוד מוקדם של המרכז לזכרו; פעילות ראשונית ואנשים שהקימו/קיבלו סיוע. מבסס את טענת הסרט שהמורשת הפכה לפעולה ממשית.",
+      "relevanceType": "story",
+      "subcategory": "וידאו, 06:19",
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
     },
     {
       "id": "ML-031",
@@ -624,7 +801,11 @@
       "rightsGroup": "permission",
       "nextAction": "לבקש master וחומרי גלם.",
       "sourceUrl": "https://www.youtube.com/watch?v=7BdeUeMGTMI",
-      "driveUrl": "https://drive.google.com/file/d/1DVTHGoeHiEIEaaJTcN4BhdVG1PSddQd0/view"
+      "driveUrl": "https://drive.google.com/file/d/1DVTHGoeHiEIEaaJTcN4BhdVG1PSddQd0/view",
+      "editorialUse": "עשוי לספק רצף, סינק או שוטים של: פעילות המרכז ושירות לחיילים בודדים. מבסס את טענת הסרט שהמורשת הפכה לפעולה ממשית.",
+      "relevanceType": "story",
+      "subcategory": "וידאו, 05:44",
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
     },
     {
       "id": "ML-032",
@@ -642,7 +823,11 @@
       "rightsGroup": "permission",
       "nextAction": "לבקש ראיונות מלאים ו־releases.",
       "sourceUrl": "https://www.youtube.com/watch?v=9lTEUkucKo0",
-      "driveUrl": "https://drive.google.com/file/d/1MSRvw-R2M_IWuaWx-kjLtA3zPqZHnknu/view"
+      "driveUrl": "https://drive.google.com/file/d/1MSRvw-R2M_IWuaWx-kjLtA3zPqZHnknu/view",
+      "editorialUse": "עשוי לספק רצף, סינק או שוטים של: חיילים בודדים מספרים על חייהם; ממלא פונקציית השפעה והקשר. מבסס את טענת הסרט שהמורשת הפכה לפעולה ממשית.",
+      "relevanceType": "story",
+      "subcategory": "וידאו, 07:31",
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
     },
     {
       "id": "ML-033",
@@ -660,7 +845,11 @@
       "rightsGroup": "permission",
       "nextAction": "לבקש hi-res ו־outtakes.",
       "sourceUrl": "https://www.jpost.com/israel-news/the-michael-levin-base-expanding-levins-legacy-for-lone-soldiers-630307",
-      "driveUrl": "https://drive.google.com/file/d/113NHzDd_0UFLiOjKIHRSlYNdJABujXnL/view"
+      "driveUrl": "https://drive.google.com/file/d/113NHzDd_0UFLiOjKIHRSlYNdJABujXnL/view",
+      "editorialUse": "יכול להמחיש חזותית: כתבת Jerusalem Post על הרחבת המורשת והפעילות לחיילים בודדים. מבסס את טענת הסרט שהמורשת הפכה לפעולה ממשית.",
+      "relevanceType": "story",
+      "subcategory": "כתבה + תמונות",
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
     },
     {
       "id": "ML-034",
@@ -678,7 +867,11 @@
       "rightsGroup": "permission",
       "nextAction": "לבקש תמונות מקור ושמות המצולמים.",
       "sourceUrl": "https://baltimorejewishlife.com/news/news-detail.php?ARTICLE_ID=145855&SECTION_ID=37",
-      "driveUrl": "https://drive.google.com/file/d/1PUIPf51iUpRHqRDuAzu0YDVGqw6PZ_GM/view"
+      "driveUrl": "https://drive.google.com/file/d/1PUIPf51iUpRHqRDuAzu0YDVGqw6PZ_GM/view",
+      "editorialUse": "יכול להמחיש חזותית: כתבה על בית הבסיס והפעילות; דמויות וחללים רלוונטיים לצילום חדש. מבסס את טענת הסרט שהמורשת הפכה לפעולה ממשית.",
+      "relevanceType": "story",
+      "subcategory": "כתבה + תמונות",
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
     },
     {
       "id": "ML-035",
@@ -696,7 +889,11 @@
       "rightsGroup": "verify",
       "nextAction": "קישור בלבד; לפנות לרשת לקבלת אישור וקובץ מקור.",
       "sourceUrl": "https://archive.org/details/t3w9ah9luvvppsbtnaboisk7zc5xqvls1nlmik3i",
-      "driveUrl": "https://drive.google.com/file/d/1N93GxJ5Qn-SoFOgbMyENdLXBALi8uf-8/view"
+      "driveUrl": "https://drive.google.com/file/d/1N93GxJ5Qn-SoFOgbMyENdLXBALi8uf-8/view",
+      "editorialUse": "עשוי לספק קול או עדות סביב: ראיון עם Bonnie Rosenbaum על The Base, השירותים והמורשת. מבסס את טענת הסרט שהמורשת הפכה לפעולה ממשית.",
+      "relevanceType": "story",
+      "subcategory": "אודיו",
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
     },
     {
       "id": "ML-036",
@@ -714,7 +911,11 @@
       "rightsGroup": "permission",
       "nextAction": "לבקש ארכיון מאז ההקמה: אירועים, חיילים, בתים, קבר, מייסדים ועדויות.",
       "sourceUrl": "https://lonesoldiercenter.com/he/home/",
-      "driveUrl": "https://drive.google.com/file/d/1k0rUjO8u4e4KjF4vxs8F25RCgJ5LUs3g/view"
+      "driveUrl": "https://drive.google.com/file/d/1k0rUjO8u4e4KjF4vxs8F25RCgJ5LUs3g/view",
+      "editorialUse": "מספק הקשר ומפתח למקורות נוספים סביב: האתר הראשי של המרכז בישראל: תוכניות, בתים, קהילה וחיילים. מבסס את טענת הסרט שהמורשת הפכה לפעולה ממשית.",
+      "relevanceType": "story",
+      "subcategory": "אתר ארגון",
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
     },
     {
       "id": "ML-037",
@@ -732,7 +933,11 @@
       "rightsGroup": "verify",
       "nextAction": "לעבור לפי ערך חזותי ולבקש זכויות מבעל כל פריט.",
       "sourceUrl": "https://themichaellevinbase.org/press",
-      "driveUrl": "https://drive.google.com/file/d/1KiLU_gUsavwUJoxcjSy7JbGjff2Xz04W/view"
+      "driveUrl": "https://drive.google.com/file/d/1KiLU_gUsavwUJoxcjSy7JbGjff2Xz04W/view",
+      "editorialUse": "מספק הקשר ומפתח למקורות נוספים סביב: עשרות כתבות וסרטים על פעילות הבסיס, חגים, התנדבות והשפעה. מבסס את טענת הסרט שהמורשת הפכה לפעולה ממשית.",
+      "relevanceType": "story",
+      "subcategory": "מרכז קישורים",
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
     },
     {
       "id": "ML-038",
@@ -750,7 +955,11 @@
       "rightsGroup": "permission",
       "nextAction": "לבקש masters וקטלוג פנימי.",
       "sourceUrl": "https://themichaellevinbase.org/past-events",
-      "driveUrl": "https://drive.google.com/file/d/1nOoM8scWJcv8NaX2h0eEnhp3t6ZIs8XI/view"
+      "driveUrl": "https://drive.google.com/file/d/1nOoM8scWJcv8NaX2h0eEnhp3t6ZIs8XI/view",
+      "editorialUse": "מספק הקשר ומפתח למקורות נוספים סביב: אירועים, טקסים וסרטוני פעילות, כולל YouTube. מבסס את טענת הסרט שהמורשת הפכה לפעולה ממשית.",
+      "relevanceType": "story",
+      "subcategory": "מרכז קישורים",
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
     },
     {
       "id": "ML-039",
@@ -768,7 +977,11 @@
       "rightsGroup": "permission",
       "nextAction": "שער לבקשת חומרי המקור של סרטי ההשפעה.",
       "sourceUrl": "https://michaellevinlonesoldier.org/because-of-michael",
-      "driveUrl": "https://drive.google.com/file/d/1FPRoK3VbkkCnOuSmCW-ca2H2LLS8O-s_/view"
+      "driveUrl": "https://drive.google.com/file/d/1FPRoK3VbkkCnOuSmCW-ca2H2LLS8O-s_/view",
+      "editorialUse": "עשוי לספק רצף, סינק או שוטים של: סיפורי השפעה, קרן, תמיכה בחיילים ובמשפחות וערוץ YouTube. מבסס את טענת הסרט שהמורשת הפכה לפעולה ממשית.",
+      "relevanceType": "story",
+      "subcategory": "עמוד + וידאו",
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
     },
     {
       "id": "ML-040",
@@ -786,7 +999,11 @@
       "rightsGroup": "permission",
       "nextAction": "להגיש בקשה רשמית; לבקש screener, master, transcript, cue sheet ורשימת בעלי חומרי ארכיון.",
       "sourceUrl": "https://michaellevinlonesoldier.org/a-hero-in-heaven",
-      "driveUrl": "https://drive.google.com/file/d/1egXdW3Q4Dld4WXlKsI0Yaob8cVyaN4wc/view"
+      "driveUrl": "https://drive.google.com/file/d/1egXdW3Q4Dld4WXlKsI0Yaob8cVyaN4wc/view",
+      "editorialUse": "עשוי לספק רצף, סינק או שוטים של: הקרן מציעה טופס רשמי לבקשת הקרנה של הסרט על מייקל. נקודת כניסה למחקר עמוק, reference לעריכה ומפת דרכים לרישוי נוסף.",
+      "relevanceType": "context",
+      "subcategory": "סרט תיעודי",
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
     },
     {
       "id": "ML-041",
@@ -804,7 +1021,11 @@
       "rightsGroup": "permission",
       "nextAction": "לפנות ל-The Michael Levin Base / משפחת לוין לקבלת קובץ מקור, caption והרשאה כתובה.",
       "sourceUrl": "https://themichaellevinbase.org/writetoharriet",
-      "driveUrl": "https://drive.google.com/file/d/1fuM_WSw6_V3DBkj8EpxucO80rsJnLmCK/view"
+      "driveUrl": "https://drive.google.com/file/d/1fuM_WSw6_V3DBkj8EpxucO80rsJnLmCK/view",
+      "editorialUse": "יכול להמחיש חזותית: תצלום משפחתי צמוד של הרייט לוין ובנה מייקל. שניהם מזוהים במפורש בכיתוב של העמוד. בונה הזדהות ודמות; מתאים לפתיח, פלאשבק ואלבומי משפחה.",
+      "relevanceType": "character",
+      "subcategory": "תצלום משפחתי",
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
     },
     {
       "id": "ML-042",
@@ -822,7 +1043,11 @@
       "rightsGroup": "permission",
       "nextAction": "לפנות למעלה ולברר מי מחזיק בחומר הגלם; לבקש master והרשאת שימוש.",
       "sourceUrl": "https://www.youtube.com/watch?v=usVj7zibuIg",
-      "driveUrl": "https://drive.google.com/file/d/19akhHn9q7vB5UdjgWgNHByNSD7VUkS5M/view"
+      "driveUrl": "https://drive.google.com/file/d/19akhHn9q7vB5UdjgWgNHByNSD7VUkS5M/view",
+      "editorialUse": "עשוי לספק רצף, סינק או שוטים של: סרט הנצחה בן כ־3:32. בבדיקת פריימים נראו סטילס של מייקל במדים ועם חברים/חיילים, לצד מסכי טקסט ביוגרפיים. בונה הזדהות ודמות; מתאים לפתיח, פלאשבק ואלבומי משפחה.",
+      "relevanceType": "character",
+      "subcategory": "מצגת וידאו / סטילס ארכיוניים",
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
     },
     {
       "id": "ML-043",
@@ -840,7 +1065,11 @@
       "rightsGroup": "permission",
       "nextAction": "לפנות למעלה ולברר מי מחזיק בחומר הגלם; לבקש master והרשאת שימוש.",
       "sourceUrl": "https://www.youtube.com/watch?v=uL3e-q0EHuM",
-      "driveUrl": "https://drive.google.com/file/d/1jydLWSA4ns6wnC1TeAGlRrY5BOs_SaFH/view"
+      "driveUrl": "https://drive.google.com/file/d/1jydLWSA4ns6wnC1TeAGlRrY5BOs_SaFH/view",
+      "editorialUse": "עשוי לספק רצף, סינק או שוטים של: עדות של אביו של מייקל; מועמד כמקור ראשוני למשפחה, ילדות, עלייה והחלטות השירות. בונה הזדהות ודמות; מתאים לפתיח, פלאשבק ואלבומי משפחה.",
+      "relevanceType": "character",
+      "subcategory": "וידאו עדות",
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
     },
     {
       "id": "ML-044",
@@ -858,7 +1087,11 @@
       "rightsGroup": "permission",
       "nextAction": "לפנות למעלה ולברר מי מחזיק בחומר הגלם; לבקש master והרשאת שימוש.",
       "sourceUrl": "https://www.youtube.com/watch?v=zRMowMhwdk8",
-      "driveUrl": "https://drive.google.com/file/d/1IN3CUzfHAhKyCPLO0hXV_m02o0hF3QxA/view"
+      "driveUrl": "https://drive.google.com/file/d/1IN3CUzfHAhKyCPLO0hXV_m02o0hF3QxA/view",
+      "editorialUse": "עשוי לספק רצף, סינק או שוטים של: שיחה ארוכה, כ־53 דקות, עם מארק והרייט לוין על חייו של בנם. מקור ראשוני בעל פוטנציאל לפרטים על הבית בפנסילבניה, האופי והמשפחה. בונה הזדהות ודמות; מתאים לפתיח, פלאשבק ואלבומי משפחה.",
+      "relevanceType": "character",
+      "subcategory": "שיחת וידאו / עדות הורים",
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
     },
     {
       "id": "ML-045",
@@ -876,7 +1109,11 @@
       "rightsGroup": "permission",
       "nextAction": "לפנות למעלה ולברר מי מחזיק בחומר הגלם; לבקש master והרשאת שימוש.",
       "sourceUrl": "https://www.youtube.com/watch?v=Oz3ypfrTaBs",
-      "driveUrl": "https://drive.google.com/file/d/1hztJU_72F8dZSUWts9jBHL3HXYuI2LO7/view"
+      "driveUrl": "https://drive.google.com/file/d/1hztJU_72F8dZSUWts9jBHL3HXYuI2LO7/view",
+      "editorialUse": "עשוי לספק רצף, סינק או שוטים של: סרט זיכרון בעברית באורך כ־4:16; עשוי לכלול מבחר מרוכז של תצלומי חיים ושירות. בתיאור: “Knesset Tribute to Michael Levin”. מאפשר מונטאז׳ זמן ומראה כיצד הזיכרון נשמר ומשתנה.",
+      "relevanceType": "story",
+      "subcategory": "סרט מחווה מוסדי",
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
     },
     {
       "id": "ML-046",
@@ -894,7 +1131,11 @@
       "rightsGroup": "permission",
       "nextAction": "לפנות למעלה ולברר מי מחזיק בחומר הגלם; לבקש master והרשאת שימוש.",
       "sourceUrl": "https://www.youtube.com/watch?v=RNNTbiS7TWs",
-      "driveUrl": "https://drive.google.com/file/d/1FRtvxQPeEQGVzmnuQhlVYNzqVgV2q_Md/view"
+      "driveUrl": "https://drive.google.com/file/d/1FRtvxQPeEQGVzmnuQhlVYNzqVgV2q_Md/view",
+      "editorialUse": "עשוי לספק רצף, סינק או שוטים של: סרט זיכרון מוקדם באורך כ־3:59; מועמד לאיתור תצלומי משפחה, חברים ושירות שהופצו סמוך יחסית לנפילה. בונה הזדהות ודמות; מתאים לפתיח, פלאשבק ואלבומי משפחה.",
+      "relevanceType": "character",
+      "subcategory": "מצגת/סרט זיכרון",
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
     },
     {
       "id": "ML-047",
@@ -912,7 +1153,11 @@
       "rightsGroup": "permission",
       "nextAction": "לפנות למעלה ולברר מי מחזיק בחומר הגלם; לבקש master והרשאת שימוש.",
       "sourceUrl": "https://www.youtube.com/watch?v=KjyO6RWhpe0",
-      "driveUrl": "https://drive.google.com/file/d/1zCKCMYflJS9EvJAIRf1k59sIzo4HcGDx/view"
+      "driveUrl": "https://drive.google.com/file/d/1zCKCMYflJS9EvJAIRf1k59sIzo4HcGDx/view",
+      "editorialUse": "עשוי לספק רצף, סינק או שוטים של: סרט באורך כ־10:34, כנראה אוסף ביוגרפי רחב. שימושי כקטלוג־איתור בלבד עד לבדיקת כל פריים וקרדיט. נותן אופי, חברות ועדות ממקור ראשון; גשר מהביוגרפיה אל הסיפור הצבאי.",
+      "relevanceType": "evidence",
+      "subcategory": "סרט זיכרון מורכב",
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
     },
     {
       "id": "ML-048",
@@ -930,7 +1175,11 @@
       "rightsGroup": "permission",
       "nextAction": "לבקש מ-Getty הצעת רישוי, קובץ high-res ו-caption מקורי.",
       "sourceUrl": "https://www.gettyimages.com/detail/news-photo/israeli-army-paratroopers-carry-the-flag-draped-coffin-of-news-photo/71576370",
-      "driveUrl": "https://drive.google.com/file/d/1uOmbeMm5avZT1XkGJaJz2tL9GUjapEAs/view"
+      "driveUrl": "https://drive.google.com/file/d/1uOmbeMm5avZT1XkGJaJz2tL9GUjapEAs/view",
+      "editorialUse": "יכול להמחיש חזותית: חיילי צנחנים נושאים את ארונו עטוף הדגל — שוט מרכזי להלוויה. שיא רגשי והיסטורי; ממחיש את היקף האבל והמעבר מאדם פרטי לסמל.",
+      "relevanceType": "evidence",
+      "subcategory": "צילום עיתונות",
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
     },
     {
       "id": "ML-049",
@@ -948,7 +1197,11 @@
       "rightsGroup": "permission",
       "nextAction": "לבקש מ-Getty הצעת רישוי, קובץ high-res ו-caption מקורי.",
       "sourceUrl": "https://www.gettyimages.com/detail/news-photo/harriet-levin-the-mother-of-israeli-army-paratrooper-first-news-photo/71576373",
-      "driveUrl": "https://drive.google.com/file/d/1_Rs7RhVFljnIeFQ2H8HmmLuSBuQrJqI0/view"
+      "driveUrl": "https://drive.google.com/file/d/1_Rs7RhVFljnIeFQ2H8HmmLuSBuQrJqI0/view",
+      "editorialUse": "יכול להמחיש חזותית: הארייט לוין בהלוויה; עדות חזותית למשפחה ולאבל. שיא רגשי והיסטורי; ממחיש את היקף האבל והמעבר מאדם פרטי לסמל.",
+      "relevanceType": "evidence",
+      "subcategory": "צילום עיתונות",
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
     },
     {
       "id": "ML-050",
@@ -958,7 +1211,7 @@
       "title": "Getty — מארק לוין בהלוויה",
       "mediaType": "צילום עיתונות",
       "mediaGroup": "stills",
-      "description": "מארק לוין בהלוויה",
+      "description": "צילום של מארק לוין, אביו של מייקל, במהלך ההלוויה; פריים משפחתי מתוך רגע הפרידה הציבורי.",
       "source": "Getty Images",
       "rightsOwner": "Getty Images",
       "date": "3.8.2006 בקירוב",
@@ -966,7 +1219,11 @@
       "rightsGroup": "permission",
       "nextAction": "לבקש מ-Getty הצעת רישוי, קובץ high-res ו-caption מקורי.",
       "sourceUrl": "https://www.gettyimages.com/detail/news-photo/mark-levin-the-father-of-israeli-army-paratrooper-first-news-photo/71576417",
-      "driveUrl": "https://drive.google.com/file/d/1T-KJ34FyurLCGxNwPwk_qEs9YCMG5vBL/view"
+      "driveUrl": "https://drive.google.com/file/d/1T-KJ34FyurLCGxNwPwk_qEs9YCMG5vBL/view",
+      "editorialUse": "יכול להמחיש חזותית: צילום של מארק לוין, אביו של מייקל, במהלך ההלוויה; פריים משפחתי מתוך רגע הפרידה הציבורי. שיא רגשי והיסטורי; ממחיש את היקף האבל והמעבר מאדם פרטי לסמל.",
+      "relevanceType": "evidence",
+      "subcategory": "צילום עיתונות",
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
     },
     {
       "id": "ML-051",
@@ -984,7 +1241,11 @@
       "rightsGroup": "permission",
       "nextAction": "לבקש מ-Getty הצעת רישוי, קובץ high-res ו-caption מקורי.",
       "sourceUrl": "https://www.gettyimages.com/detail/news-photo/an-israeli-army-paratrooper-grieves-at-the-wreath-covered-news-photo/71576419",
-      "driveUrl": "https://drive.google.com/file/d/16uVy_d_ExnckxDegyNWAgu6KbT5EeyTV/view"
+      "driveUrl": "https://drive.google.com/file/d/16uVy_d_ExnckxDegyNWAgu6KbT5EeyTV/view",
+      "editorialUse": "יכול להמחיש חזותית: צנחן מתאבל ליד הקבר המכוסה זרים. שיא רגשי והיסטורי; ממחיש את היקף האבל והמעבר מאדם פרטי לסמל.",
+      "relevanceType": "evidence",
+      "subcategory": "צילום עיתונות",
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
     },
     {
       "id": "ML-052",
@@ -1002,7 +1263,11 @@
       "rightsGroup": "permission",
       "nextAction": "לפנות למעלה ולברר מי מחזיק בחומר הגלם; לבקש master והרשאת שימוש.",
       "sourceUrl": "https://www.youtube.com/watch?v=830HEitIB0w",
-      "driveUrl": "https://drive.google.com/file/d/1FGw0FXYeg3M97554dXz_Z-taKhC3dmKT/view"
+      "driveUrl": "https://drive.google.com/file/d/1FGw0FXYeg3M97554dXz_Z-taKhC3dmKT/view",
+      "editorialUse": "עשוי לספק רצף, סינק או שוטים של: “Michael Levin Shloshim II” — חומר קרוב בזמן, הספדים/קהל/טקס שלושים. מאפשר מונטאז׳ זמן ומראה כיצד הזיכרון נשמר ומשתנה.",
+      "relevanceType": "story",
+      "subcategory": "וידאו ביתי/טקס",
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
     },
     {
       "id": "ML-053",
@@ -1020,7 +1285,11 @@
       "rightsGroup": "permission",
       "nextAction": "לפנות למעלה ולברר מי מחזיק בחומר הגלם; לבקש master והרשאת שימוש.",
       "sourceUrl": "https://www.youtube.com/watch?v=nDOOK5oahzE",
-      "driveUrl": "https://drive.google.com/file/d/11gRQEZqvwaOJQoqjeMspjMWEB3-ZAThz/view"
+      "driveUrl": "https://drive.google.com/file/d/11gRQEZqvwaOJQoqjeMspjMWEB3-ZAThz/view",
+      "editorialUse": "עשוי לספק רצף, סינק או שוטים של: “Remembering Michael Levin” — יום שנה/עדויות. מאפשר מונטאז׳ זמן ומראה כיצד הזיכרון נשמר ומשתנה.",
+      "relevanceType": "story",
+      "subcategory": "וידאו זיכרון",
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
     },
     {
       "id": "ML-054",
@@ -1038,7 +1307,11 @@
       "rightsGroup": "permission",
       "nextAction": "לפנות למעלה ולברר מי מחזיק בחומר הגלם; לבקש master והרשאת שימוש.",
       "sourceUrl": "https://www.youtube.com/watch?v=aczEugdYSDk",
-      "driveUrl": "https://drive.google.com/file/d/14FrtJp3WOFUtUbTos81ODHtVH9D1AqMG/view"
+      "driveUrl": "https://drive.google.com/file/d/14FrtJp3WOFUtUbTos81ODHtVH9D1AqMG/view",
+      "editorialUse": "עשוי לספק רצף, סינק או שוטים של: “Michael Levin Story on Mt. Herzl” — סיפור ליד הקבר/באתר הר הרצל. מאפשר מונטאז׳ זמן ומראה כיצד הזיכרון נשמר ומשתנה.",
+      "relevanceType": "story",
+      "subcategory": "וידאו ביתי/עדות מקום",
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
     },
     {
       "id": "ML-055",
@@ -1056,7 +1329,11 @@
       "rightsGroup": "permission",
       "nextAction": "לפנות למעלה ולברר מי מחזיק בחומר הגלם; לבקש master והרשאת שימוש.",
       "sourceUrl": "https://www.youtube.com/watch?v=SE3tKlmTbOg",
-      "driveUrl": "https://drive.google.com/file/d/1vZFfsoIeAdPDxJxgjFCNVhhOTtv2_TJj/view"
+      "driveUrl": "https://drive.google.com/file/d/1vZFfsoIeAdPDxJxgjFCNVhhOTtv2_TJj/view",
+      "editorialUse": "עשוי לספק רצף, סינק או שוטים של: טקס יום הזיכרון של המרכז בתקופת הקורונה; נאומים, נרות ועדויות. מאפשר מונטאז׳ זמן ומראה כיצד הזיכרון נשמר ומשתנה.",
+      "relevanceType": "story",
+      "subcategory": "טקס מלא/שידור",
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
     },
     {
       "id": "ML-056",
@@ -1074,7 +1351,11 @@
       "rightsGroup": "permission",
       "nextAction": "לפנות למעלה ולברר מי מחזיק בחומר הגלם; לבקש master והרשאת שימוש.",
       "sourceUrl": "https://www.youtube.com/watch?v=mwyMzjyI-wY",
-      "driveUrl": "https://drive.google.com/file/d/1xUvSJwA2OLwsEzM9a9Fa-T2aAFK-3j0g/view"
+      "driveUrl": "https://drive.google.com/file/d/1xUvSJwA2OLwsEzM9a9Fa-T2aAFK-3j0g/view",
+      "editorialUse": "עשוי לספק רצף, סינק או שוטים של: “This Year in Review” — פעילות שנתית עם חיילים בודדים. מבסס את טענת הסרט שהמורשת הפכה לפעולה ממשית.",
+      "relevanceType": "story",
+      "subcategory": "סרט סיכום פעילות",
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
     },
     {
       "id": "ML-057",
@@ -1092,7 +1373,11 @@
       "rightsGroup": "permission",
       "nextAction": "לפנות למעלה ולברר מי מחזיק בחומר הגלם; לבקש master והרשאת שימוש.",
       "sourceUrl": "https://www.youtube.com/watch?v=S_6jD-Co8p8",
-      "driveUrl": "https://drive.google.com/file/d/1AkjUqd5m3mqKgfGPpatSWB2wcT2hgmgL/view"
+      "driveUrl": "https://drive.google.com/file/d/1AkjUqd5m3mqKgfGPpatSWB2wcT2hgmgL/view",
+      "editorialUse": "עשוי לספק רצף, סינק או שוטים של: “We Are The Michael Levin Base” — זהות הארגון, חללים/מתנדבים/חיילים. מבסס את טענת הסרט שהמורשת הפכה לפעולה ממשית.",
+      "relevanceType": "story",
+      "subcategory": "סרט תדמית/עדויות",
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
     },
     {
       "id": "ML-058",
@@ -1110,7 +1395,11 @@
       "rightsGroup": "permission",
       "nextAction": "לפנות למעלה ולברר מי מחזיק בחומר הגלם; לבקש master והרשאת שימוש.",
       "sourceUrl": "https://www.youtube.com/watch?v=Z7E_4cu_EQg",
-      "driveUrl": "https://drive.google.com/file/d/1dsdrP1d_P3_ou66no4fgDX1CjU8EF047/view"
+      "driveUrl": "https://drive.google.com/file/d/1dsdrP1d_P3_ou66no4fgDX1CjU8EF047/view",
+      "editorialUse": "עשוי לספק רצף, סינק או שוטים של: הקדשת ספר תורה לזכר מייקל; טקס קהילתי/דתי. מבסס את טענת הסרט שהמורשת הפכה לפעולה ממשית.",
+      "relevanceType": "story",
+      "subcategory": "תיעוד טקס",
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
     },
     {
       "id": "ML-059",
@@ -1128,7 +1417,11 @@
       "rightsGroup": "permission",
       "nextAction": "לפנות למעלה ולברר מי מחזיק בחומר הגלם; לבקש master והרשאת שימוש.",
       "sourceUrl": "https://www.youtube.com/watch?v=8jEp7nHaa0s",
-      "driveUrl": "https://drive.google.com/file/d/1cbSXZxwNKstv04mHBgNk_wv93uFwQ49l/view"
+      "driveUrl": "https://drive.google.com/file/d/1cbSXZxwNKstv04mHBgNk_wv93uFwQ49l/view",
+      "editorialUse": "עשוי לספק רצף, סינק או שוטים של: Thanksgiving 2022 — קהילה, ארוחה וחיילים בודדים. מבסס את טענת הסרט שהמורשת הפכה לפעולה ממשית.",
+      "relevanceType": "story",
+      "subcategory": "וידאו פעילות/אירוע",
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
     },
     {
       "id": "ML-060",
@@ -1146,7 +1439,11 @@
       "rightsGroup": "permission",
       "nextAction": "לפנות למעלה ולברר מי מחזיק בחומר הגלם; לבקש master והרשאת שימוש.",
       "sourceUrl": "https://www.youtube.com/watch?v=MLygCijU1LM",
-      "driveUrl": "https://drive.google.com/file/d/1aec84rChEwiyifPMcXpxdz4n6w0s6Qfm/view"
+      "driveUrl": "https://drive.google.com/file/d/1aec84rChEwiyifPMcXpxdz4n6w0s6Qfm/view",
+      "editorialUse": "עשוי לספק רצף, סינק או שוטים של: The Michael Levin Base 2024 — פעילות עדכנית, חיילים ומתנדבים. מבסס את טענת הסרט שהמורשת הפכה לפעולה ממשית.",
+      "relevanceType": "story",
+      "subcategory": "סרט סיכום/תדמית",
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
     },
     {
       "id": "ML-061",
@@ -1164,7 +1461,11 @@
       "rightsGroup": "permission",
       "nextAction": "לפנות למעלה ולברר מי מחזיק בחומר הגלם; לבקש master והרשאת שימוש.",
       "sourceUrl": "https://www.youtube.com/watch?v=BB_U2x5xl-E",
-      "driveUrl": "https://drive.google.com/file/d/1-8EnAc7G9ieu6P45lD9frU0MbzzDB60K/view"
+      "driveUrl": "https://drive.google.com/file/d/1-8EnAc7G9ieu6P45lD9frU0MbzzDB60K/view",
+      "editorialUse": "עשוי לספק רצף, סינק או שוטים של: Yom Hazikaron 2026 — הטקס העכשווי ביותר שאותר. מאפשר מונטאז׳ זמן ומראה כיצד הזיכרון נשמר ומשתנה.",
+      "relevanceType": "story",
+      "subcategory": "טקס/וידאו",
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
     },
     {
       "id": "ML-062",
@@ -1182,7 +1483,11 @@
       "rightsGroup": "permission",
       "nextAction": "לפנות למעלה ולברר מי מחזיק בחומר הגלם; לבקש master והרשאת שימוש.",
       "sourceUrl": "https://www.youtube.com/watch?v=sw3lSZ7b-ps",
-      "driveUrl": "https://drive.google.com/file/d/1e89VvybmLCfOkDlbGmKyvUdwIxWTS0WZ/view"
+      "driveUrl": "https://drive.google.com/file/d/1e89VvybmLCfOkDlbGmKyvUdwIxWTS0WZ/view",
+      "editorialUse": "עשוי לספק רצף, סינק או שוטים של: “TLV Opening” — פתיחת בסיס/מרכז בתל אביב, עדות להתרחבות המורשת. מבסס את טענת הסרט שהמורשת הפכה לפעולה ממשית.",
+      "relevanceType": "story",
+      "subcategory": "סרט אירוע/ארגון",
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
     },
     {
       "id": "ML-063",
@@ -1192,7 +1497,7 @@
       "title": "Flickr — קבר מייקל בהר הרצל",
       "mediaType": "צילום סטילס",
       "mediaGroup": "stills",
-      "description": "קבר מייקל בהר הרצל",
+      "description": "צילום של קבר מייקל בהר הרצל; מתאים לרגעי זיכרון, מעבר זמן והמחשת מקום ההנצחה.",
       "source": "Benjamin Cohen / WorldOfBenjamin",
       "rightsOwner": "Benjamin Cohen / WorldOfBenjamin",
       "date": "צולם 29.7.2009; הועלה 24.5.2011",
@@ -1200,7 +1505,11 @@
       "rightsGroup": "permission",
       "nextAction": "לפנות לצלם/מעלה; כפתור Download אינו היתר שימוש.",
       "sourceUrl": "https://www.flickr.com/photos/benjaminpicklescohen/5755601625/",
-      "driveUrl": "https://drive.google.com/file/d/1sfN_OyH_t6yH9tNmP4yRHaj3mqcL-8g3/view"
+      "driveUrl": "https://drive.google.com/file/d/1sfN_OyH_t6yH9tNmP4yRHaj3mqcL-8g3/view",
+      "editorialUse": "יכול להמחיש חזותית: צילום של קבר מייקל בהר הרצל; מתאים לרגעי זיכרון, מעבר זמן והמחשת מקום ההנצחה. מאפשר מונטאז׳ זמן ומראה כיצד הזיכרון נשמר ומשתנה.",
+      "relevanceType": "story",
+      "subcategory": "צילום סטילס",
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
     },
     {
       "id": "ML-064",
@@ -1218,7 +1527,11 @@
       "rightsGroup": "permission",
       "nextAction": "לפנות לצלם/מעלה; כפתור Download אינו היתר שימוש.",
       "sourceUrl": "https://www.flickr.com/photos/mdw91/4438927686/",
-      "driveUrl": "https://drive.google.com/file/d/1SkLd2SEZQPvCIJN0-Adh1zBrkd7c2mfM/view"
+      "driveUrl": "https://drive.google.com/file/d/1SkLd2SEZQPvCIJN0-Adh1zBrkd7c2mfM/view",
+      "editorialUse": "יכול להמחיש חזותית: קברו של החייל מפילדלפיה שנפל במלחמת לבנון השנייה. מאפשר מונטאז׳ זמן ומראה כיצד הזיכרון נשמר ומשתנה.",
+      "relevanceType": "story",
+      "subcategory": "צילום סטילס",
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
     },
     {
       "id": "ML-065",
@@ -1236,7 +1549,11 @@
       "rightsGroup": "permission",
       "nextAction": "לפנות לצלם/מעלה; כפתור Download אינו היתר שימוש.",
       "sourceUrl": "https://www.flickr.com/photos/thdpr/5120194079/",
-      "driveUrl": "https://drive.google.com/file/d/1uCFZcYp7J3Sp-FWF2-3qR-5zajqDAfak/view"
+      "driveUrl": "https://drive.google.com/file/d/1uCFZcYp7J3Sp-FWF2-3qR-5zajqDAfak/view",
+      "editorialUse": "יכול להמחיש חזותית: אנדרטה/קבר ומסגור נרטיבי של עלייתו ושובו למלחמה. מאפשר מונטאז׳ זמן ומראה כיצד הזיכרון נשמר ומשתנה.",
+      "relevanceType": "story",
+      "subcategory": "צילום סטילס",
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
     },
     {
       "id": "ML-066",
@@ -1254,7 +1571,11 @@
       "rightsGroup": "permission",
       "nextAction": "לפנות לצלם/מעלה; כפתור Download אינו היתר שימוש.",
       "sourceUrl": "https://www.flickr.com/photos/thelonesoldier/5455834481/",
-      "driveUrl": "https://drive.google.com/file/d/1ttkyUisakG5UFlEysDwUII-uLhAAmnFq/view"
+      "driveUrl": "https://drive.google.com/file/d/1ttkyUisakG5UFlEysDwUII-uLhAAmnFq/view",
+      "editorialUse": "יכול להמחיש חזותית: אתר הקבר בהר הרצל; פריים שימושי לגישור זמן. מאפשר מונטאז׳ זמן ומראה כיצד הזיכרון נשמר ומשתנה.",
+      "relevanceType": "story",
+      "subcategory": "צילום סטילס",
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
     },
     {
       "id": "ML-067",
@@ -1272,7 +1593,11 @@
       "rightsGroup": "permission",
       "nextAction": "לפנות לצלם/מעלה; כפתור Download אינו היתר שימוש.",
       "sourceUrl": "https://www.flickr.com/photos/jewlicious/8652227730/",
-      "driveUrl": "https://drive.google.com/file/d/1Aetjl4YV6U7WgUmLNUG9LDKgKRNSRwrT/view"
+      "driveUrl": "https://drive.google.com/file/d/1Aetjl4YV6U7WgUmLNUG9LDKgKRNSRwrT/view",
+      "editorialUse": "יכול להמחיש חזותית: תרמיל כדור מן ההלוויה, חפץ זיכרון טעון. שיא רגשי והיסטורי; ממחיש את היקף האבל והמעבר מאדם פרטי לסמל.",
+      "relevanceType": "evidence",
+      "subcategory": "צילום סטילס/אובייקט",
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
     },
     {
       "id": "ML-068",
@@ -1290,7 +1615,11 @@
       "rightsGroup": "open",
       "nextAction": "קובצי המקור מצורפים; להשתמש רק עם קרדיט מלא ושיתוף זהה בהתאם לרישיון.",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Flickr_-_Israel_Defense_Forces_-_IDF_Lone_Soldiers_Celebrate_Thanksgiving,_Nov_2010_(1).jpg",
-      "driveUrl": "https://drive.google.com/file/d/1sdSU04LG8nV4ideecYcfQ6NZq0arVR2B/view"
+      "driveUrl": "https://drive.google.com/file/d/1sdSU04LG8nV4ideecYcfQ6NZq0arVR2B/view",
+      "editorialUse": "יכול להמחיש חזותית: חיילים בודדים מציינים Thanksgiving; B-roll הקשרי לתופעת החיילים הבודדים. מבסס את טענת הסרט שהמורשת הפכה לפעולה ממשית.",
+      "relevanceType": "story",
+      "subcategory": "צילום סטילס",
+      "verificationNote": "הרישיון והמטא־דאטה אומתו. מייקל אינו מופיע בפריט; זהו חומר הקשר בלבד."
     },
     {
       "id": "ML-069",
@@ -1308,7 +1637,11 @@
       "rightsGroup": "open",
       "nextAction": "קובצי המקור מצורפים; להשתמש רק עם קרדיט מלא ושיתוף זהה בהתאם לרישיון.",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Flickr_-_Israel_Defense_Forces_-_IDF_Lone_Soldiers_Celebrate_Thanksgiving,_Nov_2010_(2).jpg",
-      "driveUrl": "https://drive.google.com/file/d/1smznNurRvcx3g5Ow4UZ-d21w0y4yVrjG/view"
+      "driveUrl": "https://drive.google.com/file/d/1smznNurRvcx3g5Ow4UZ-d21w0y4yVrjG/view",
+      "editorialUse": "יכול להמחיש חזותית: פריים נוסף מאירוע Thanksgiving לחיילים בודדים. מבסס את טענת הסרט שהמורשת הפכה לפעולה ממשית.",
+      "relevanceType": "story",
+      "subcategory": "צילום סטילס",
+      "verificationNote": "הרישיון והמטא־דאטה אומתו. מייקל אינו מופיע בפריט; זהו חומר הקשר בלבד."
     },
     {
       "id": "ML-070",
@@ -1326,7 +1659,11 @@
       "rightsGroup": "permission",
       "nextAction": "לפנות ל-Lone Soldier Center in memory of Michael Levin לקבלת קובץ מקור, caption והרשאה כתובה.",
       "sourceUrl": "https://lonesoldiercenter.com/",
-      "driveUrl": "https://drive.google.com/file/d/1a0YPkBBuKj35WIR3bIrBl9xhDuwEraPC/view"
+      "driveUrl": "https://drive.google.com/file/d/1a0YPkBBuKj35WIR3bIrBl9xhDuwEraPC/view",
+      "editorialUse": "יכול להמחיש חזותית: אתר הארגון, תמונות תדמית, סיפורי הצלחה וקישורים לרשתות. מבסס את טענת הסרט שהמורשת הפכה לפעולה ממשית.",
+      "relevanceType": "story",
+      "subcategory": "אתר/גלריה ארגונית",
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
     },
     {
       "id": "ML-071",
@@ -1344,7 +1681,11 @@
       "rightsGroup": "open",
       "nextAction": "קובץ המקור מצורף עם metadata; להשתמש רק עם קרדיט מלא ושיתוף זהה בהתאם לרישיון.",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Flickr_-_Israel_Defense_Forces_-_IDF_Lone_Soldiers_Celebrate_Thanksgiving,_Nov_2010.jpg",
-      "driveUrl": "https://drive.google.com/file/d/1HcoyKax_zdNlMmIeDtHZ7jzaJ-mMQjOH/view"
+      "driveUrl": "https://drive.google.com/file/d/1HcoyKax_zdNlMmIeDtHZ7jzaJ-mMQjOH/view",
+      "editorialUse": "יכול להמחיש חזותית: חיילים בודדים בארוחת Thanksgiving או בצפייה משותפת; חומר הקשר בלבד, מייקל אינו מופיע. מבסס את טענת הסרט שהמורשת הפכה לפעולה ממשית.",
+      "relevanceType": "story",
+      "subcategory": "תצלום סטילס פתוח",
+      "verificationNote": "הרישיון והמטא־דאטה אומתו. מייקל אינו מופיע בפריט; זהו חומר הקשר בלבד."
     },
     {
       "id": "ML-072",
@@ -1362,7 +1703,11 @@
       "rightsGroup": "open",
       "nextAction": "קובץ המקור מצורף עם metadata; להשתמש רק עם קרדיט מלא ושיתוף זהה בהתאם לרישיון.",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Flickr_-_Israel_Defense_Forces_-_IDF_Lone_Soldiers_Celebrate_Thanksgiving,_Nov_2010_(3).jpg",
-      "driveUrl": "https://drive.google.com/file/d/1FV_fD2P_PU8UILkgFcKcmwp_DnNrX3eN/view"
+      "driveUrl": "https://drive.google.com/file/d/1FV_fD2P_PU8UILkgFcKcmwp_DnNrX3eN/view",
+      "editorialUse": "יכול להמחיש חזותית: חיילים בודדים בארוחת Thanksgiving או בצפייה משותפת; חומר הקשר בלבד, מייקל אינו מופיע. מבסס את טענת הסרט שהמורשת הפכה לפעולה ממשית.",
+      "relevanceType": "story",
+      "subcategory": "תצלום סטילס פתוח",
+      "verificationNote": "הרישיון והמטא־דאטה אומתו. מייקל אינו מופיע בפריט; זהו חומר הקשר בלבד."
     }
   ]
 }
