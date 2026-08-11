@@ -31,3 +31,30 @@ test('v2 explains what the editor sees and why it matters',()=>{
  for(const section of data.meta.sections){assert.ok(section.description.length>30,section.id);assert.ok(section.editorialUse.length>25,section.id)}
  assert.match(html,/למה זה חשוב לסרט/);
 });
+test('rights-safe previews are available without copying protected stills',()=>{
+ const previewItems=data.items.filter(x=>x.preview);
+ assert.equal(previewItems.length,44);
+ assert.equal(data.meta.previewCount,44);
+ assert.equal(data.meta.inlinePlayableCount,40);
+ assert.equal(previewItems.filter(x=>x.preview.kind==='youtube').length,37);
+ assert.equal(previewItems.filter(x=>x.preview.kind==='facebook').length,2);
+ assert.equal(previewItems.filter(x=>x.preview.kind==='archive-audio').length,1);
+ const openImages=previewItems.filter(x=>x.preview.kind==='open-image');
+ assert.equal(openImages.length,4);
+ assert.ok(openImages.every(x=>x.rightsGroup==='open'));
+ const serialized=JSON.stringify(previewItems.map(x=>x.preview));
+ for(const forbidden of ['gettyimages','alamy.com','staticflickr','live.staticflickr']) assert.equal(serialized.includes(forbidden),false);
+ for(const item of previewItems){
+  if(item.preview.thumbnailUrl) assert.match(item.preview.thumbnailUrl,/^(assets\/previews\/ML-\d{3}\.webp|https:\/\/(i\.ytimg\.com|commons\.wikimedia\.org|upload\.wikimedia\.org|archive\.org)\/)/);
+  if(item.preview.embedUrl) assert.match(item.preview.embedUrl,/^https:\/\/(www\.youtube-nocookie\.com|www\.facebook\.com|archive\.org)\//);
+ }
+});
+test('preview UI is lazy, accessible and keeps source fallback',()=>{
+ for(const marker of ['item-preview-summary','item-viewer','item-load-player']) assert.match(html,new RegExp(marker));
+ assert.match(js,/iframe\.title=/);
+ assert.match(js,/loading='lazy'/);
+ assert.match(js,/youtube-nocookie\.com/);
+ assert.match(js,/widget_referrer/);
+ assert.match(js,/location\.origin/);
+ assert.match(js,/צפייה כאן אינה אישור/);
+});

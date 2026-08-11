@@ -84,8 +84,8 @@
     "projectSubtitle": "מדריך חומרי גלם לעורך",
     "metaDescription": "מדריך עריכתי ל-72 מקורות על מייקל לוין: מה רואים, למה זה חשוב לסרט, זכויות וקישורי מקור ו-Drive.",
     "heroLede": "לא עוד רשימת לינקים: לכל מקור מוסבר מה רואים בו, למה הוא רלוונטי לסרט ומה צריך לאמת לפני קאט.",
-    "heroRule": "מה רואים · למה זה חשוב · ורק אז פותחים",
-    "heroRuleNote": "התיאור חוסך צפייה עיוורת; הוא אינו מחליף אימות shot-by-shot ורישוי.",
+    "heroRule": "רואים באתר · מבינים · ורק אז עוברים למקור",
+    "heroRuleNote": "נגנים רשמיים ותמונות ברישיון פתוח מוצגים כאן; חומר מוגן נשאר בקישור המקור.",
     "metricTotalLabel": "מקורות מתוארים",
     "metricSectionLabel": "תחנות בסיפור",
     "metricOpenLabel": "פריטים ברישיון פתוח",
@@ -118,11 +118,14 @@
         "section": "06"
       }
     ],
-    "metricRouteValue": "2",
-    "metricRouteLabel": "נתיבים לכל פריט: מקור + Drive",
+    "metricRouteValue": "44",
+    "metricRouteLabel": "פריטים עם preview או נגן באתר",
     "journeyTitle": "ניווט לפי תקופה",
     "collectionLabel": "פתיחת Drive ↗",
-    "itemCollectionLabel": "איתור ב־Drive ↗"
+    "itemCollectionLabel": "איתור ב־Drive ↗",
+    "previewCount": 44,
+    "inlinePlayableCount": 40,
+    "inlineImageCount": 4
   },
   "items": [
     {
@@ -255,7 +258,15 @@
       "editorialUse": "עשוי לספק רצף, סינק או שוטים של: סרט IDF באנגלית על העלייה, הדרך לגיוס, השירות והחזרה מארה״ב בעת המלחמה. מחבר בין מניע אישי לפעולה ומבסס את קשת הבחירה.",
       "relevanceType": "character",
       "subcategory": "וידאו, 06:24",
-      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "preview": {
+        "kind": "youtube",
+        "thumbnailUrl": "https://i.ytimg.com/vi/y29i9rfwmQI/hqdefault.jpg",
+        "embedUrl": "https://www.youtube-nocookie.com/embed/y29i9rfwmQI?rel=0",
+        "alt": "תמונה מקדימה לסרטון: Michael - Fallen Soldier of Israel",
+        "caption": "YouTube · הנגן נטען רק בלחיצה",
+        "loadLabel": "ניגון הסרט באתר"
+      }
     },
     {
       "id": "ML-007",
@@ -277,7 +288,15 @@
       "editorialUse": "עשוי לספק רצף, סינק או שוטים של: סרט עברי ארוך; פוטנציאל לחומרי ילדות, ישראל, שירות, חברים והלוויה. מחבר בין מניע אישי לפעולה ומבסס את קשת הבחירה.",
       "relevanceType": "character",
       "subcategory": "וידאו, 48:52",
-      "verificationNote": "מבוסס כותרת/מטא־דאטה ציבורית; נדרשת צפייה מלאה ו-shot list לפני קאט."
+      "verificationNote": "מבוסס כותרת/מטא־דאטה ציבורית; נדרשת צפייה מלאה ו-shot list לפני קאט.",
+      "preview": {
+        "kind": "youtube",
+        "thumbnailUrl": "https://i.ytimg.com/vi/aOERe4ncqkM/hqdefault.jpg",
+        "embedUrl": "https://www.youtube-nocookie.com/embed/aOERe4ncqkM?rel=0",
+        "alt": "תמונה מקדימה לסרטון: סיפור חייו ומותו של מייקל לוין",
+        "caption": "YouTube · הנגן נטען רק בלחיצה",
+        "loadLabel": "ניגון הסרט באתר"
+      }
     },
     {
       "id": "ML-008",
@@ -299,7 +318,15 @@
       "editorialUse": "עשוי לספק רצף, סינק או שוטים של: סרט תיעודי קצר על מייקל עם חומרי עבר ותמונות. מחבר בין מניע אישי לפעולה ומבסס את קשת הבחירה.",
       "relevanceType": "character",
       "subcategory": "דוקומנטרי, 09:09",
-      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "preview": {
+        "kind": "youtube",
+        "thumbnailUrl": "https://i.ytimg.com/vi/jbEBUBJ4AbY/hqdefault.jpg",
+        "embedUrl": "https://www.youtube-nocookie.com/embed/jbEBUBJ4AbY?rel=0",
+        "alt": "תמונה מקדימה לסרטון: Eternal Hero, Soldier of Israel",
+        "caption": "YouTube · הנגן נטען רק בלחיצה",
+        "loadLabel": "ניגון הסרט באתר"
+      }
     },
     {
       "id": "ML-009",
@@ -321,7 +348,15 @@
       "editorialUse": "עשוי לספק רצף, סינק או שוטים של: סרט זיכרון שהופק עבור יחידת דובר צה״ל; כולל תמונות וחומרי שירות. מחבר בין מניע אישי לפעולה ומבסס את קשת הבחירה.",
       "relevanceType": "character",
       "subcategory": "וידאו, 06:30",
-      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "preview": {
+        "kind": "youtube",
+        "thumbnailUrl": "https://i.ytimg.com/vi/dh62xDQ3zjI/hqdefault.jpg",
+        "embedUrl": "https://www.youtube-nocookie.com/embed/dh62xDQ3zjI?rel=0",
+        "alt": "תמונה מקדימה לסרטון: Michael Levin — Israel Video Productions",
+        "caption": "YouTube · הנגן נטען רק בלחיצה",
+        "loadLabel": "ניגון הסרט באתר"
+      }
     },
     {
       "id": "ML-010",
@@ -387,7 +422,15 @@
       "editorialUse": "מספק הקשר ומפתח למקורות נוספים סביב: חבר חייל מספר על מייקל; מקור מרכזי לחברות, אופי ושירות. נותן אופי, חברות ועדות ממקור ראשון; גשר מהביוגרפיה אל הסיפור הצבאי.",
       "relevanceType": "evidence",
       "subcategory": "עדות חבר, 10:00",
-      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "preview": {
+        "kind": "youtube",
+        "thumbnailUrl": "https://i.ytimg.com/vi/8qGXEUGpOY4/hqdefault.jpg",
+        "embedUrl": "https://www.youtube-nocookie.com/embed/8qGXEUGpOY4?rel=0",
+        "alt": "תמונה מקדימה לסרטון: Soldier Friend Remembering Michael Levin",
+        "caption": "YouTube · הנגן נטען רק בלחיצה",
+        "loadLabel": "ניגון הסרט באתר"
+      }
     },
     {
       "id": "ML-013",
@@ -409,7 +452,14 @@
       "editorialUse": "עשוי לספק רצף, סינק או שוטים של: גרסת Facebook של סרט דובר צה״ל; ייתכנו captions/תגובות ומזהי מקור נוספים. נותן אופי, חברות ועדות ממקור ראשון; גשר מהביוגרפיה אל הסיפור הצבאי.",
       "relevanceType": "evidence",
       "subcategory": "וידאו",
-      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "preview": {
+        "kind": "facebook",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fidfonline%2Fvideos%2F766815073341365%2F&show_text=false&width=900",
+        "alt": "נגן Facebook לסרטון: מייקל לוין — Facebook IDF",
+        "caption": "Facebook · נגן רשמי; זמינות תלויה בהרשאות המקור",
+        "loadLabel": "ניגון הסרט באתר"
+      }
     },
     {
       "id": "ML-014",
@@ -431,7 +481,14 @@
       "editorialUse": "עשוי לספק רצף, סינק או שוטים של: מפגש הוריו עם שני חיילים שעלו והתגייסו בעקבותיו; גשר בין חייו להשפעה. נותן אופי, חברות ועדות ממקור ראשון; גשר מהביוגרפיה אל הסיפור הצבאי.",
       "relevanceType": "evidence",
       "subcategory": "וידאו Facebook",
-      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "preview": {
+        "kind": "facebook",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fyediotahronot%2Fvideos%2F1391453560882810%2F&show_text=false&width=900",
+        "alt": "נגן Facebook לסרטון: Yedioth — הוריו ושני חיילים שהושפעו ממנו",
+        "caption": "Facebook · נגן רשמי; זמינות תלויה בהרשאות המקור",
+        "loadLabel": "ניגון הסרט באתר"
+      }
     },
     {
       "id": "ML-015",
@@ -453,7 +510,15 @@
       "editorialUse": "עשוי לספק רצף, סינק או שוטים של: צילומי AP מהלוויה בהר הרצל; קהל, חיילים, המשפחה והטקס. שיא רגשי והיסטורי; ממחיש את היקף האבל והמעבר מאדם פרטי לסמל.",
       "relevanceType": "evidence",
       "subcategory": "וידאו AP, 02:01",
-      "verificationNote": "מבוסס כותרת/מטא־דאטה ציבורית; נדרשת צפייה מלאה ו-shot list לפני קאט."
+      "verificationNote": "מבוסס כותרת/מטא־דאטה ציבורית; נדרשת צפייה מלאה ו-shot list לפני קאט.",
+      "preview": {
+        "kind": "youtube",
+        "thumbnailUrl": "https://i.ytimg.com/vi/6W7eHdOjSAU/hqdefault.jpg",
+        "embedUrl": "https://www.youtube-nocookie.com/embed/6W7eHdOjSAU?rel=0",
+        "alt": "תמונה מקדימה לסרטון: Thousands gather for funeral",
+        "caption": "YouTube · הנגן נטען רק בלחיצה",
+        "loadLabel": "ניגון הסרט באתר"
+      }
     },
     {
       "id": "ML-016",
@@ -541,7 +606,15 @@
       "editorialUse": "עשוי לספק רצף, סינק או שוטים של: תיעוד טקס זיכרון ליד קברו של מייקל בהר הרצל; מתאים לאיתור רגעי הנצחה ממוסדים. מאפשר מונטאז׳ זמן ומראה כיצד הזיכרון נשמר ומשתנה.",
       "relevanceType": "story",
       "subcategory": "וידאו, 01:54",
-      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "preview": {
+        "kind": "youtube",
+        "thumbnailUrl": "https://i.ytimg.com/vi/W9Wj_EEdGXE/hqdefault.jpg",
+        "embedUrl": "https://www.youtube-nocookie.com/embed/W9Wj_EEdGXE?rel=0",
+        "alt": "תמונה מקדימה לסרטון: Har Herzl Memorial Service",
+        "caption": "YouTube · הנגן נטען רק בלחיצה",
+        "loadLabel": "ניגון הסרט באתר"
+      }
     },
     {
       "id": "ML-020",
@@ -563,7 +636,15 @@
       "editorialUse": "עשוי לספק רצף, סינק או שוטים של: ד״ר טוביה בוק מדבר בקבר במלאת 15 שנה לנפילתו. מאפשר מונטאז׳ זמן ומראה כיצד הזיכרון נשמר ומשתנה.",
       "relevanceType": "story",
       "subcategory": "וידאו, 06:07",
-      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "preview": {
+        "kind": "youtube",
+        "thumbnailUrl": "https://i.ytimg.com/vi/6OhLz4dzRoU/hqdefault.jpg",
+        "embedUrl": "https://www.youtube-nocookie.com/embed/6OhLz4dzRoU?rel=0",
+        "alt": "תמונה מקדימה לסרטון: Tribute at Har Herzl — 15 years",
+        "caption": "YouTube · הנגן נטען רק בלחיצה",
+        "loadLabel": "ניגון הסרט באתר"
+      }
     },
     {
       "id": "ML-021",
@@ -585,7 +666,15 @@
       "editorialUse": "עשוי לספק רצף, סינק או שוטים של: סרט זיכרון קצר עם תמונות של מייקל. מאפשר מונטאז׳ זמן ומראה כיצד הזיכרון נשמר ומשתנה.",
       "relevanceType": "story",
       "subcategory": "וידאו, 02:05",
-      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "preview": {
+        "kind": "youtube",
+        "thumbnailUrl": "https://i.ytimg.com/vi/8aNrAEkBG7U/hqdefault.jpg",
+        "embedUrl": "https://www.youtube-nocookie.com/embed/8aNrAEkBG7U?rel=0",
+        "alt": "תמונה מקדימה לסרטון: סרט לזכרו של מייקל",
+        "caption": "YouTube · הנגן נטען רק בלחיצה",
+        "loadLabel": "ניגון הסרט באתר"
+      }
     },
     {
       "id": "ML-022",
@@ -607,7 +696,15 @@
       "editorialUse": "עשוי לספק רצף, סינק או שוטים של: טקס/אירוע זיכרון של The Michael Levin Base. מאפשר מונטאז׳ זמן ומראה כיצד הזיכרון נשמר ומשתנה.",
       "relevanceType": "story",
       "subcategory": "וידאו",
-      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "preview": {
+        "kind": "youtube",
+        "thumbnailUrl": "https://i.ytimg.com/vi/rhFcKUmrmsI/hqdefault.jpg",
+        "embedUrl": "https://www.youtube-nocookie.com/embed/rhFcKUmrmsI?rel=0",
+        "alt": "תמונה מקדימה לסרטון: Michael Levin memorial 2025",
+        "caption": "YouTube · הנגן נטען רק בלחיצה",
+        "loadLabel": "ניגון הסרט באתר"
+      }
     },
     {
       "id": "ML-023",
@@ -629,7 +726,15 @@
       "editorialUse": "עשוי לספק רצף, סינק או שוטים של: אירוע כנסת במלאת 20 שנה; ביטוי מוסדי למורשתו. מאפשר מונטאז׳ זמן ומראה כיצד הזיכרון נשמר ומשתנה.",
       "relevanceType": "story",
       "subcategory": "וידאו",
-      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "preview": {
+        "kind": "youtube",
+        "thumbnailUrl": "https://i.ytimg.com/vi/RcFYBTuLIcA/hqdefault.jpg",
+        "embedUrl": "https://www.youtube-nocookie.com/embed/RcFYBTuLIcA?rel=0",
+        "alt": "תמונה מקדימה לסרטון: Michael Levin — 20 years — Knesset",
+        "caption": "YouTube · הנגן נטען רק בלחיצה",
+        "loadLabel": "ניגון הסרט באתר"
+      }
     },
     {
       "id": "ML-024",
@@ -651,7 +756,15 @@
       "editorialUse": "עשוי לספק רצף, סינק או שוטים של: טקס יום הזיכרון של הבסיס; קהילה, חיילים בודדים וזיכרון פעיל. מאפשר מונטאז׳ זמן ומראה כיצד הזיכרון נשמר ומשתנה.",
       "relevanceType": "story",
       "subcategory": "וידאו, 32:00",
-      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "preview": {
+        "kind": "youtube",
+        "thumbnailUrl": "https://i.ytimg.com/vi/sZeveApk6Vc/hqdefault.jpg",
+        "embedUrl": "https://www.youtube-nocookie.com/embed/sZeveApk6Vc?rel=0",
+        "alt": "תמונה מקדימה לסרטון: Yom Hazikaron 2026 — The Base",
+        "caption": "YouTube · הנגן נטען רק בלחיצה",
+        "loadLabel": "ניגון הסרט באתר"
+      }
     },
     {
       "id": "ML-025",
@@ -673,7 +786,15 @@
       "editorialUse": "עשוי לספק רצף, סינק או שוטים של: תיעוד מלא של טקס יום הזיכרון ב־2025, הכולל עדויות, מוזיקה וקהל לפי תיאור המקור. מאפשר מונטאז׳ זמן ומראה כיצד הזיכרון נשמר ומשתנה.",
       "relevanceType": "story",
       "subcategory": "וידאו, 01:48:02",
-      "verificationNote": "מבוסס כותרת/מטא־דאטה ציבורית; נדרשת צפייה מלאה ו-shot list לפני קאט."
+      "verificationNote": "מבוסס כותרת/מטא־דאטה ציבורית; נדרשת צפייה מלאה ו-shot list לפני קאט.",
+      "preview": {
+        "kind": "youtube",
+        "thumbnailUrl": "https://i.ytimg.com/vi/K8Ehyil0eh0/hqdefault.jpg",
+        "embedUrl": "https://www.youtube-nocookie.com/embed/K8Ehyil0eh0?rel=0",
+        "alt": "תמונה מקדימה לסרטון: Yom Hazikaron 2025 — The Base",
+        "caption": "YouTube · הנגן נטען רק בלחיצה",
+        "loadLabel": "ניגון הסרט באתר"
+      }
     },
     {
       "id": "ML-026",
@@ -695,7 +816,15 @@
       "editorialUse": "עשוי לספק רצף, סינק או שוטים של: סרט על ההשפעה של מייקל על חיילים בודדים והקמת פעילות; קיימת גרסה עם כתוביות עברית. מבסס את טענת הסרט שהמורשת הפכה לפעולה ממשית.",
       "relevanceType": "story",
       "subcategory": "וידאו + עמוד",
-      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "preview": {
+        "kind": "youtube",
+        "thumbnailUrl": "https://i.ytimg.com/vi/IRMwmMDg0mM/hqdefault.jpg",
+        "embedUrl": "https://www.youtube-nocookie.com/embed/IRMwmMDg0mM?rel=0",
+        "alt": "תמונה מקדימה לסרטון: Because of Michael",
+        "caption": "YouTube · הנגן נטען רק בלחיצה",
+        "loadLabel": "ניגון הסרט באתר"
+      }
     },
     {
       "id": "ML-027",
@@ -717,7 +846,15 @@
       "editorialUse": "עשוי לספק רצף, סינק או שוטים של: גרסת הסרט Because of Michael עם כתוביות עברית; שימושית להבנת מבנה הסרט והחומרים שכבר נבחרו. מבסס את טענת הסרט שהמורשת הפכה לפעולה ממשית.",
       "relevanceType": "story",
       "subcategory": "וידאו",
-      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "preview": {
+        "kind": "youtube",
+        "thumbnailUrl": "https://i.ytimg.com/vi/MYUnHt7_25I/hqdefault.jpg",
+        "embedUrl": "https://www.youtube-nocookie.com/embed/MYUnHt7_25I?rel=0",
+        "alt": "תמונה מקדימה לסרטון: Because of Michael — כתוביות עברית",
+        "caption": "YouTube · הנגן נטען רק בלחיצה",
+        "loadLabel": "ניגון הסרט באתר"
+      }
     },
     {
       "id": "ML-028",
@@ -739,7 +876,15 @@
       "editorialUse": "עשוי לספק רצף, סינק או שוטים של: סיכום פעילות הקרן והשפעת המורשת. מבסס את טענת הסרט שהמורשת הפכה לפעולה ממשית.",
       "relevanceType": "story",
       "subcategory": "וידאו, 01:25",
-      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "preview": {
+        "kind": "youtube",
+        "thumbnailUrl": "https://i.ytimg.com/vi/Uv9Rfgcyuio/hqdefault.jpg",
+        "embedUrl": "https://www.youtube-nocookie.com/embed/Uv9Rfgcyuio?rel=0",
+        "alt": "תמונה מקדימה לסרטון: The Michael Levin Lone Soldier Foundation 2021",
+        "caption": "YouTube · הנגן נטען רק בלחיצה",
+        "loadLabel": "ניגון הסרט באתר"
+      }
     },
     {
       "id": "ML-029",
@@ -761,7 +906,15 @@
       "editorialUse": "עשוי לספק רצף, סינק או שוטים של: הכנסת/הקדשת ספר תורה על שמו של מייקל. מבסס את טענת הסרט שהמורשת הפכה לפעולה ממשית.",
       "relevanceType": "story",
       "subcategory": "וידאו, 02:35",
-      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "preview": {
+        "kind": "youtube",
+        "thumbnailUrl": "https://i.ytimg.com/vi/Se1SQKy-Gus/hqdefault.jpg",
+        "embedUrl": "https://www.youtube-nocookie.com/embed/Se1SQKy-Gus?rel=0",
+        "alt": "תמונה מקדימה לסרטון: Sefer Torah Dedication",
+        "caption": "YouTube · הנגן נטען רק בלחיצה",
+        "loadLabel": "ניגון הסרט באתר"
+      }
     },
     {
       "id": "ML-030",
@@ -783,7 +936,15 @@
       "editorialUse": "עשוי לספק רצף, סינק או שוטים של: תיעוד מוקדם של המרכז לזכרו; פעילות ראשונית ואנשים שהקימו/קיבלו סיוע. מבסס את טענת הסרט שהמורשת הפכה לפעולה ממשית.",
       "relevanceType": "story",
       "subcategory": "וידאו, 06:19",
-      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "preview": {
+        "kind": "youtube",
+        "thumbnailUrl": "https://i.ytimg.com/vi/-iCMpxCbbsc/hqdefault.jpg",
+        "embedUrl": "https://www.youtube-nocookie.com/embed/-iCMpxCbbsc?rel=0",
+        "alt": "תמונה מקדימה לסרטון: Lone Soldier Center Video.mov",
+        "caption": "YouTube · הנגן נטען רק בלחיצה",
+        "loadLabel": "ניגון הסרט באתר"
+      }
     },
     {
       "id": "ML-031",
@@ -805,7 +966,15 @@
       "editorialUse": "עשוי לספק רצף, סינק או שוטים של: פעילות המרכז ושירות לחיילים בודדים. מבסס את טענת הסרט שהמורשת הפכה לפעולה ממשית.",
       "relevanceType": "story",
       "subcategory": "וידאו, 05:44",
-      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "preview": {
+        "kind": "youtube",
+        "thumbnailUrl": "https://i.ytimg.com/vi/7BdeUeMGTMI/hqdefault.jpg",
+        "embedUrl": "https://www.youtube-nocookie.com/embed/7BdeUeMGTMI?rel=0",
+        "alt": "תמונה מקדימה לסרטון: The Lone Soldier Center in memory of Michael Levin",
+        "caption": "YouTube · הנגן נטען רק בלחיצה",
+        "loadLabel": "ניגון הסרט באתר"
+      }
     },
     {
       "id": "ML-032",
@@ -827,7 +996,15 @@
       "editorialUse": "עשוי לספק רצף, סינק או שוטים של: חיילים בודדים מספרים על חייהם; ממלא פונקציית השפעה והקשר. מבסס את טענת הסרט שהמורשת הפכה לפעולה ממשית.",
       "relevanceType": "story",
       "subcategory": "וידאו, 07:31",
-      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "preview": {
+        "kind": "youtube",
+        "thumbnailUrl": "https://i.ytimg.com/vi/9lTEUkucKo0/hqdefault.jpg",
+        "embedUrl": "https://www.youtube-nocookie.com/embed/9lTEUkucKo0?rel=0",
+        "alt": "תמונה מקדימה לסרטון: IDF Lone Soldiers: Behind the Smiles",
+        "caption": "YouTube · הנגן נטען רק בלחיצה",
+        "loadLabel": "ניגון הסרט באתר"
+      }
     },
     {
       "id": "ML-033",
@@ -893,7 +1070,15 @@
       "editorialUse": "עשוי לספק קול או עדות סביב: ראיון עם Bonnie Rosenbaum על The Base, השירותים והמורשת. מבסס את טענת הסרט שהמורשת הפכה לפעולה ממשית.",
       "relevanceType": "story",
       "subcategory": "אודיו",
-      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "preview": {
+        "kind": "archive-audio",
+        "thumbnailUrl": "https://archive.org/services/img/t3w9ah9luvvppsbtnaboisk7zc5xqvls1nlmik3i",
+        "embedUrl": "https://archive.org/embed/t3w9ah9luvvppsbtnaboisk7zc5xqvls1nlmik3i",
+        "alt": "תמונה מקדימה לפריט האודיו: Rejuvenation: The Huge Legacy of Michael Levin",
+        "caption": "Internet Archive · נגן אודיו מוטמע",
+        "loadLabel": "ניגון האודיו באתר"
+      }
     },
     {
       "id": "ML-036",
@@ -1047,7 +1232,15 @@
       "editorialUse": "עשוי לספק רצף, סינק או שוטים של: סרט הנצחה בן כ־3:32. בבדיקת פריימים נראו סטילס של מייקל במדים ועם חברים/חיילים, לצד מסכי טקסט ביוגרפיים. בונה הזדהות ודמות; מתאים לפתיח, פלאשבק ואלבומי משפחה.",
       "relevanceType": "character",
       "subcategory": "מצגת וידאו / סטילס ארכיוניים",
-      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "preview": {
+        "kind": "youtube",
+        "thumbnailUrl": "https://i.ytimg.com/vi/usVj7zibuIg/hqdefault.jpg",
+        "embedUrl": "https://www.youtube-nocookie.com/embed/usVj7zibuIg?rel=0",
+        "alt": "תמונה מקדימה לסרטון: Remembering Michael Levin Z״L – The Michael Levin Base",
+        "caption": "YouTube · הנגן נטען רק בלחיצה",
+        "loadLabel": "ניגון הסרט באתר"
+      }
     },
     {
       "id": "ML-043",
@@ -1069,7 +1262,15 @@
       "editorialUse": "עשוי לספק רצף, סינק או שוטים של: עדות של אביו של מייקל; מועמד כמקור ראשוני למשפחה, ילדות, עלייה והחלטות השירות. בונה הזדהות ודמות; מתאים לפתיח, פלאשבק ואלבומי משפחה.",
       "relevanceType": "character",
       "subcategory": "וידאו עדות",
-      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "preview": {
+        "kind": "youtube",
+        "thumbnailUrl": "https://i.ytimg.com/vi/uL3e-q0EHuM/hqdefault.jpg",
+        "embedUrl": "https://www.youtube-nocookie.com/embed/uL3e-q0EHuM?rel=0",
+        "alt": "תמונה מקדימה לסרטון: Mark Levin telling Michael’s story",
+        "caption": "YouTube · הנגן נטען רק בלחיצה",
+        "loadLabel": "ניגון הסרט באתר"
+      }
     },
     {
       "id": "ML-044",
@@ -1091,7 +1292,15 @@
       "editorialUse": "עשוי לספק רצף, סינק או שוטים של: שיחה ארוכה, כ־53 דקות, עם מארק והרייט לוין על חייו של בנם. מקור ראשוני בעל פוטנציאל לפרטים על הבית בפנסילבניה, האופי והמשפחה. בונה הזדהות ודמות; מתאים לפתיח, פלאשבק ואלבומי משפחה.",
       "relevanceType": "character",
       "subcategory": "שיחת וידאו / עדות הורים",
-      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "preview": {
+        "kind": "youtube",
+        "thumbnailUrl": "https://i.ytimg.com/vi/zRMowMhwdk8/hqdefault.jpg",
+        "embedUrl": "https://www.youtube-nocookie.com/embed/zRMowMhwdk8?rel=0",
+        "alt": "תמונה מקדימה לסרטון: A Hero in Heaven — discussion with Mark & Harriet Levin",
+        "caption": "YouTube · הנגן נטען רק בלחיצה",
+        "loadLabel": "ניגון הסרט באתר"
+      }
     },
     {
       "id": "ML-045",
@@ -1113,7 +1322,15 @@
       "editorialUse": "עשוי לספק רצף, סינק או שוטים של: סרט זיכרון בעברית באורך כ־4:16; עשוי לכלול מבחר מרוכז של תצלומי חיים ושירות. בתיאור: “Knesset Tribute to Michael Levin”. מאפשר מונטאז׳ זמן ומראה כיצד הזיכרון נשמר ומשתנה.",
       "relevanceType": "story",
       "subcategory": "סרט מחווה מוסדי",
-      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "preview": {
+        "kind": "youtube",
+        "thumbnailUrl": "https://i.ytimg.com/vi/Oz3ypfrTaBs/hqdefault.jpg",
+        "embedUrl": "https://www.youtube-nocookie.com/embed/Oz3ypfrTaBs?rel=0",
+        "alt": "תמונה מקדימה לסרטון: טקס יום הזיכרון של הכנסת — סרטון לזכרו של מייקל לוין",
+        "caption": "YouTube · הנגן נטען רק בלחיצה",
+        "loadLabel": "ניגון הסרט באתר"
+      }
     },
     {
       "id": "ML-046",
@@ -1135,7 +1352,15 @@
       "editorialUse": "עשוי לספק רצף, סינק או שוטים של: סרט זיכרון מוקדם באורך כ־3:59; מועמד לאיתור תצלומי משפחה, חברים ושירות שהופצו סמוך יחסית לנפילה. בונה הזדהות ודמות; מתאים לפתיח, פלאשבק ואלבומי משפחה.",
       "relevanceType": "character",
       "subcategory": "מצגת/סרט זיכרון",
-      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "preview": {
+        "kind": "youtube",
+        "thumbnailUrl": "https://i.ytimg.com/vi/RNNTbiS7TWs/hqdefault.jpg",
+        "embedUrl": "https://www.youtube-nocookie.com/embed/RNNTbiS7TWs?rel=0",
+        "alt": "תמונה מקדימה לסרטון: In memory of IDF Hero Michael Levin",
+        "caption": "YouTube · הנגן נטען רק בלחיצה",
+        "loadLabel": "ניגון הסרט באתר"
+      }
     },
     {
       "id": "ML-047",
@@ -1157,7 +1382,15 @@
       "editorialUse": "עשוי לספק רצף, סינק או שוטים של: סרט באורך כ־10:34, כנראה אוסף ביוגרפי רחב. שימושי כקטלוג־איתור בלבד עד לבדיקת כל פריים וקרדיט. נותן אופי, חברות ועדות ממקור ראשון; גשר מהביוגרפיה אל הסיפור הצבאי.",
       "relevanceType": "evidence",
       "subcategory": "סרט זיכרון מורכב",
-      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "preview": {
+        "kind": "youtube",
+        "thumbnailUrl": "https://i.ytimg.com/vi/KjyO6RWhpe0/hqdefault.jpg",
+        "embedUrl": "https://www.youtube-nocookie.com/embed/KjyO6RWhpe0?rel=0",
+        "alt": "תמונה מקדימה לסרטון: Michael Levin: An Eternal Hero Living In Heaven",
+        "caption": "YouTube · הנגן נטען רק בלחיצה",
+        "loadLabel": "ניגון הסרט באתר"
+      }
     },
     {
       "id": "ML-048",
@@ -1267,7 +1500,15 @@
       "editorialUse": "עשוי לספק רצף, סינק או שוטים של: “Michael Levin Shloshim II” — חומר קרוב בזמן, הספדים/קהל/טקס שלושים. מאפשר מונטאז׳ זמן ומראה כיצד הזיכרון נשמר ומשתנה.",
       "relevanceType": "story",
       "subcategory": "וידאו ביתי/טקס",
-      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "preview": {
+        "kind": "youtube",
+        "thumbnailUrl": "https://i.ytimg.com/vi/830HEitIB0w/hqdefault.jpg",
+        "embedUrl": "https://www.youtube-nocookie.com/embed/830HEitIB0w?rel=0",
+        "alt": "תמונה מקדימה לסרטון: Michael Levin Shloshim II",
+        "caption": "YouTube · הנגן נטען רק בלחיצה",
+        "loadLabel": "ניגון הסרט באתר"
+      }
     },
     {
       "id": "ML-053",
@@ -1289,7 +1530,15 @@
       "editorialUse": "עשוי לספק רצף, סינק או שוטים של: “Remembering Michael Levin” — יום שנה/עדויות. מאפשר מונטאז׳ זמן ומראה כיצד הזיכרון נשמר ומשתנה.",
       "relevanceType": "story",
       "subcategory": "וידאו זיכרון",
-      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "preview": {
+        "kind": "youtube",
+        "thumbnailUrl": "https://i.ytimg.com/vi/nDOOK5oahzE/hqdefault.jpg",
+        "embedUrl": "https://www.youtube-nocookie.com/embed/nDOOK5oahzE?rel=0",
+        "alt": "תמונה מקדימה לסרטון: Remembering Michael Levin",
+        "caption": "YouTube · הנגן נטען רק בלחיצה",
+        "loadLabel": "ניגון הסרט באתר"
+      }
     },
     {
       "id": "ML-054",
@@ -1311,7 +1560,15 @@
       "editorialUse": "עשוי לספק רצף, סינק או שוטים של: “Michael Levin Story on Mt. Herzl” — סיפור ליד הקבר/באתר הר הרצל. מאפשר מונטאז׳ זמן ומראה כיצד הזיכרון נשמר ומשתנה.",
       "relevanceType": "story",
       "subcategory": "וידאו ביתי/עדות מקום",
-      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "preview": {
+        "kind": "youtube",
+        "thumbnailUrl": "https://i.ytimg.com/vi/aczEugdYSDk/hqdefault.jpg",
+        "embedUrl": "https://www.youtube-nocookie.com/embed/aczEugdYSDk?rel=0",
+        "alt": "תמונה מקדימה לסרטון: Michael Levin Story on Mt. Herzl",
+        "caption": "YouTube · הנגן נטען רק בלחיצה",
+        "loadLabel": "ניגון הסרט באתר"
+      }
     },
     {
       "id": "ML-055",
@@ -1333,7 +1590,15 @@
       "editorialUse": "עשוי לספק רצף, סינק או שוטים של: טקס יום הזיכרון של המרכז בתקופת הקורונה; נאומים, נרות ועדויות. מאפשר מונטאז׳ זמן ומראה כיצד הזיכרון נשמר ומשתנה.",
       "relevanceType": "story",
       "subcategory": "טקס מלא/שידור",
-      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "preview": {
+        "kind": "youtube",
+        "thumbnailUrl": "https://i.ytimg.com/vi/SE3tKlmTbOg/hqdefault.jpg",
+        "embedUrl": "https://www.youtube-nocookie.com/embed/SE3tKlmTbOg?rel=0",
+        "alt": "תמונה מקדימה לסרטון: Lone Soldier Center's Yom Hazikaron Ceremony 2020",
+        "caption": "YouTube · הנגן נטען רק בלחיצה",
+        "loadLabel": "ניגון הסרט באתר"
+      }
     },
     {
       "id": "ML-056",
@@ -1355,7 +1620,15 @@
       "editorialUse": "עשוי לספק רצף, סינק או שוטים של: “This Year in Review” — פעילות שנתית עם חיילים בודדים. מבסס את טענת הסרט שהמורשת הפכה לפעולה ממשית.",
       "relevanceType": "story",
       "subcategory": "סרט סיכום פעילות",
-      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "preview": {
+        "kind": "youtube",
+        "thumbnailUrl": "https://i.ytimg.com/vi/mwyMzjyI-wY/hqdefault.jpg",
+        "embedUrl": "https://www.youtube-nocookie.com/embed/mwyMzjyI-wY?rel=0",
+        "alt": "תמונה מקדימה לסרטון: This Year in Review | The Michael Levin Base",
+        "caption": "YouTube · הנגן נטען רק בלחיצה",
+        "loadLabel": "ניגון הסרט באתר"
+      }
     },
     {
       "id": "ML-057",
@@ -1377,7 +1650,15 @@
       "editorialUse": "עשוי לספק רצף, סינק או שוטים של: “We Are The Michael Levin Base” — זהות הארגון, חללים/מתנדבים/חיילים. מבסס את טענת הסרט שהמורשת הפכה לפעולה ממשית.",
       "relevanceType": "story",
       "subcategory": "סרט תדמית/עדויות",
-      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "preview": {
+        "kind": "youtube",
+        "thumbnailUrl": "https://i.ytimg.com/vi/S_6jD-Co8p8/hqdefault.jpg",
+        "embedUrl": "https://www.youtube-nocookie.com/embed/S_6jD-Co8p8?rel=0",
+        "alt": "תמונה מקדימה לסרטון: We Are The Michael Levin Base",
+        "caption": "YouTube · הנגן נטען רק בלחיצה",
+        "loadLabel": "ניגון הסרט באתר"
+      }
     },
     {
       "id": "ML-058",
@@ -1399,7 +1680,15 @@
       "editorialUse": "עשוי לספק רצף, סינק או שוטים של: הקדשת ספר תורה לזכר מייקל; טקס קהילתי/דתי. מבסס את טענת הסרט שהמורשת הפכה לפעולה ממשית.",
       "relevanceType": "story",
       "subcategory": "תיעוד טקס",
-      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "preview": {
+        "kind": "youtube",
+        "thumbnailUrl": "https://i.ytimg.com/vi/Z7E_4cu_EQg/hqdefault.jpg",
+        "embedUrl": "https://www.youtube-nocookie.com/embed/Z7E_4cu_EQg?rel=0",
+        "alt": "תמונה מקדימה לסרטון: Michael Levin Lone Soldier   Torah Dedication   02052022",
+        "caption": "YouTube · הנגן נטען רק בלחיצה",
+        "loadLabel": "ניגון הסרט באתר"
+      }
     },
     {
       "id": "ML-059",
@@ -1421,7 +1710,15 @@
       "editorialUse": "עשוי לספק רצף, סינק או שוטים של: Thanksgiving 2022 — קהילה, ארוחה וחיילים בודדים. מבסס את טענת הסרט שהמורשת הפכה לפעולה ממשית.",
       "relevanceType": "story",
       "subcategory": "וידאו פעילות/אירוע",
-      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "preview": {
+        "kind": "youtube",
+        "thumbnailUrl": "https://i.ytimg.com/vi/8jEp7nHaa0s/hqdefault.jpg",
+        "embedUrl": "https://www.youtube-nocookie.com/embed/8jEp7nHaa0s?rel=0",
+        "alt": "תמונה מקדימה לסרטון: Thanksgiving Recap 2022 | The Michael Levin Base",
+        "caption": "YouTube · הנגן נטען רק בלחיצה",
+        "loadLabel": "ניגון הסרט באתר"
+      }
     },
     {
       "id": "ML-060",
@@ -1443,7 +1740,15 @@
       "editorialUse": "עשוי לספק רצף, סינק או שוטים של: The Michael Levin Base 2024 — פעילות עדכנית, חיילים ומתנדבים. מבסס את טענת הסרט שהמורשת הפכה לפעולה ממשית.",
       "relevanceType": "story",
       "subcategory": "סרט סיכום/תדמית",
-      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "preview": {
+        "kind": "youtube",
+        "thumbnailUrl": "https://i.ytimg.com/vi/MLygCijU1LM/hqdefault.jpg",
+        "embedUrl": "https://www.youtube-nocookie.com/embed/MLygCijU1LM?rel=0",
+        "alt": "תמונה מקדימה לסרטון: The Michael Levin Base 2024",
+        "caption": "YouTube · הנגן נטען רק בלחיצה",
+        "loadLabel": "ניגון הסרט באתר"
+      }
     },
     {
       "id": "ML-061",
@@ -1465,7 +1770,15 @@
       "editorialUse": "עשוי לספק רצף, סינק או שוטים של: Yom Hazikaron 2026 — הטקס העכשווי ביותר שאותר. מאפשר מונטאז׳ זמן ומראה כיצד הזיכרון נשמר ומשתנה.",
       "relevanceType": "story",
       "subcategory": "טקס/וידאו",
-      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "preview": {
+        "kind": "youtube",
+        "thumbnailUrl": "https://i.ytimg.com/vi/BB_U2x5xl-E/hqdefault.jpg",
+        "embedUrl": "https://www.youtube-nocookie.com/embed/BB_U2x5xl-E?rel=0",
+        "alt": "תמונה מקדימה לסרטון: Yom Hazikaron 2026 - The Michael Levin Base",
+        "caption": "YouTube · הנגן נטען רק בלחיצה",
+        "loadLabel": "ניגון הסרט באתר"
+      }
     },
     {
       "id": "ML-062",
@@ -1487,7 +1800,15 @@
       "editorialUse": "עשוי לספק רצף, סינק או שוטים של: “TLV Opening” — פתיחת בסיס/מרכז בתל אביב, עדות להתרחבות המורשת. מבסס את טענת הסרט שהמורשת הפכה לפעולה ממשית.",
       "relevanceType": "story",
       "subcategory": "סרט אירוע/ארגון",
-      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "preview": {
+        "kind": "youtube",
+        "thumbnailUrl": "https://i.ytimg.com/vi/sw3lSZ7b-ps/hqdefault.jpg",
+        "embedUrl": "https://www.youtube-nocookie.com/embed/sw3lSZ7b-ps?rel=0",
+        "alt": "תמונה מקדימה לסרטון: TLV Opening",
+        "caption": "YouTube · הנגן נטען רק בלחיצה",
+        "loadLabel": "ניגון הסרט באתר"
+      }
     },
     {
       "id": "ML-063",
@@ -1619,7 +1940,13 @@
       "editorialUse": "יכול להמחיש חזותית: חיילים בודדים מציינים Thanksgiving; B-roll הקשרי לתופעת החיילים הבודדים. מבסס את טענת הסרט שהמורשת הפכה לפעולה ממשית.",
       "relevanceType": "story",
       "subcategory": "צילום סטילס",
-      "verificationNote": "הרישיון והמטא־דאטה אומתו. מייקל אינו מופיע בפריט; זהו חומר הקשר בלבד."
+      "verificationNote": "הרישיון והמטא־דאטה אומתו. מייקל אינו מופיע בפריט; זהו חומר הקשר בלבד.",
+      "preview": {
+        "kind": "open-image",
+        "thumbnailUrl": "assets/previews/ML-068.webp",
+        "alt": "חיילים בודדים מציינים Thanksgiving; B-roll הקשרי לתופעת החיילים הבודדים",
+        "caption": "Wikimedia Commons · תמונה ברישיון פתוח; תנאי הקרדיט בכרטיס"
+      }
     },
     {
       "id": "ML-069",
@@ -1641,7 +1968,13 @@
       "editorialUse": "יכול להמחיש חזותית: פריים נוסף מאירוע Thanksgiving לחיילים בודדים. מבסס את טענת הסרט שהמורשת הפכה לפעולה ממשית.",
       "relevanceType": "story",
       "subcategory": "צילום סטילס",
-      "verificationNote": "הרישיון והמטא־דאטה אומתו. מייקל אינו מופיע בפריט; זהו חומר הקשר בלבד."
+      "verificationNote": "הרישיון והמטא־דאטה אומתו. מייקל אינו מופיע בפריט; זהו חומר הקשר בלבד.",
+      "preview": {
+        "kind": "open-image",
+        "thumbnailUrl": "assets/previews/ML-069.webp",
+        "alt": "פריים נוסף מאירוע Thanksgiving לחיילים בודדים",
+        "caption": "Wikimedia Commons · תמונה ברישיון פתוח; תנאי הקרדיט בכרטיס"
+      }
     },
     {
       "id": "ML-070",
@@ -1685,7 +2018,13 @@
       "editorialUse": "יכול להמחיש חזותית: חיילים בודדים בארוחת Thanksgiving או בצפייה משותפת; חומר הקשר בלבד, מייקל אינו מופיע. מבסס את טענת הסרט שהמורשת הפכה לפעולה ממשית.",
       "relevanceType": "story",
       "subcategory": "תצלום סטילס פתוח",
-      "verificationNote": "הרישיון והמטא־דאטה אומתו. מייקל אינו מופיע בפריט; זהו חומר הקשר בלבד."
+      "verificationNote": "הרישיון והמטא־דאטה אומתו. מייקל אינו מופיע בפריט; זהו חומר הקשר בלבד.",
+      "preview": {
+        "kind": "open-image",
+        "thumbnailUrl": "assets/previews/ML-071.webp",
+        "alt": "חיילים בודדים בארוחת Thanksgiving או בצפייה משותפת; חומר הקשר בלבד, מייקל אינו מופיע.",
+        "caption": "Wikimedia Commons · תמונה ברישיון פתוח; תנאי הקרדיט בכרטיס"
+      }
     },
     {
       "id": "ML-072",
@@ -1707,7 +2046,13 @@
       "editorialUse": "יכול להמחיש חזותית: חיילים בודדים בארוחת Thanksgiving או בצפייה משותפת; חומר הקשר בלבד, מייקל אינו מופיע. מבסס את טענת הסרט שהמורשת הפכה לפעולה ממשית.",
       "relevanceType": "story",
       "subcategory": "תצלום סטילס פתוח",
-      "verificationNote": "הרישיון והמטא־דאטה אומתו. מייקל אינו מופיע בפריט; זהו חומר הקשר בלבד."
+      "verificationNote": "הרישיון והמטא־דאטה אומתו. מייקל אינו מופיע בפריט; זהו חומר הקשר בלבד.",
+      "preview": {
+        "kind": "open-image",
+        "thumbnailUrl": "assets/previews/ML-072.webp",
+        "alt": "חיילים בודדים בארוחת Thanksgiving או בצפייה משותפת; חומר הקשר בלבד, מייקל אינו מופיע.",
+        "caption": "Wikimedia Commons · תמונה ברישיון פתוח; תנאי הקרדיט בכרטיס"
+      }
     }
   ]
 }

@@ -110,9 +110,20 @@
           <p class="item-description"></p>
           <p class="item-editorial-use"><b>למה זה חשוב לסרט</b><span class="item-editorial-use-text"></span></p>
         </div>
+        <figure class="item-preview-summary" hidden>
+          <img class="item-preview-image" loading="lazy" decoding="async">
+          <div class="item-preview-placeholder" hidden><span>וידאו</span><b>ניתן לנגן באתר</b></div>
+          <span class="item-preview-badge" aria-hidden="true">▶</span>
+          <figcaption class="item-preview-caption"></figcaption>
+        </figure>
         <span class="item-open" aria-hidden="true">＋</span>
       </summary>
       <div class="item-detail">
+        <section class="item-viewer" hidden aria-label="תצוגת חומר הארכיון">
+          <div class="item-viewer-stage"></div>
+          <button class="button item-load-player" type="button" hidden></button>
+          <p class="item-viewer-note"></p>
+        </section>
         <div class="item-context-grid">
           <div><span>שימוש עריכתי</span><strong class="relevance-pill"></strong></div>
           <div><span>רמת אימות</span><p class="item-verification"></p></div>
