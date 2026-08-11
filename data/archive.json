@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "מייקל לוין — מדריך חומרי גלם לעורך",
+    "title": "מייקל לוין — מדריך חומרי ארכיון לעורך",
     "subject": "סמ״ר מייקל (מיכאל) לוין ז״ל",
     "catalogDate": "2026-08-11",
     "generatedAt": "2026-08-11",
@@ -16,7 +16,11 @@
         "count": 10,
         "driveUrl": "https://drive.google.com/drive/folders/1feOfgJsXbyKR7GezgSv_ZHZtTNfuM9Sz",
         "description": "חומרי ילדות, משפחה והקשר אישי שמציגים את מייקל כאדם לפני שהפך לסמל.",
-        "editorialUse": "בונה הזדהות ודמות; מתאים לפתיח, פלאשבק ואלבומי משפחה."
+        "editorialUse": "בונה הזדהות ודמות; מתאים לפתיח, פלאשבק ואלבומי משפחה.",
+        "mediaCounts": {
+          "stills": 5,
+          "video": 4
+        }
       },
       {
         "id": "02_עלייה_וישראל",
@@ -24,7 +28,11 @@
         "count": 6,
         "driveUrl": "https://drive.google.com/drive/folders/1rNQ1LY5hGWpOS6dVgxuESvXWv3IehQhr",
         "description": "עלייה, בחירה בישראל והמעבר אל מסלול החיים והגיוס.",
-        "editorialUse": "מחבר בין מניע אישי לפעולה ומבסס את קשת הבחירה."
+        "editorialUse": "מחבר בין מניע אישי לפעולה ומבסס את קשת הבחירה.",
+        "mediaCounts": {
+          "stills": 0,
+          "video": 5
+        }
       },
       {
         "id": "03_שירות_צבאי_וחברים",
@@ -32,7 +40,11 @@
         "count": 4,
         "driveUrl": "https://drive.google.com/drive/folders/1sfpjD04VVghZ6h0qO7F7jsZ-M6ZyovmS",
         "description": "חומרים מהצבא ועדויות של מי ששירתו והכירו אותו.",
-        "editorialUse": "נותן אופי, חברות ועדות ממקור ראשון; גשר מהביוגרפיה אל הסיפור הצבאי."
+        "editorialUse": "נותן אופי, חברות ועדות ממקור ראשון; גשר מהביוגרפיה אל הסיפור הצבאי.",
+        "mediaCounts": {
+          "stills": 0,
+          "video": 3
+        }
       },
       {
         "id": "04_הלוויה_והשבעה",
@@ -40,7 +52,11 @@
         "count": 9,
         "driveUrl": "https://drive.google.com/drive/folders/16kU56BeO390oAC6Ow0bV3P_S5mVlDSBJ",
         "description": "חדשות, סטילס ותיעוד מקצועי של ההלוויה והתגובה הציבורית.",
-        "editorialUse": "שיא רגשי והיסטורי; ממחיש את היקף האבל והמעבר מאדם פרטי לסמל."
+        "editorialUse": "שיא רגשי והיסטורי; ממחיש את היקף האבל והמעבר מאדם פרטי לסמל.",
+        "mediaCounts": {
+          "stills": 8,
+          "video": 1
+        }
       },
       {
         "id": "05_הנצחה_והקבר",
@@ -48,7 +64,11 @@
         "count": 17,
         "driveUrl": "https://drive.google.com/drive/folders/1jnJssE1hHAetP7K6QsBAf-bRowxCIpgi",
         "description": "טקסים, פרויקטים ופעולות הנצחה לאורך השנים.",
-        "editorialUse": "מאפשר מונטאז׳ זמן ומראה כיצד הזיכרון נשמר ומשתנה."
+        "editorialUse": "מאפשר מונטאז׳ זמן ומראה כיצד הזיכרון נשמר ומשתנה.",
+        "mediaCounts": {
+          "stills": 4,
+          "video": 13
+        }
       },
       {
         "id": "06_מורשת_והשפעה",
@@ -56,7 +76,11 @@
         "count": 25,
         "driveUrl": "https://drive.google.com/drive/folders/1czvb1dhmM2VyaOO6_ExvAJUMfkZLFiSq",
         "description": "ארגונים, חיילים בודדים ופעולות שנולדו בהשראתו.",
-        "editorialUse": "מבסס את טענת הסרט שהמורשת הפכה לפעולה ממשית."
+        "editorialUse": "מבסס את טענת הסרט שהמורשת הפכה לפעולה ממשית.",
+        "mediaCounts": {
+          "stills": 7,
+          "video": 14
+        }
       },
       {
         "id": "07_סרטים_וכתבות_לרישוי",
@@ -64,7 +88,11 @@
         "count": 1,
         "driveUrl": "https://drive.google.com/drive/folders/1e0muHd6E1Fyv1K-t7jhQAg7cqCTgV_nb",
         "description": "סרטים ארוכים, כתבות ומאגרים שמרכזים שכבות רבות של הסיפור.",
-        "editorialUse": "נקודת כניסה למחקר עמוק, reference לעריכה ומפת דרכים לרישוי נוסף."
+        "editorialUse": "נקודת כניסה למחקר עמוק, reference לעריכה ומפת דרכים לרישוי נוסף.",
+        "mediaCounts": {
+          "stills": 0,
+          "video": 1
+        }
       }
     ],
     "rightsCounts": {
@@ -81,7 +109,7 @@
       "audio": 1
     },
     "projectTitle": "מייקל לוין",
-    "projectSubtitle": "מדריך חומרי גלם לעורך",
+    "projectSubtitle": "מדריך חומרי ארכיון לעורך",
     "metaDescription": "מדריך עריכתי ל-72 מקורות על מייקל לוין: מה רואים, למה זה חשוב לסרט, זכויות וקישורי מקור ו-Drive.",
     "heroLede": "לא עוד רשימת לינקים: לכל מקור מוסבר מה רואים בו, למה הוא רלוונטי לסרט ומה צריך לאמת לפני קאט.",
     "heroRule": "רואים באתר · מבינים · ורק אז עוברים למקור",
@@ -125,7 +153,12 @@
     "itemCollectionLabel": "איתור ב־Drive ↗",
     "previewCount": 44,
     "inlinePlayableCount": 40,
-    "inlineImageCount": 4
+    "inlineImageCount": 4,
+    "assetMediaCounts": {
+      "stills": 24,
+      "video": 41
+    },
+    "catalogTitle": "כל חומרי הארכיון"
   },
   "items": [
     {
@@ -148,7 +181,8 @@
       "editorialUse": "יכול להמחיש חזותית: עמוד ביוגרפי רשמי; ילדות בפילדלפיה, משפחה, החלטה לעלות ותמונות של מייקל הצעיר. בונה הזדהות ודמות; מתאים לפתיח, פלאשבק ואלבומי משפחה.",
       "relevanceType": "character",
       "subcategory": "עמוד + תמונות",
-      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "assetCount": 1
     },
     {
       "id": "ML-002",
@@ -170,7 +204,8 @@
       "editorialUse": "יכול להמחיש חזותית: כתבת זיכרון מוקדמת עם תצלום שמסומן במקור כ־Family photo וסיפור מן הילדות. בונה הזדהות ודמות; מתאים לפתיח, פלאשבק ואלבומי משפחה.",
       "relevanceType": "character",
       "subcategory": "כתבה + תצלום משפחתי",
-      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "assetCount": 1
     },
     {
       "id": "ML-003",
@@ -192,7 +227,8 @@
       "editorialUse": "יכול להמחיש חזותית: כתבת Jewish Exponent על ילדותו בפילדלפיה וההשפעה שנמשכה 15 שנה לאחר מותו. בונה הזדהות ודמות; מתאים לפתיח, פלאשבק ואלבומי משפחה.",
       "relevanceType": "character",
       "subcategory": "כתבה + תמונות",
-      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "assetCount": 1
     },
     {
       "id": "ML-004",
@@ -214,7 +250,8 @@
       "editorialUse": "מספק הקשר ומפתח למקורות נוספים סביב: קבוצה שנפתחה כדי לאסוף תמונות, סרטונים וחוויות; תיאור החיפוש מציין שיש תמונות רבות שלא נראו. בונה הזדהות ודמות; מתאים לפתיח, פלאשבק ואלבומי משפחה.",
       "relevanceType": "character",
       "subcategory": "קבוצת Facebook",
-      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "assetCount": 0
     },
     {
       "id": "ML-005",
@@ -236,7 +273,8 @@
       "editorialUse": "יכול להמחיש חזותית: עמוד הסיפור באתר The Michael Levin Base; שתי תמונות מרכזיות וקישור לערוץ הקרן. בונה הזדהות ודמות; מתאים לפתיח, פלאשבק ואלבומי משפחה.",
       "relevanceType": "character",
       "subcategory": "עמוד + 2 תמונות",
-      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "assetCount": 1
     },
     {
       "id": "ML-006",
@@ -259,6 +297,7 @@
       "relevanceType": "character",
       "subcategory": "וידאו, 06:24",
       "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "assetCount": 1,
       "preview": {
         "kind": "youtube",
         "thumbnailUrl": "https://i.ytimg.com/vi/y29i9rfwmQI/hqdefault.jpg",
@@ -289,6 +328,7 @@
       "relevanceType": "character",
       "subcategory": "וידאו, 48:52",
       "verificationNote": "מבוסס כותרת/מטא־דאטה ציבורית; נדרשת צפייה מלאה ו-shot list לפני קאט.",
+      "assetCount": 1,
       "preview": {
         "kind": "youtube",
         "thumbnailUrl": "https://i.ytimg.com/vi/aOERe4ncqkM/hqdefault.jpg",
@@ -319,6 +359,7 @@
       "relevanceType": "character",
       "subcategory": "דוקומנטרי, 09:09",
       "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "assetCount": 1,
       "preview": {
         "kind": "youtube",
         "thumbnailUrl": "https://i.ytimg.com/vi/jbEBUBJ4AbY/hqdefault.jpg",
@@ -349,6 +390,7 @@
       "relevanceType": "character",
       "subcategory": "וידאו, 06:30",
       "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "assetCount": 1,
       "preview": {
         "kind": "youtube",
         "thumbnailUrl": "https://i.ytimg.com/vi/dh62xDQ3zjI/hqdefault.jpg",
@@ -378,7 +420,8 @@
       "editorialUse": "עשוי לספק רצף, סינק או שוטים של: חברים מספרים על מייקל, שירותו והבחירה לחזור לישראל בזמן המלחמה. מחבר בין מניע אישי לפעולה ומבסס את קשת הבחירה.",
       "relevanceType": "character",
       "subcategory": "כתבה + וידאו/תמונות",
-      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "assetCount": 1
     },
     {
       "id": "ML-011",
@@ -400,7 +443,8 @@
       "editorialUse": "מספק הקשר ומפתח למקורות נוספים סביב: תמצית הסיפור והקמת המרכז לזכרו. מחבר בין מניע אישי לפעולה ומבסס את קשת הבחירה.",
       "relevanceType": "character",
       "subcategory": "עמוד מורשת",
-      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "assetCount": 0
     },
     {
       "id": "ML-012",
@@ -423,6 +467,7 @@
       "relevanceType": "evidence",
       "subcategory": "עדות חבר, 10:00",
       "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "assetCount": 0,
       "preview": {
         "kind": "youtube",
         "thumbnailUrl": "https://i.ytimg.com/vi/8qGXEUGpOY4/hqdefault.jpg",
@@ -453,6 +498,7 @@
       "relevanceType": "evidence",
       "subcategory": "וידאו",
       "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "assetCount": 1,
       "preview": {
         "kind": "facebook",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fidfonline%2Fvideos%2F766815073341365%2F&show_text=false&width=900",
@@ -482,6 +528,7 @@
       "relevanceType": "evidence",
       "subcategory": "וידאו Facebook",
       "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "assetCount": 1,
       "preview": {
         "kind": "facebook",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fyediotahronot%2Fvideos%2F1391453560882810%2F&show_text=false&width=900",
@@ -511,6 +558,7 @@
       "relevanceType": "evidence",
       "subcategory": "וידאו AP, 02:01",
       "verificationNote": "מבוסס כותרת/מטא־דאטה ציבורית; נדרשת צפייה מלאה ו-shot list לפני קאט.",
+      "assetCount": 1,
       "preview": {
         "kind": "youtube",
         "thumbnailUrl": "https://i.ytimg.com/vi/6W7eHdOjSAU/hqdefault.jpg",
@@ -540,7 +588,8 @@
       "editorialUse": "יכול להמחיש חזותית: חיילים מתאבלים בלוויה בהר הרצל; תצלום David Guttenfelder/AP. שיא רגשי והיסטורי; ממחיש את היקף האבל והמעבר מאדם פרטי לסמל.",
       "relevanceType": "evidence",
       "subcategory": "צילום עיתונות",
-      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "assetCount": 1
     },
     {
       "id": "ML-017",
@@ -562,7 +611,8 @@
       "editorialUse": "יכול להמחיש חזותית: מטס/ירי כבוד בסיום הלוויה; אבלים מכסים את אוזניהם. שיא רגשי והיסטורי; ממחיש את היקף האבל והמעבר מאדם פרטי לסמל.",
       "relevanceType": "evidence",
       "subcategory": "צילום עיתונות",
-      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "assetCount": 1
     },
     {
       "id": "ML-018",
@@ -584,7 +634,8 @@
       "editorialUse": "יכול להמחיש חזותית: פוסט המספר שמכוניות נסעו בירושלים עם מגפון להזמין אנשים ללוויה. שיא רגשי והיסטורי; ממחיש את היקף האבל והמעבר מאדם פרטי לסמל.",
       "relevanceType": "evidence",
       "subcategory": "פוסט + צילום",
-      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "assetCount": 1
     },
     {
       "id": "ML-019",
@@ -607,6 +658,7 @@
       "relevanceType": "story",
       "subcategory": "וידאו, 01:54",
       "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "assetCount": 1,
       "preview": {
         "kind": "youtube",
         "thumbnailUrl": "https://i.ytimg.com/vi/W9Wj_EEdGXE/hqdefault.jpg",
@@ -637,6 +689,7 @@
       "relevanceType": "story",
       "subcategory": "וידאו, 06:07",
       "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "assetCount": 1,
       "preview": {
         "kind": "youtube",
         "thumbnailUrl": "https://i.ytimg.com/vi/6OhLz4dzRoU/hqdefault.jpg",
@@ -667,6 +720,7 @@
       "relevanceType": "story",
       "subcategory": "וידאו, 02:05",
       "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "assetCount": 1,
       "preview": {
         "kind": "youtube",
         "thumbnailUrl": "https://i.ytimg.com/vi/8aNrAEkBG7U/hqdefault.jpg",
@@ -697,6 +751,7 @@
       "relevanceType": "story",
       "subcategory": "וידאו",
       "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "assetCount": 1,
       "preview": {
         "kind": "youtube",
         "thumbnailUrl": "https://i.ytimg.com/vi/rhFcKUmrmsI/hqdefault.jpg",
@@ -727,6 +782,7 @@
       "relevanceType": "story",
       "subcategory": "וידאו",
       "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "assetCount": 1,
       "preview": {
         "kind": "youtube",
         "thumbnailUrl": "https://i.ytimg.com/vi/RcFYBTuLIcA/hqdefault.jpg",
@@ -757,6 +813,7 @@
       "relevanceType": "story",
       "subcategory": "וידאו, 32:00",
       "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "assetCount": 1,
       "preview": {
         "kind": "youtube",
         "thumbnailUrl": "https://i.ytimg.com/vi/sZeveApk6Vc/hqdefault.jpg",
@@ -787,6 +844,7 @@
       "relevanceType": "story",
       "subcategory": "וידאו, 01:48:02",
       "verificationNote": "מבוסס כותרת/מטא־דאטה ציבורית; נדרשת צפייה מלאה ו-shot list לפני קאט.",
+      "assetCount": 1,
       "preview": {
         "kind": "youtube",
         "thumbnailUrl": "https://i.ytimg.com/vi/K8Ehyil0eh0/hqdefault.jpg",
@@ -817,6 +875,7 @@
       "relevanceType": "story",
       "subcategory": "וידאו + עמוד",
       "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "assetCount": 1,
       "preview": {
         "kind": "youtube",
         "thumbnailUrl": "https://i.ytimg.com/vi/IRMwmMDg0mM/hqdefault.jpg",
@@ -847,6 +906,7 @@
       "relevanceType": "story",
       "subcategory": "וידאו",
       "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "assetCount": 1,
       "preview": {
         "kind": "youtube",
         "thumbnailUrl": "https://i.ytimg.com/vi/MYUnHt7_25I/hqdefault.jpg",
@@ -877,6 +937,7 @@
       "relevanceType": "story",
       "subcategory": "וידאו, 01:25",
       "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "assetCount": 1,
       "preview": {
         "kind": "youtube",
         "thumbnailUrl": "https://i.ytimg.com/vi/Uv9Rfgcyuio/hqdefault.jpg",
@@ -907,6 +968,7 @@
       "relevanceType": "story",
       "subcategory": "וידאו, 02:35",
       "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "assetCount": 1,
       "preview": {
         "kind": "youtube",
         "thumbnailUrl": "https://i.ytimg.com/vi/Se1SQKy-Gus/hqdefault.jpg",
@@ -937,6 +999,7 @@
       "relevanceType": "story",
       "subcategory": "וידאו, 06:19",
       "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "assetCount": 1,
       "preview": {
         "kind": "youtube",
         "thumbnailUrl": "https://i.ytimg.com/vi/-iCMpxCbbsc/hqdefault.jpg",
@@ -967,6 +1030,7 @@
       "relevanceType": "story",
       "subcategory": "וידאו, 05:44",
       "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "assetCount": 1,
       "preview": {
         "kind": "youtube",
         "thumbnailUrl": "https://i.ytimg.com/vi/7BdeUeMGTMI/hqdefault.jpg",
@@ -997,6 +1061,7 @@
       "relevanceType": "story",
       "subcategory": "וידאו, 07:31",
       "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "assetCount": 1,
       "preview": {
         "kind": "youtube",
         "thumbnailUrl": "https://i.ytimg.com/vi/9lTEUkucKo0/hqdefault.jpg",
@@ -1026,7 +1091,8 @@
       "editorialUse": "יכול להמחיש חזותית: כתבת Jerusalem Post על הרחבת המורשת והפעילות לחיילים בודדים. מבסס את טענת הסרט שהמורשת הפכה לפעולה ממשית.",
       "relevanceType": "story",
       "subcategory": "כתבה + תמונות",
-      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "assetCount": 1
     },
     {
       "id": "ML-034",
@@ -1048,7 +1114,8 @@
       "editorialUse": "יכול להמחיש חזותית: כתבה על בית הבסיס והפעילות; דמויות וחללים רלוונטיים לצילום חדש. מבסס את טענת הסרט שהמורשת הפכה לפעולה ממשית.",
       "relevanceType": "story",
       "subcategory": "כתבה + תמונות",
-      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "assetCount": 1
     },
     {
       "id": "ML-035",
@@ -1071,6 +1138,7 @@
       "relevanceType": "story",
       "subcategory": "אודיו",
       "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "assetCount": 0,
       "preview": {
         "kind": "archive-audio",
         "thumbnailUrl": "https://archive.org/services/img/t3w9ah9luvvppsbtnaboisk7zc5xqvls1nlmik3i",
@@ -1100,7 +1168,8 @@
       "editorialUse": "מספק הקשר ומפתח למקורות נוספים סביב: האתר הראשי של המרכז בישראל: תוכניות, בתים, קהילה וחיילים. מבסס את טענת הסרט שהמורשת הפכה לפעולה ממשית.",
       "relevanceType": "story",
       "subcategory": "אתר ארגון",
-      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "assetCount": 0
     },
     {
       "id": "ML-037",
@@ -1122,7 +1191,8 @@
       "editorialUse": "מספק הקשר ומפתח למקורות נוספים סביב: עשרות כתבות וסרטים על פעילות הבסיס, חגים, התנדבות והשפעה. מבסס את טענת הסרט שהמורשת הפכה לפעולה ממשית.",
       "relevanceType": "story",
       "subcategory": "מרכז קישורים",
-      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "assetCount": 0
     },
     {
       "id": "ML-038",
@@ -1144,7 +1214,8 @@
       "editorialUse": "מספק הקשר ומפתח למקורות נוספים סביב: אירועים, טקסים וסרטוני פעילות, כולל YouTube. מבסס את טענת הסרט שהמורשת הפכה לפעולה ממשית.",
       "relevanceType": "story",
       "subcategory": "מרכז קישורים",
-      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "assetCount": 0
     },
     {
       "id": "ML-039",
@@ -1166,7 +1237,8 @@
       "editorialUse": "עשוי לספק רצף, סינק או שוטים של: סיפורי השפעה, קרן, תמיכה בחיילים ובמשפחות וערוץ YouTube. מבסס את טענת הסרט שהמורשת הפכה לפעולה ממשית.",
       "relevanceType": "story",
       "subcategory": "עמוד + וידאו",
-      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "assetCount": 1
     },
     {
       "id": "ML-040",
@@ -1188,7 +1260,8 @@
       "editorialUse": "עשוי לספק רצף, סינק או שוטים של: הקרן מציעה טופס רשמי לבקשת הקרנה של הסרט על מייקל. נקודת כניסה למחקר עמוק, reference לעריכה ומפת דרכים לרישוי נוסף.",
       "relevanceType": "context",
       "subcategory": "סרט תיעודי",
-      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "assetCount": 1
     },
     {
       "id": "ML-041",
@@ -1210,7 +1283,8 @@
       "editorialUse": "יכול להמחיש חזותית: תצלום משפחתי צמוד של הרייט לוין ובנה מייקל. שניהם מזוהים במפורש בכיתוב של העמוד. בונה הזדהות ודמות; מתאים לפתיח, פלאשבק ואלבומי משפחה.",
       "relevanceType": "character",
       "subcategory": "תצלום משפחתי",
-      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "assetCount": 1
     },
     {
       "id": "ML-042",
@@ -1233,6 +1307,7 @@
       "relevanceType": "character",
       "subcategory": "מצגת וידאו / סטילס ארכיוניים",
       "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "assetCount": 1,
       "preview": {
         "kind": "youtube",
         "thumbnailUrl": "https://i.ytimg.com/vi/usVj7zibuIg/hqdefault.jpg",
@@ -1263,6 +1338,7 @@
       "relevanceType": "character",
       "subcategory": "וידאו עדות",
       "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "assetCount": 1,
       "preview": {
         "kind": "youtube",
         "thumbnailUrl": "https://i.ytimg.com/vi/uL3e-q0EHuM/hqdefault.jpg",
@@ -1293,6 +1369,7 @@
       "relevanceType": "character",
       "subcategory": "שיחת וידאו / עדות הורים",
       "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "assetCount": 1,
       "preview": {
         "kind": "youtube",
         "thumbnailUrl": "https://i.ytimg.com/vi/zRMowMhwdk8/hqdefault.jpg",
@@ -1323,6 +1400,7 @@
       "relevanceType": "story",
       "subcategory": "סרט מחווה מוסדי",
       "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "assetCount": 1,
       "preview": {
         "kind": "youtube",
         "thumbnailUrl": "https://i.ytimg.com/vi/Oz3ypfrTaBs/hqdefault.jpg",
@@ -1353,6 +1431,7 @@
       "relevanceType": "character",
       "subcategory": "מצגת/סרט זיכרון",
       "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "assetCount": 1,
       "preview": {
         "kind": "youtube",
         "thumbnailUrl": "https://i.ytimg.com/vi/RNNTbiS7TWs/hqdefault.jpg",
@@ -1383,6 +1462,7 @@
       "relevanceType": "evidence",
       "subcategory": "סרט זיכרון מורכב",
       "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "assetCount": 1,
       "preview": {
         "kind": "youtube",
         "thumbnailUrl": "https://i.ytimg.com/vi/KjyO6RWhpe0/hqdefault.jpg",
@@ -1412,7 +1492,8 @@
       "editorialUse": "יכול להמחיש חזותית: חיילי צנחנים נושאים את ארונו עטוף הדגל — שוט מרכזי להלוויה. שיא רגשי והיסטורי; ממחיש את היקף האבל והמעבר מאדם פרטי לסמל.",
       "relevanceType": "evidence",
       "subcategory": "צילום עיתונות",
-      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "assetCount": 1
     },
     {
       "id": "ML-049",
@@ -1434,7 +1515,8 @@
       "editorialUse": "יכול להמחיש חזותית: הארייט לוין בהלוויה; עדות חזותית למשפחה ולאבל. שיא רגשי והיסטורי; ממחיש את היקף האבל והמעבר מאדם פרטי לסמל.",
       "relevanceType": "evidence",
       "subcategory": "צילום עיתונות",
-      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "assetCount": 1
     },
     {
       "id": "ML-050",
@@ -1456,7 +1538,8 @@
       "editorialUse": "יכול להמחיש חזותית: צילום של מארק לוין, אביו של מייקל, במהלך ההלוויה; פריים משפחתי מתוך רגע הפרידה הציבורי. שיא רגשי והיסטורי; ממחיש את היקף האבל והמעבר מאדם פרטי לסמל.",
       "relevanceType": "evidence",
       "subcategory": "צילום עיתונות",
-      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "assetCount": 1
     },
     {
       "id": "ML-051",
@@ -1478,7 +1561,8 @@
       "editorialUse": "יכול להמחיש חזותית: צנחן מתאבל ליד הקבר המכוסה זרים. שיא רגשי והיסטורי; ממחיש את היקף האבל והמעבר מאדם פרטי לסמל.",
       "relevanceType": "evidence",
       "subcategory": "צילום עיתונות",
-      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "assetCount": 1
     },
     {
       "id": "ML-052",
@@ -1501,6 +1585,7 @@
       "relevanceType": "story",
       "subcategory": "וידאו ביתי/טקס",
       "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "assetCount": 1,
       "preview": {
         "kind": "youtube",
         "thumbnailUrl": "https://i.ytimg.com/vi/830HEitIB0w/hqdefault.jpg",
@@ -1531,6 +1616,7 @@
       "relevanceType": "story",
       "subcategory": "וידאו זיכרון",
       "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "assetCount": 1,
       "preview": {
         "kind": "youtube",
         "thumbnailUrl": "https://i.ytimg.com/vi/nDOOK5oahzE/hqdefault.jpg",
@@ -1561,6 +1647,7 @@
       "relevanceType": "story",
       "subcategory": "וידאו ביתי/עדות מקום",
       "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "assetCount": 1,
       "preview": {
         "kind": "youtube",
         "thumbnailUrl": "https://i.ytimg.com/vi/aczEugdYSDk/hqdefault.jpg",
@@ -1591,6 +1678,7 @@
       "relevanceType": "story",
       "subcategory": "טקס מלא/שידור",
       "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "assetCount": 1,
       "preview": {
         "kind": "youtube",
         "thumbnailUrl": "https://i.ytimg.com/vi/SE3tKlmTbOg/hqdefault.jpg",
@@ -1621,6 +1709,7 @@
       "relevanceType": "story",
       "subcategory": "סרט סיכום פעילות",
       "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "assetCount": 1,
       "preview": {
         "kind": "youtube",
         "thumbnailUrl": "https://i.ytimg.com/vi/mwyMzjyI-wY/hqdefault.jpg",
@@ -1651,6 +1740,7 @@
       "relevanceType": "story",
       "subcategory": "סרט תדמית/עדויות",
       "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "assetCount": 1,
       "preview": {
         "kind": "youtube",
         "thumbnailUrl": "https://i.ytimg.com/vi/S_6jD-Co8p8/hqdefault.jpg",
@@ -1681,6 +1771,7 @@
       "relevanceType": "story",
       "subcategory": "תיעוד טקס",
       "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "assetCount": 1,
       "preview": {
         "kind": "youtube",
         "thumbnailUrl": "https://i.ytimg.com/vi/Z7E_4cu_EQg/hqdefault.jpg",
@@ -1711,6 +1802,7 @@
       "relevanceType": "story",
       "subcategory": "וידאו פעילות/אירוע",
       "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "assetCount": 1,
       "preview": {
         "kind": "youtube",
         "thumbnailUrl": "https://i.ytimg.com/vi/8jEp7nHaa0s/hqdefault.jpg",
@@ -1741,6 +1833,7 @@
       "relevanceType": "story",
       "subcategory": "סרט סיכום/תדמית",
       "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "assetCount": 1,
       "preview": {
         "kind": "youtube",
         "thumbnailUrl": "https://i.ytimg.com/vi/MLygCijU1LM/hqdefault.jpg",
@@ -1771,6 +1864,7 @@
       "relevanceType": "story",
       "subcategory": "טקס/וידאו",
       "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "assetCount": 1,
       "preview": {
         "kind": "youtube",
         "thumbnailUrl": "https://i.ytimg.com/vi/BB_U2x5xl-E/hqdefault.jpg",
@@ -1801,6 +1895,7 @@
       "relevanceType": "story",
       "subcategory": "סרט אירוע/ארגון",
       "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "assetCount": 1,
       "preview": {
         "kind": "youtube",
         "thumbnailUrl": "https://i.ytimg.com/vi/sw3lSZ7b-ps/hqdefault.jpg",
@@ -1830,7 +1925,8 @@
       "editorialUse": "יכול להמחיש חזותית: צילום של קבר מייקל בהר הרצל; מתאים לרגעי זיכרון, מעבר זמן והמחשת מקום ההנצחה. מאפשר מונטאז׳ זמן ומראה כיצד הזיכרון נשמר ומשתנה.",
       "relevanceType": "story",
       "subcategory": "צילום סטילס",
-      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "assetCount": 1
     },
     {
       "id": "ML-064",
@@ -1852,7 +1948,8 @@
       "editorialUse": "יכול להמחיש חזותית: קברו של החייל מפילדלפיה שנפל במלחמת לבנון השנייה. מאפשר מונטאז׳ זמן ומראה כיצד הזיכרון נשמר ומשתנה.",
       "relevanceType": "story",
       "subcategory": "צילום סטילס",
-      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "assetCount": 1
     },
     {
       "id": "ML-065",
@@ -1874,7 +1971,8 @@
       "editorialUse": "יכול להמחיש חזותית: אנדרטה/קבר ומסגור נרטיבי של עלייתו ושובו למלחמה. מאפשר מונטאז׳ זמן ומראה כיצד הזיכרון נשמר ומשתנה.",
       "relevanceType": "story",
       "subcategory": "צילום סטילס",
-      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "assetCount": 1
     },
     {
       "id": "ML-066",
@@ -1896,7 +1994,8 @@
       "editorialUse": "יכול להמחיש חזותית: אתר הקבר בהר הרצל; פריים שימושי לגישור זמן. מאפשר מונטאז׳ זמן ומראה כיצד הזיכרון נשמר ומשתנה.",
       "relevanceType": "story",
       "subcategory": "צילום סטילס",
-      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "assetCount": 1
     },
     {
       "id": "ML-067",
@@ -1918,7 +2017,8 @@
       "editorialUse": "יכול להמחיש חזותית: תרמיל כדור מן ההלוויה, חפץ זיכרון טעון. שיא רגשי והיסטורי; ממחיש את היקף האבל והמעבר מאדם פרטי לסמל.",
       "relevanceType": "evidence",
       "subcategory": "צילום סטילס/אובייקט",
-      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "assetCount": 1
     },
     {
       "id": "ML-068",
@@ -1941,6 +2041,7 @@
       "relevanceType": "story",
       "subcategory": "צילום סטילס",
       "verificationNote": "הרישיון והמטא־דאטה אומתו. מייקל אינו מופיע בפריט; זהו חומר הקשר בלבד.",
+      "assetCount": 1,
       "preview": {
         "kind": "open-image",
         "thumbnailUrl": "assets/previews/ML-068.webp",
@@ -1969,6 +2070,7 @@
       "relevanceType": "story",
       "subcategory": "צילום סטילס",
       "verificationNote": "הרישיון והמטא־דאטה אומתו. מייקל אינו מופיע בפריט; זהו חומר הקשר בלבד.",
+      "assetCount": 1,
       "preview": {
         "kind": "open-image",
         "thumbnailUrl": "assets/previews/ML-069.webp",
@@ -1996,7 +2098,8 @@
       "editorialUse": "יכול להמחיש חזותית: אתר הארגון, תמונות תדמית, סיפורי הצלחה וקישורים לרשתות. מבסס את טענת הסרט שהמורשת הפכה לפעולה ממשית.",
       "relevanceType": "story",
       "subcategory": "אתר/גלריה ארגונית",
-      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט."
+      "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
+      "assetCount": 1
     },
     {
       "id": "ML-071",
@@ -2019,6 +2122,7 @@
       "relevanceType": "story",
       "subcategory": "תצלום סטילס פתוח",
       "verificationNote": "הרישיון והמטא־דאטה אומתו. מייקל אינו מופיע בפריט; זהו חומר הקשר בלבד.",
+      "assetCount": 1,
       "preview": {
         "kind": "open-image",
         "thumbnailUrl": "assets/previews/ML-071.webp",
@@ -2047,6 +2151,7 @@
       "relevanceType": "story",
       "subcategory": "תצלום סטילס פתוח",
       "verificationNote": "הרישיון והמטא־דאטה אומתו. מייקל אינו מופיע בפריט; זהו חומר הקשר בלבד.",
+      "assetCount": 1,
       "preview": {
         "kind": "open-image",
         "thumbnailUrl": "assets/previews/ML-072.webp",

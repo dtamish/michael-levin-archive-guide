@@ -65,3 +65,15 @@ test('local preview allowlist supports the GitHub Pages repository prefix',()=>{
  assert.doesNotMatch('/michael-levin-archive-guide/assets/previews/not-archive.jpg',/\/assets\/previews\/ML-\d{3}\.webp$/);
  assert.match(js,/LOCAL_PREVIEW_PATH\.test\(u\.pathname\)/);
 });
+
+test('every story section exposes honest image and video counts',()=>{
+ for(const section of data.meta.sections){
+  assert.ok(section.mediaCounts,section.id);
+  assert.ok(Number.isInteger(section.mediaCounts.stills),section.id);
+  assert.ok(Number.isInteger(section.mediaCounts.video),section.id);
+  const items=data.items.filter(x=>x.section===section.id);
+  assert.equal(section.mediaCounts.stills,items.filter(x=>x.mediaGroup==='stills').reduce((n,x)=>n+(x.assetCount??1),0),section.id);
+  assert.equal(section.mediaCounts.video,items.filter(x=>x.mediaGroup==='video').reduce((n,x)=>n+(x.assetCount??1),0),section.id);
+ }
+ assert.match(js,/sectionMediaSummary/);
+});

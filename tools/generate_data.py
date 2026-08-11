@@ -74,7 +74,7 @@ def main():
   missing=[i["id"] for i in items if not i["driveUrl"]]; raise SystemExit(f"missing Drive handles: {missing}")
  payload={
   "meta":{
-   "title":"מייקל לוין — מדריך חומרי גלם",
+   "title":"מייקל לוין — מדריך חומרי ארכיון",
    "subject":"סמ״ר מייקל (מיכאל) לוין ז״ל",
    "catalogDate":"2026-08-11",
    "generatedAt":date.today().isoformat(),

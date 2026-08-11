@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "enrich": "python tools/enrich_editor_guide.py && python tools/enrich_previews.py",
+    "enrich": "python tools/enrich_editor_guide.py && python tools/enrich_previews.py && python tools/enrich_topic_counts.py",
     "test": "node --check app.js && node --test tests/*.test.mjs",
     "check": "npm run enrich && npm test"
   }

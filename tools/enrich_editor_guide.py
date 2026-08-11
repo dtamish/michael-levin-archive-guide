@@ -6,8 +6,8 @@ p=Path(__file__).resolve().parents[1]/'data'/'archive.json'
 d=json.loads(p.read_text(encoding='utf-8'))
 meta=d['meta']
 meta.update({
-  'title':'מייקל לוין — מדריך חומרי גלם לעורך',
-  'projectTitle':'מייקל לוין','projectSubtitle':'מדריך חומרי גלם לעורך',
+  'title':'מייקל לוין — מדריך חומרי ארכיון לעורך',
+  'projectTitle':'מייקל לוין','projectSubtitle':'מדריך חומרי ארכיון לעורך','catalogTitle':'כל חומרי הארכיון',
   'metaDescription':'מדריך עריכתי ל-72 מקורות על מייקל לוין: מה רואים, למה זה חשוב לסרט, זכויות וקישורי מקור ו-Drive.',
   'heroLede':'לא עוד רשימת לינקים: לכל מקור מוסבר מה רואים בו, למה הוא רלוונטי לסרט ומה צריך לאמת לפני קאט.',
   'heroRule':'מה רואים · למה זה חשוב · ורק אז פותחים',
