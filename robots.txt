@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /
+
+# This is an unindexed editorial reference site. Access is by direct link.

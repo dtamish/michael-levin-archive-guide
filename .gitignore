@@ -1,0 +1,9 @@
+# Local and generated noise
+.DS_Store
+Thumbs.db
+*.log
+.env
+.env.*
+node_modules/
+__pycache__/
+*.pyc
