@@ -45,8 +45,9 @@ function rightsLabel(item){return archive.meta.rightsLabels?.[item.rightsGroup]|
 function fillOptional(el,selector,value){const target=q(selector,el);const wrap=target?.closest('[data-optional]');if(value){target.textContent=value;if(wrap)wrap.hidden=false}else if(wrap)wrap.hidden=true}
 const EMBED_HOSTS=new Set(['www.youtube-nocookie.com','www.facebook.com','archive.org']);
 const MEDIA_HOSTS=new Set(['i.ytimg.com','commons.wikimedia.org','upload.wikimedia.org','archive.org']);
+const LOCAL_PREVIEW_PATH=/\/assets\/previews\/ML-\d{3}\.webp$/;
 function trustedRemoteUrl(value,hosts){try{const u=new URL(value);return u.protocol==='https:'&&hosts.has(u.hostname)?u.href:''}catch{return ''}}
-function trustedMediaUrl(value){try{const u=new URL(value,location.href);if(u.origin===location.origin&&/^\/assets\/previews\/ML-\d{3}\.webp$/.test(u.pathname))return u.href;return u.protocol==='https:'&&MEDIA_HOSTS.has(u.hostname)?u.href:''}catch{return ''}}
+function trustedMediaUrl(value){try{const u=new URL(value,location.href);if(u.origin===location.origin&&LOCAL_PREVIEW_PATH.test(u.pathname))return u.href;return u.protocol==='https:'&&MEDIA_HOSTS.has(u.hostname)?u.href:''}catch{return ''}}
 function mountPreview(item,el){
   const p=item.preview;if(!p)return;el.classList.add('has-preview');
   const figure=q('.item-preview-summary',el),thumb=q('.item-preview-image',el),placeholder=q('.item-preview-placeholder',el),badge=q('.item-preview-badge',el),caption=q('.item-preview-caption',el);

@@ -58,3 +58,10 @@ test('preview UI is lazy, accessible and keeps source fallback',()=>{
  assert.match(js,/location\.origin/);
  assert.match(js,/צפייה כאן אינה אישור/);
 });
+
+test('local preview allowlist supports the GitHub Pages repository prefix',()=>{
+ const livePath=new URL('assets/previews/ML-068.webp','https://dtamish.github.io/michael-levin-archive-guide/').pathname;
+ assert.match(livePath,/\/assets\/previews\/ML-\d{3}\.webp$/);
+ assert.doesNotMatch('/michael-levin-archive-guide/assets/previews/not-archive.jpg',/\/assets\/previews\/ML-\d{3}\.webp$/);
+ assert.match(js,/LOCAL_PREVIEW_PATH\.test\(u\.pathname\)/);
+});
