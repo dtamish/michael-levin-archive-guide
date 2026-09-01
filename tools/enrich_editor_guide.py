@@ -14,15 +14,10 @@ meta.update({
   'heroRuleNote':'התיאור חוסך צפייה עיוורת; הוא אינו מחליף אימות shot-by-shot ורישוי.',
   'metricTotalLabel':'מקורות מתוארים','metricSectionLabel':'תחנות בסיפור','metricOpenLabel':'פריטים ברישיון פתוח',
   'metricRouteValue':'2','metricRouteLabel':'נתיבים לכל פריט: מקור + Drive','journeyTitle':'ניווט לפי תקופה',
-  'collectionLabel':'פתיחת Drive ↗','itemCollectionLabel':'איתור ב־Drive ↗',
-  'startTitle':'חמש דלתות הכניסה החזקות','startIntro':'אם יש לעורך שעה אחת בלבד, מתחילים מכאן.',
-  'startLeads':[
-    {'title':'משפחה והקרן','description':'ילדות, home movies, חומרים אישיים ו-A Hero in Heaven.','section':'01'},
-    {'title':'הבחירה בישראל','description':'עלייה, לימודים, צבא והמעבר מחו״ל לחיים ישראליים.','section':'02'},
-    {'title':'חברי גדוד 890','description':'עדויות, תמונות פרטיות והאישיות שמאחורי הסמל.','section':'03'},
-    {'title':'הלוויה בהר הרצל','description':'התיעוד המקצועי המרכזי של רגע השבר וההפיכה לסמל ציבורי.','section':'04'},
-    {'title':'מורשת והשפעה','description':'17+ שנות הנצחה, חיילים בודדים ופעולה שנולדה מתוך הזיכרון.','section':'06'}]
+  'collectionLabel':'פתיחת Drive ↗','itemCollectionLabel':'איתור ב־Drive ↗'
 })
+for obsolete in ('startTitle','startIntro','startLeads'):
+    meta.pop(obsolete,None)
 sections={
 '01':('החיים לפני ישראל','חומרי ילדות, משפחה והקשר אישי שמציגים את מייקל כאדם לפני שהפך לסמל.','בונה הזדהות ודמות; מתאים לפתיח, פלאשבק ואלבומי משפחה.'),
 '02':('הדרך לישראל','עלייה, בחירה בישראל והמעבר אל מסלול החיים והגיוס.','מחבר בין מניע אישי לפעולה ומבסס את קשת הבחירה.'),

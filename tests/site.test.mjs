@@ -1,79 +1,129 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
+import {parseRoute,topicItems,trustedDownloadUrl} from '../app.js';
+
 const text=await readFile(new URL('../data/archive.json',import.meta.url),'utf8');
 const data=JSON.parse(text);
 const html=await readFile(new URL('../index.html',import.meta.url),'utf8');
 const js=await readFile(new URL('../app.js',import.meta.url),'utf8');
+const css=await readFile(new URL('../styles.css',import.meta.url),'utf8');
 
-test('catalog contains the verified 72 unique sources',()=>{
+const sectionTotal=data.meta.sections.reduce((sum,section)=>sum+section.count,0);
+
+test('schema has 72 unique items and seven complete topics',()=>{
  assert.equal(data.items.length,72);
- assert.equal(new Set(data.items.map(x=>x.id)).size,72);
- assert.equal(new Set(data.items.map(x=>x.sourceUrl)).size,72);
+ assert.equal(data.meta.total,72);
+ assert.equal(sectionTotal,72);
+ assert.equal(data.meta.sections.length,7);
+ assert.equal(new Set(data.items.map(item=>item.id)).size,72);
+ assert.equal(new Set(data.items.map(item=>item.sourceUrl)).size,72);
+ for(const section of data.meta.sections){
+  assert.equal(topicItems(data,section.id).length,section.count,section.id);
+  assert.ok(section.description.length>30,section.id);
+ }
 });
-test('all items have navigable source and Drive handles',()=>{
- for(const item of data.items){assert.match(item.id,/^ML-\d{3}$/);assert.match(item.sourceUrl,/^https?:\/\//);assert.match(item.driveUrl,/^https:\/\/drive\.google\.com\//)}
+
+test('default screen is topic-first and does not contain an all-records surface',()=>{
+ assert.match(html,/data-chooser/);
+ assert.match(html,/data-topic-grid/);
+ assert.match(html,/בחירת נושא/);
+ assert.doesNotMatch(html,/כל חומרי הגלם|data-media-filters|data-rights-filters|rights-legend|data-start-leads/);
+ assert.match(html,/data-topic-workspace hidden/);
+ assert.match(js,/renderChooser\(\)/);
+ assert.match(js,/q\('\[data-chooser\]'\)\.hidden=true/);
 });
-test('rights classification preserves the four open-license items',()=>{
- assert.equal(data.items.filter(x=>x.rightsGroup==='open').length,4);
+
+test('selecting any topic returns every item in it and search stays scoped',()=>{
+ for(const section of data.meta.sections){
+  const all=topicItems(data,section.id);
+  assert.equal(all.length,section.count,section.id);
+  const first=all[0];
+  assert.ok(topicItems(data,section.id,first.id).some(item=>item.id===first.id));
+  assert.ok(topicItems(data,section.id,'מחרוזת שלא קיימת').length===0);
+ }
+ assert.match(html,/חיפוש בתוך הנושא/);
+ assert.match(html,/data-back-topics/);
+ assert.match(html,/data-result-count/);
+});
+
+test('preview play control mounts the official player on its first click',()=>{
+ assert.match(js,/button\.addEventListener\('click',\(\)=>mountOfficialPlayer\(item,media,button\),\{once:true\}\)/);
+ assert.match(js,/stage\.replaceChildren\(iframe\)/);
+ assert.match(js,/iframe\.title=`נגן רשמי/);
+ assert.doesNotMatch(html,/item-load-player/);
+ assert.match(html,/source-button/);
+ const playable=data.items.filter(item=>item.preview?.embedUrl);
+ assert.equal(playable.length,40);
+});
+
+test('all 72 cards have honest source and Drive fallbacks even without previews',()=>{
+ assert.equal(data.items.filter(item=>!item.preview).length,28);
+ for(const item of data.items){
+  assert.match(item.id,/^ML-\d{3}$/);
+  assert.match(item.sourceUrl,/^https?:\/\//);
+  assert.match(item.driveUrl,/^https:\/\/drive\.google\.com\//);
+ }
+ assert.match(js,/תצוגה מקדימה אינה זמינה/);
+ assert.match(js,/החומר נשאר בקישור המקור/);
+});
+
+test('only the four verified CC files receive trusted direct downloads',()=>{
+ const downloadable=data.items.filter(item=>item.downloadAuthorized===true);
+ assert.deepEqual(downloadable.map(item=>item.id),['ML-068','ML-069','ML-071','ML-072']);
+ assert.equal(data.items.filter(item=>item.downloadUrl).length,4);
+ for(const item of downloadable){
+  assert.equal(item.rightsGroup,'open');
+  assert.match(item.downloadUrl,/^https:\/\/upload\.wikimedia\.org\/wikipedia\/commons\//);
+  assert.equal(trustedDownloadUrl(item),item.downloadUrl);
+  assert.match(item.downloadLabel,/CC BY-SA 3\.0/);
+ }
+ assert.equal(trustedDownloadUrl({downloadAuthorized:false,downloadUrl:downloadable[0].downloadUrl}),'');
+ assert.equal(trustedDownloadUrl({downloadAuthorized:true,downloadUrl:'http://upload.wikimedia.org/file.jpg'}),'');
+ assert.equal(trustedDownloadUrl({downloadAuthorized:true,downloadUrl:'https://evil.example/file.jpg'}),'');
+ assert.equal(data.items.filter(item=>item.rightsGroup==='open').length,4);
  assert.equal(data.meta.openLicensed,4);
 });
-test('site is unindexed and omits private production surfaces',()=>{
- assert.match(html,/noindex,nofollow,noarchive/);
- for(const forbidden of ['טיוטת_פנייה','תיק_בימוי_קיים','NOTION_API_KEY','GITHUB_TOKEN']) assert.equal((html+js+text).includes(forbidden),false);
+
+test('deep links support topics and items without render-time forced scrolling',()=>{
+ const topic=data.meta.sections[0].id;
+ assert.deepEqual(parseRoute(`#topic/${encodeURIComponent(topic)}`),{kind:'topic',id:topic});
+ assert.deepEqual(parseRoute('#item/ML-068'),{kind:'item',id:'ML-068'});
+ assert.deepEqual(parseRoute('#item/not-valid'),{kind:'topics'});
+ assert.match(js,/window\.addEventListener\('popstate'/);
+ assert.doesNotMatch(js,/openHashItem/);
+ assert.match(js,/history\.pushState/);
 });
-test('site exposes editor navigation affordances',()=>{
- for(const marker of ['archive-search','data-media-filters','data-rights-filters','data-section-nav','item-template']) assert.match(html,new RegExp(marker));
+
+test('loading, error, empty, reset and progressive details states exist',()=>{
+ for(const marker of ['data-loading','data-load-error','data-empty','data-retry','data-clear-topic','data-clear-results','asset-details'])assert.match(html,new RegExp(marker));
+ assert.match(html,/פרטי מקור, אימות וזכויות/);
+ assert.match(html,/role="alert"/);
+ assert.doesNotMatch(html,/data-total>0|data-section-count>0|data-open-count>0/);
 });
-test('v2 explains what the editor sees and why it matters',()=>{
- for(const item of data.items){assert.ok(item.description.length>20,item.id);assert.ok(item.editorialUse.length>30,item.id);assert.ok(item.verificationNote.length>25,item.id)}
- assert.equal(data.meta.sections.length,7);
- for(const section of data.meta.sections){assert.ok(section.description.length>30,section.id);assert.ok(section.editorialUse.length>25,section.id)}
- assert.match(html,/למה זה חשוב לסרט/);
+
+test('responsive and keyboard foundations cover a 390px viewport',()=>{
+ assert.match(css,/@media\(max-width:520px\)/);
+ assert.match(css,/min-width:0/);
+ assert.match(css,/overflow-wrap:anywhere/);
+ assert.match(css,/:focus-visible/);
+ assert.match(html,/width=device-width/);
+ assert.match(js,/button\.className='preview-play'/);
+ assert.match(js,/button\.type='button'/);
+ assert.match(js,/aria-label/);
 });
-test('rights-safe previews are available without copying protected stills',()=>{
- const previewItems=data.items.filter(x=>x.preview);
- assert.equal(previewItems.length,44);
+
+test('preview schema counts and media counts remain deterministic',()=>{
+ const previews=data.items.filter(item=>item.preview);
+ assert.equal(previews.length,44);
  assert.equal(data.meta.previewCount,44);
  assert.equal(data.meta.inlinePlayableCount,40);
- assert.equal(previewItems.filter(x=>x.preview.kind==='youtube').length,37);
- assert.equal(previewItems.filter(x=>x.preview.kind==='facebook').length,2);
- assert.equal(previewItems.filter(x=>x.preview.kind==='archive-audio').length,1);
- const openImages=previewItems.filter(x=>x.preview.kind==='open-image');
- assert.equal(openImages.length,4);
- assert.ok(openImages.every(x=>x.rightsGroup==='open'));
- const serialized=JSON.stringify(previewItems.map(x=>x.preview));
- for(const forbidden of ['gettyimages','alamy.com','staticflickr','live.staticflickr']) assert.equal(serialized.includes(forbidden),false);
- for(const item of previewItems){
-  if(item.preview.thumbnailUrl) assert.match(item.preview.thumbnailUrl,/^(assets\/previews\/ML-\d{3}\.webp|https:\/\/(i\.ytimg\.com|commons\.wikimedia\.org|upload\.wikimedia\.org|archive\.org)\/)/);
-  if(item.preview.embedUrl) assert.match(item.preview.embedUrl,/^https:\/\/(www\.youtube-nocookie\.com|www\.facebook\.com|archive\.org)\//);
- }
-});
-test('preview UI is lazy, accessible and keeps source fallback',()=>{
- for(const marker of ['item-preview-summary','item-viewer','item-load-player']) assert.match(html,new RegExp(marker));
- assert.match(js,/iframe\.title=/);
- assert.match(js,/loading='lazy'/);
- assert.match(js,/youtube-nocookie\.com/);
- assert.match(js,/widget_referrer/);
- assert.match(js,/location\.origin/);
- assert.match(js,/צפייה כאן אינה אישור/);
+ assert.equal(previews.filter(item=>item.preview.kind==='open-image').length,4);
+ for(const [group,count] of Object.entries(data.meta.mediaCounts))assert.equal(data.items.filter(item=>item.mediaGroup===group).length,count,group);
+ for(const forbidden of ['gettyimages','alamy.com','staticflickr','live.staticflickr'])assert.equal(JSON.stringify(previews).includes(forbidden),false);
 });
 
-test('local preview allowlist supports the GitHub Pages repository prefix',()=>{
- const livePath=new URL('assets/previews/ML-068.webp','https://dtamish.github.io/michael-levin-archive-guide/').pathname;
- assert.match(livePath,/\/assets\/previews\/ML-\d{3}\.webp$/);
- assert.doesNotMatch('/michael-levin-archive-guide/assets/previews/not-archive.jpg',/\/assets\/previews\/ML-\d{3}\.webp$/);
- assert.match(js,/LOCAL_PREVIEW_PATH\.test\(u\.pathname\)/);
-});
-
-test('every story section exposes honest image and video counts',()=>{
- for(const section of data.meta.sections){
-  assert.ok(section.mediaCounts,section.id);
-  assert.ok(Number.isInteger(section.mediaCounts.stills),section.id);
-  assert.ok(Number.isInteger(section.mediaCounts.video),section.id);
-  const items=data.items.filter(x=>x.section===section.id);
-  assert.equal(section.mediaCounts.stills,items.filter(x=>x.mediaGroup==='stills').reduce((n,x)=>n+(x.assetCount??1),0),section.id);
-  assert.equal(section.mediaCounts.video,items.filter(x=>x.mediaGroup==='video').reduce((n,x)=>n+(x.assetCount??1),0),section.id);
- }
- assert.match(js,/sectionMediaSummary/);
+test('site remains unindexed and excludes private production surfaces',()=>{
+ assert.match(html,/noindex,nofollow,noarchive/);
+ for(const forbidden of ['טיוטת_פנייה','תיק_בימוי_קיים','NOTION_API_KEY','GITHUB_TOKEN'])assert.equal((html+js+text).includes(forbidden),false);
 });

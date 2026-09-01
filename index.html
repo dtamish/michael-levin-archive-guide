@@ -4,146 +4,94 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="robots" content="noindex,nofollow,noarchive" />
-  <meta name="theme-color" content="#11353a" />
+  <meta name="theme-color" content="#123b3f" />
   <meta name="description" content="מדריך חומרי ארכיון לעורך." />
   <title>מדריך חומרי ארכיון</title>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <a class="skip-link" href="#catalog">דלגו לקטלוג</a>
+  <a class="skip-link" href="#workspace">דלגו לבחירת נושא</a>
   <header class="topbar">
-    <a class="brand" href="#top" aria-label="חזרה לראש העמוד">
+    <a class="brand" href="#" data-home-link aria-label="חזרה לבחירת נושא">
       <span class="brand-mark">SINAI · ARCHIVE DESK</span>
-      <span class="brand-name">מדריך חומרי ארכיון</span>
+      <span class="brand-name" data-project-title>מייקל לוין</span>
     </a>
-    <nav class="top-actions" aria-label="פעולות ראשיות">
-      <a data-guide-pdf class="quiet-link" target="_blank" rel="noopener noreferrer">PDF</a>
+    <nav class="top-actions" aria-label="קישורים למאגר">
+      <a data-guide-pdf class="quiet-link" target="_blank" rel="noopener noreferrer">המדריך המלא ↗</a>
       <a data-drive-root class="button button-small" target="_blank" rel="noopener noreferrer">פתיחת Drive ↗</a>
     </nav>
   </header>
 
-  <main id="top">
-    <section class="hero shell" aria-labelledby="page-title">
-      <div class="hero-copy">
-        <p class="eyebrow" data-eyebrow>תיק ארכיון הפקה · 11.8.2026</p>
-        <h1 id="page-title"><span data-project-title>מדריך חומרי ארכיון</span><br /><em data-project-subtitle>מדריך לעורך</em></h1>
-        <p class="hero-lede" data-hero-lede>שכבת התמצאות מעל תיק ה־Drive: מה יש, מה רואים, למה זה חשוב לסרט ומה עדיין דורש רישוי.</p>
-        <div class="hero-actions">
-          <a class="button" href="#catalog" data-entry-count>כניסה לקטלוג</a>
-          <a data-guide-pdf class="button button-ghost" target="_blank" rel="noopener noreferrer">פתיחת המדריך המלא ↗</a>
-        </div>
-      </div>
-      <aside class="hero-note" aria-label="כלל שימוש מרכזי">
-        <span class="note-number">01</span>
-        <p data-hero-rule>רואים <strong>·</strong> מבינים <strong>·</strong> ורק אז פותחים</p>
-        <small data-hero-rule-note>התיאור חוסך צפייה עיוורת; הוא אינו מחליף אימות לפני קאט.</small>
-      </aside>
+  <main id="workspace" tabindex="-1">
+    <section class="intro shell" aria-labelledby="page-title">
+      <p class="eyebrow">מדריך חומרי ארכיון לעורך</p>
+      <h1 id="page-title">מה מחפשים<br><em>בסיפור של מייקל?</em></h1>
+      <p class="intro-copy">בחרו נושא כדי לראות את כל חומרי הארכיון ששייכים אליו. אפשר גם לחפש שם, תקופה או תיאור.</p>
     </section>
 
-    <section class="metrics shell" aria-label="סיכום התיק">
-      <article><strong data-total>0</strong><span data-metric-total-label>מקורות ייחודיים</span></article>
-      <article><strong data-section-count>0</strong><span data-metric-section-label>קטגוריות בסיפור</span></article>
-      <article><strong data-open-count>0</strong><span data-metric-open-label>פריטים ברישיון פתוח</span></article>
-      <article><strong data-metric-route-value>—</strong><span data-metric-route-label>נתיבי עבודה</span></article>
-    </section>
-
-    <section class="start shell" aria-labelledby="start-title">
+    <section class="chooser shell" data-chooser aria-labelledby="topics-title">
       <div class="section-heading">
-        <div><p class="eyebrow">לפני שצוללים</p><h2 id="start-title" data-start-title>חמש דלתות הכניסה החזקות</h2></div>
-        <p data-start-intro>אם יש לעורך שעה אחת בלבד, מתחילים מכאן.</p>
+        <div><p class="eyebrow">נקודת התחלה</p><h2 id="topics-title">בחירת נושא</h2></div>
+        <p data-chooser-summary aria-live="polite">טוען נושאים…</p>
       </div>
-      <ol class="lead-grid" data-start-leads></ol>
+      <div class="search-control">
+        <label for="topic-search">חיפוש בכל הארכיון</label>
+        <div class="search-field"><span aria-hidden="true">⌕</span><input id="topic-search" type="search" autocomplete="off" placeholder="למשל: משפחה, הלוויה, חיילים בודדים…" /><button type="button" class="clear-search" data-clear-topic hidden>ניקוי</button></div>
+      </div>
+      <div class="topic-grid" data-topic-grid aria-live="polite"></div>
+      <section class="search-discovery" data-search-discovery hidden aria-labelledby="discovery-title">
+        <div class="discovery-heading"><h3 id="discovery-title">פריטים מתאימים</h3><span data-discovery-count></span></div>
+        <div class="discovery-list" data-discovery-list></div>
+      </section>
+      <div class="state-panel" data-loading role="status"><strong>טוען את מדריך הארכיון…</strong><span>עוד רגע יוצגו הנושאים.</span></div>
+      <div class="state-panel" data-load-error hidden role="alert"><strong>המדריך לא נטען</strong><span>אפשר לנסות לרענן או לפתוח את תיק ה־Drive מהכפתור העליון.</span><button class="button" type="button" data-retry>ניסיון נוסף</button></div>
     </section>
 
-    <section class="journey shell" aria-labelledby="journey-title">
-      <div class="section-heading compact"><div><p class="eyebrow">מפת הסיפור</p><h2 id="journey-title" data-journey-title>ניווט לפי קטגוריה</h2></div></div>
-      <nav class="journey-track" data-section-nav aria-label="פרקי הארכיון"></nav>
-    </section>
-
-    <section id="catalog" class="catalog-shell" aria-labelledby="catalog-title">
-      <div class="catalog-top shell">
-        <div class="catalog-title-row">
-          <div><p class="eyebrow">הקטלוג</p><h2 id="catalog-title" data-catalog-title>כל חומרי הגלם</h2></div>
-          <p class="result-count" data-result-count aria-live="polite">0 פריטים</p>
+    <section class="topic-workspace shell" data-topic-workspace hidden aria-labelledby="topic-title">
+      <nav class="breadcrumb" aria-label="פירורי לחם"><button type="button" data-back-topics>כל הנושאים</button><span aria-hidden="true">←</span><span data-breadcrumb-current></span></nav>
+      <header class="topic-header">
+        <div><p class="eyebrow">נושא בארכיון</p><h2 id="topic-title" tabindex="-1" data-topic-title></h2><p data-topic-description></p></div>
+        <div class="topic-count"><strong data-topic-count>0</strong><span>פריטים בנושא</span></div>
+      </header>
+      <div class="topic-tools">
+        <div class="search-control">
+          <label for="result-search">חיפוש בתוך הנושא</label>
+          <div class="search-field"><span aria-hidden="true">⌕</span><input id="result-search" type="search" autocomplete="off" placeholder="חיפוש בתוך כל הפריטים בנושא…" /><button type="button" class="clear-search" data-clear-results hidden>ניקוי</button></div>
         </div>
-        <div class="search-wrap">
-          <label for="archive-search">חיפוש חופשי</label>
-          <div class="search-field"><span aria-hidden="true">⌕</span><input id="archive-search" type="search" autocomplete="off" placeholder="שם, תקופה, מקור, מה רואים…" /><kbd>Esc</kbd></div>
-        </div>
-        <div class="filters" aria-label="סינון הקטלוג">
-          <fieldset><legend>סוג חומר</legend><div class="chip-row" data-media-filters></div></fieldset>
-          <fieldset><legend>זכויות</legend><div class="chip-row" data-rights-filters></div></fieldset>
-          <button class="clear-filters" type="button" data-clear-filters hidden>ניקוי סינון</button>
-        </div>
+        <p data-result-count aria-live="polite"></p>
       </div>
-
-      <div class="catalog-body shell">
-        <aside class="rights-legend" aria-labelledby="rights-title">
-          <div class="legend-sticky">
-            <p class="eyebrow" data-sidebar-eyebrow>מפת זכויות</p>
-            <h3 id="rights-title" data-sidebar-title>מה אפשר לעשות עכשיו?</h3>
-            <ul data-sidebar-steps></ul>
-            <a data-rights-map target="_blank" rel="noopener noreferrer">מפת הזכויות המלאה ב־Drive ↗</a>
-          </div>
-        </aside>
-        <div class="results" data-results></div>
-        <div class="empty-state" data-empty hidden><strong>לא נמצאו חומרים</strong><span>נסו מילת חיפוש אחרת או נקו את המסננים.</span></div>
-      </div>
+      <div class="asset-grid" data-results></div>
+      <div class="state-panel" data-empty hidden><strong>לא נמצאו פריטים בנושא הזה</strong><span>נקו את החיפוש כדי לחזור לכל חומרי הנושא.</span><button class="button button-ghost" type="button" data-reset-results>ניקוי החיפוש</button></div>
+      <div class="workspace-footer"><button type="button" class="back-link" data-back-topics>← חזרה לכל הנושאים</button></div>
     </section>
   </main>
 
-  <footer>
-    <div class="shell footer-inner">
-      <p data-footer-disclaimer><b>מחקר בלבד.</b> אין להשתמש בחומר בסרט ללא אישור כתוב מבעל הזכויות.</p>
-      <div><span data-footer-version>72 מקורות · גרסה 11.8.2026</span><a data-drive-root target="_blank" rel="noopener noreferrer">לתיק Drive ↗</a></div>
-    </div>
-  </footer>
+  <footer><div class="shell footer-inner"><p><b>מחקר בלבד.</b> אין לשלב חומר בסרט ללא עמידה בתנאי הרישיון או אישור כתוב מבעל הזכויות.</p><a data-drive-root target="_blank" rel="noopener noreferrer">לתיק Drive ↗</a></div></footer>
 
-  <template id="item-template">
-    <details class="archive-item">
-      <summary>
-        <div class="item-index"></div>
-        <div class="item-summary-copy">
-          <div class="item-kickers"><span class="item-period"></span><span class="item-media"></span><span class="rights-pill"></span></div>
-          <h3 class="item-title"></h3>
-          <p class="item-description"></p>
-          <p class="item-editorial-use"><b>למה זה חשוב לסרט</b><span class="item-editorial-use-text"></span></p>
-        </div>
-        <figure class="item-preview-summary" hidden>
-          <img class="item-preview-image" loading="lazy" decoding="async">
-          <div class="item-preview-placeholder" hidden><span>וידאו</span><b>ניתן לנגן באתר</b></div>
-          <span class="item-preview-badge" aria-hidden="true">▶</span>
-          <figcaption class="item-preview-caption"></figcaption>
-        </figure>
-        <span class="item-open" aria-hidden="true">＋</span>
-      </summary>
-      <div class="item-detail">
-        <section class="item-viewer" hidden aria-label="תצוגת חומר הארכיון">
-          <div class="item-viewer-stage"></div>
-          <button class="button item-load-player" type="button" hidden></button>
-          <p class="item-viewer-note"></p>
-        </section>
-        <div class="item-context-grid">
-          <div><span>שימוש עריכתי</span><strong class="relevance-pill"></strong></div>
-          <div><span>רמת אימות</span><p class="item-verification"></p></div>
-          <div data-optional hidden><span>תת־נושא</span><p class="item-subcategory"></p></div>
-        </div>
-        <div class="item-timecodes-wrap item-list-block" hidden><h4>רגעים ו־timecodes</h4><ul class="item-timecodes"></ul></div>
-        <div class="item-clips-wrap item-list-block" hidden><h4>קליפים וטייקים קשורים</h4><ul class="item-clips"></ul></div>
-        <dl>
-          <div><dt>מקור</dt><dd class="item-source"></dd></div>
-          <div><dt>בעל זכויות משוער</dt><dd class="item-owner"></dd></div>
-          <div><dt>תאריך</dt><dd class="item-date"></dd></div>
-          <div><dt>הצעד הבא</dt><dd class="item-next"></dd></div>
-        </dl>
-        <div class="item-actions">
+  <template id="asset-template">
+    <article class="asset-card">
+      <div class="asset-media"></div>
+      <div class="asset-body">
+        <div class="asset-kickers"><span class="asset-id"></span><span class="asset-type"></span><span class="rights-badge"></span></div>
+        <h3 class="asset-title"></h3>
+        <p class="asset-description"></p>
+        <p class="editorial-note"><b>למה זה חשוב לסרט</b><span></span></p>
+        <div class="asset-actions">
           <a class="button source-button" target="_blank" rel="noopener noreferrer">פתיחת המקור ↗</a>
           <a class="button button-ghost drive-button" target="_blank" rel="noopener noreferrer">איתור ב־Drive ↗</a>
-          <button class="copy-link" type="button">העתקת קישור לפריט</button>
+          <a class="button download-button" target="_blank" rel="noopener noreferrer" hidden></a>
         </div>
+        <details class="asset-details"><summary>פרטי מקור, אימות וזכויות</summary><dl>
+          <div><dt>מקור</dt><dd class="asset-source"></dd></div>
+          <div><dt>תאריך / תקופה</dt><dd class="asset-date"></dd></div>
+          <div><dt>בעל זכויות</dt><dd class="asset-owner"></dd></div>
+          <div><dt>אימות</dt><dd class="asset-verification"></dd></div>
+          <div><dt>הצעד הבא</dt><dd class="asset-next"></dd></div>
+        </dl></details>
+        <button class="copy-link" type="button">העתקת קישור לפריט</button>
       </div>
-    </details>
+    </article>
   </template>
 
   <div class="toast" data-toast role="status" aria-live="polite"></div>

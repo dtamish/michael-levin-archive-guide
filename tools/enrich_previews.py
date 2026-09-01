@@ -15,12 +15,21 @@ COMMONS_THUMBS={
     'ML-071':'assets/previews/ML-071.webp',
     'ML-072':'assets/previews/ML-072.webp',
 }
+AUTHORIZED_DOWNLOADS={
+    'ML-068':'https://upload.wikimedia.org/wikipedia/commons/0/0a/Flickr_-_Israel_Defense_Forces_-_IDF_Lone_Soldiers_Celebrate_Thanksgiving%2C_Nov_2010_%281%29.jpg',
+    'ML-069':'https://upload.wikimedia.org/wikipedia/commons/7/7a/Flickr_-_Israel_Defense_Forces_-_IDF_Lone_Soldiers_Celebrate_Thanksgiving%2C_Nov_2010_%282%29.jpg',
+    'ML-071':'https://upload.wikimedia.org/wikipedia/commons/0/09/Flickr_-_Israel_Defense_Forces_-_IDF_Lone_Soldiers_Celebrate_Thanksgiving%2C_Nov_2010.jpg',
+    'ML-072':'https://upload.wikimedia.org/wikipedia/commons/3/38/Flickr_-_Israel_Defense_Forces_-_IDF_Lone_Soldiers_Celebrate_Thanksgiving%2C_Nov_2010_%283%29.jpg',
+}
 
 p=Path(__file__).resolve().parents[1]/'data'/'archive.json'
 d=json.loads(p.read_text(encoding='utf-8'))
 playable=image_count=0
 for item in d['items']:
     item.pop('preview',None)
+    item.pop('downloadAuthorized',None)
+    item.pop('downloadUrl',None)
+    item.pop('downloadLabel',None)
     url=item.get('sourceUrl','')
     parsed=urlparse(url)
     host=parsed.netloc.lower()
@@ -68,6 +77,10 @@ for item in d['items']:
         item['preview']=preview
         if preview.get('embedUrl'): playable+=1
         else: image_count+=1
+    if item['id'] in AUTHORIZED_DOWNLOADS and item.get('rightsGroup')=='open':
+        item['downloadAuthorized']=True
+        item['downloadUrl']=AUTHORIZED_DOWNLOADS[item['id']]
+        item['downloadLabel']='הורדת קובץ מקור · CC BY-SA 3.0'
 meta=d['meta']
 meta['previewCount']=playable+image_count
 meta['inlinePlayableCount']=playable

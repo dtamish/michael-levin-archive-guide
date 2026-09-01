@@ -3,7 +3,7 @@
     "title": "מייקל לוין — מדריך חומרי ארכיון לעורך",
     "subject": "סמ״ר מייקל (מיכאל) לוין ז״ל",
     "catalogDate": "2026-08-11",
-    "generatedAt": "2026-08-11",
+    "generatedAt": "2026-09-01",
     "total": 72,
     "openLicensed": 4,
     "driveRoot": "https://drive.google.com/drive/folders/1vs_pemy7bthrOnIS-Tv21er2eToqFyYn",
@@ -110,6 +110,7 @@
     },
     "projectTitle": "מייקל לוין",
     "projectSubtitle": "מדריך חומרי ארכיון לעורך",
+    "catalogTitle": "כל חומרי הארכיון",
     "metaDescription": "מדריך עריכתי ל-72 מקורות על מייקל לוין: מה רואים, למה זה חשוב לסרט, זכויות וקישורי מקור ו-Drive.",
     "heroLede": "לא עוד רשימת לינקים: לכל מקור מוסבר מה רואים בו, למה הוא רלוונטי לסרט ומה צריך לאמת לפני קאט.",
     "heroRule": "רואים באתר · מבינים · ורק אז עוברים למקור",
@@ -117,35 +118,6 @@
     "metricTotalLabel": "מקורות מתוארים",
     "metricSectionLabel": "תחנות בסיפור",
     "metricOpenLabel": "פריטים ברישיון פתוח",
-    "startTitle": "חמש דלתות הכניסה החזקות",
-    "startIntro": "אם יש לעורך שעה אחת בלבד, מתחילים מכאן.",
-    "startLeads": [
-      {
-        "title": "משפחה והקרן",
-        "description": "ילדות, home movies, חומרים אישיים ו-A Hero in Heaven.",
-        "section": "01"
-      },
-      {
-        "title": "הבחירה בישראל",
-        "description": "עלייה, לימודים, צבא והמעבר מחו״ל לחיים ישראליים.",
-        "section": "02"
-      },
-      {
-        "title": "חברי גדוד 890",
-        "description": "עדויות, תמונות פרטיות והאישיות שמאחורי הסמל.",
-        "section": "03"
-      },
-      {
-        "title": "הלוויה בהר הרצל",
-        "description": "התיעוד המקצועי המרכזי של רגע השבר וההפיכה לסמל ציבורי.",
-        "section": "04"
-      },
-      {
-        "title": "מורשת והשפעה",
-        "description": "17+ שנות הנצחה, חיילים בודדים ופעולה שנולדה מתוך הזיכרון.",
-        "section": "06"
-      }
-    ],
     "metricRouteValue": "44",
     "metricRouteLabel": "פריטים עם preview או נגן באתר",
     "journeyTitle": "ניווט לפי תקופה",
@@ -157,8 +129,7 @@
     "assetMediaCounts": {
       "stills": 24,
       "video": 41
-    },
-    "catalogTitle": "כל חומרי הארכיון"
+    }
   },
   "items": [
     {
@@ -2047,7 +2018,10 @@
         "thumbnailUrl": "assets/previews/ML-068.webp",
         "alt": "חיילים בודדים מציינים Thanksgiving; B-roll הקשרי לתופעת החיילים הבודדים",
         "caption": "Wikimedia Commons · תמונה ברישיון פתוח; תנאי הקרדיט בכרטיס"
-      }
+      },
+      "downloadAuthorized": true,
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Flickr_-_Israel_Defense_Forces_-_IDF_Lone_Soldiers_Celebrate_Thanksgiving%2C_Nov_2010_%281%29.jpg",
+      "downloadLabel": "הורדת קובץ מקור · CC BY-SA 3.0"
     },
     {
       "id": "ML-069",
@@ -2076,7 +2050,10 @@
         "thumbnailUrl": "assets/previews/ML-069.webp",
         "alt": "פריים נוסף מאירוע Thanksgiving לחיילים בודדים",
         "caption": "Wikimedia Commons · תמונה ברישיון פתוח; תנאי הקרדיט בכרטיס"
-      }
+      },
+      "downloadAuthorized": true,
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Flickr_-_Israel_Defense_Forces_-_IDF_Lone_Soldiers_Celebrate_Thanksgiving%2C_Nov_2010_%282%29.jpg",
+      "downloadLabel": "הורדת קובץ מקור · CC BY-SA 3.0"
     },
     {
       "id": "ML-070",
@@ -2128,7 +2105,10 @@
         "thumbnailUrl": "assets/previews/ML-071.webp",
         "alt": "חיילים בודדים בארוחת Thanksgiving או בצפייה משותפת; חומר הקשר בלבד, מייקל אינו מופיע.",
         "caption": "Wikimedia Commons · תמונה ברישיון פתוח; תנאי הקרדיט בכרטיס"
-      }
+      },
+      "downloadAuthorized": true,
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/0/09/Flickr_-_Israel_Defense_Forces_-_IDF_Lone_Soldiers_Celebrate_Thanksgiving%2C_Nov_2010.jpg",
+      "downloadLabel": "הורדת קובץ מקור · CC BY-SA 3.0"
     },
     {
       "id": "ML-072",
@@ -2157,7 +2137,10 @@
         "thumbnailUrl": "assets/previews/ML-072.webp",
         "alt": "חיילים בודדים בארוחת Thanksgiving או בצפייה משותפת; חומר הקשר בלבד, מייקל אינו מופיע.",
         "caption": "Wikimedia Commons · תמונה ברישיון פתוח; תנאי הקרדיט בכרטיס"
-      }
+      },
+      "downloadAuthorized": true,
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/3/38/Flickr_-_Israel_Defense_Forces_-_IDF_Lone_Soldiers_Celebrate_Thanksgiving%2C_Nov_2010_%283%29.jpg",
+      "downloadLabel": "הורדת קובץ מקור · CC BY-SA 3.0"
     }
   ]
 }

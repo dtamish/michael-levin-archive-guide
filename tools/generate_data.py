@@ -21,6 +21,12 @@ FOLDER_LABELS={
  "06_מורשת_והשפעה":"מורשת והשפעה",
  "07_סרטים_וכתבות_לרישוי":"סרטים וכתבות לרישוי",
 }
+AUTHORIZED_DOWNLOADS={
+ "ML-068":"https://upload.wikimedia.org/wikipedia/commons/0/0a/Flickr_-_Israel_Defense_Forces_-_IDF_Lone_Soldiers_Celebrate_Thanksgiving%2C_Nov_2010_%281%29.jpg",
+ "ML-069":"https://upload.wikimedia.org/wikipedia/commons/7/7a/Flickr_-_Israel_Defense_Forces_-_IDF_Lone_Soldiers_Celebrate_Thanksgiving%2C_Nov_2010_%282%29.jpg",
+ "ML-071":"https://upload.wikimedia.org/wikipedia/commons/0/09/Flickr_-_Israel_Defense_Forces_-_IDF_Lone_Soldiers_Celebrate_Thanksgiving%2C_Nov_2010.jpg",
+ "ML-072":"https://upload.wikimedia.org/wikipedia/commons/3/38/Flickr_-_Israel_Defense_Forces_-_IDF_Lone_Soldiers_Celebrate_Thanksgiving%2C_Nov_2010_%283%29.jpg",
+}
 
 def rights_group(value:str)->str:
  if "פתוח" in value: return "open"
@@ -52,7 +58,7 @@ def main():
  items=[]
  for r in rows:
   item_id=r["מזהה"].strip(); folder=r["תיקייה"].strip()
-  items.append({
+  item={
    "id":item_id,
    "section":folder,
    "sectionLabel":FOLDER_LABELS.get(folder,folder),
@@ -69,7 +75,10 @@ def main():
    "nextAction":r["הפעולה הבאה"].strip(),
    "sourceUrl":r["קישור"].strip(),
    "driveUrl":drive["items"].get(item_id),
-  })
+  }
+  if item_id in AUTHORIZED_DOWNLOADS:
+   item.update(downloadAuthorized=True,downloadUrl=AUTHORIZED_DOWNLOADS[item_id],downloadLabel="הורדת קובץ מקור · CC BY-SA 3.0")
+  items.append(item)
  if any(not i["driveUrl"] for i in items):
   missing=[i["id"] for i in items if not i["driveUrl"]]; raise SystemExit(f"missing Drive handles: {missing}")
  payload={
