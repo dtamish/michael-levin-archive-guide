@@ -68,19 +68,23 @@ test('all 72 cards have honest source and Drive fallbacks even without previews'
  assert.match(js,/החומר נשאר בקישור המקור/);
 });
 
-test('only the four verified CC files receive trusted direct downloads',()=>{
+test('only the four verified CC files receive trusted direct downloads',async()=>{
  const downloadable=data.items.filter(item=>item.downloadAuthorized===true);
  assert.deepEqual(downloadable.map(item=>item.id),['ML-068','ML-069','ML-071','ML-072']);
  assert.equal(data.items.filter(item=>item.downloadUrl).length,4);
  for(const item of downloadable){
   assert.equal(item.rightsGroup,'open');
-  assert.match(item.downloadUrl,/^https:\/\/upload\.wikimedia\.org\/wikipedia\/commons\//);
+  assert.match(item.downloadUrl,/^assets\/downloads\/ML-\d{3}\.jpg$/);
   assert.equal(trustedDownloadUrl(item),item.downloadUrl);
   assert.match(item.downloadLabel,/CC BY-SA 3\.0/);
+  const file=await readFile(new URL(`../${item.downloadUrl}`,import.meta.url));
+  assert.ok(file.length>100_000,item.id);
+  assert.deepEqual([...file.subarray(0,3)],[0xff,0xd8,0xff],item.id);
  }
  assert.equal(trustedDownloadUrl({downloadAuthorized:false,downloadUrl:downloadable[0].downloadUrl}),'');
  assert.equal(trustedDownloadUrl({downloadAuthorized:true,downloadUrl:'http://upload.wikimedia.org/file.jpg'}),'');
  assert.equal(trustedDownloadUrl({downloadAuthorized:true,downloadUrl:'https://evil.example/file.jpg'}),'');
+ assert.equal(trustedDownloadUrl({downloadAuthorized:true,downloadUrl:'assets/downloads/../secret.jpg'}),'');
  assert.equal(data.items.filter(item=>item.rightsGroup==='open').length,4);
  assert.equal(data.meta.openLicensed,4);
 });

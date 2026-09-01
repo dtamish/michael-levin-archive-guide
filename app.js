@@ -4,6 +4,7 @@ export const EMBED_HOSTS=new Set(['www.youtube-nocookie.com','www.facebook.com',
 export const MEDIA_HOSTS=new Set(['i.ytimg.com','commons.wikimedia.org','upload.wikimedia.org','archive.org']);
 const LOCAL_PREVIEW_PATH=/\/assets\/previews\/ML-\d{3}\.webp$/;
 const DOWNLOAD_HOSTS=new Set(['upload.wikimedia.org']);
+const LOCAL_DOWNLOAD_PATH=/^assets\/downloads\/ML-\d{3}\.jpg$/;
 
 let archive=null;
 const state={view:'topics',topicId:'',chooserQuery:'',resultQuery:'',pendingItemId:'',lastTopicTrigger:null};
@@ -13,7 +14,7 @@ export const normalize=(value='')=>String(value).normalize('NFKD').replace(/[\u0
 export function itemSearchText(item){return [item.id,item.title,item.period,item.mediaType,item.description,item.editorialUse,item.subcategory,item.source,item.rightsOwner,item.rightsStatus].filter(Boolean).join(' ')}
 export function topicItems(data,topicId,query=''){const needle=normalize(query);return data.items.filter(item=>item.section===topicId&&(!needle||normalize(itemSearchText(item)).includes(needle)))}
 export function parseRoute(hash=''){let match=String(hash).match(/^#topic\/(.+)$/);if(match)return{kind:'topic',id:decodeURIComponent(match[1])};match=String(hash).match(/^#item\/(ML-\d{3})$/);if(match)return{kind:'item',id:match[1]};return{kind:'topics'}}
-export function trustedDownloadUrl(item){if(item?.downloadAuthorized!==true||typeof item.downloadUrl!=='string')return'';try{const url=new URL(item.downloadUrl);return url.protocol==='https:'&&DOWNLOAD_HOSTS.has(url.hostname)&&url.pathname.startsWith('/wikipedia/commons/')?url.href:''}catch{return''}}
+export function trustedDownloadUrl(item){if(item?.downloadAuthorized!==true||typeof item.downloadUrl!=='string')return'';if(LOCAL_DOWNLOAD_PATH.test(item.downloadUrl))return item.downloadUrl;try{const url=new URL(item.downloadUrl);return url.protocol==='https:'&&DOWNLOAD_HOSTS.has(url.hostname)&&url.pathname.startsWith('/wikipedia/commons/')?url.href:''}catch{return''}}
 function safeHttpUrl(value){try{const url=new URL(value,location.href);return ['http:','https:'].includes(url.protocol)?url.href:''}catch{return''}}
 function trustedEmbedUrl(value){try{const url=new URL(value);return url.protocol==='https:'&&EMBED_HOSTS.has(url.hostname)?url.href:''}catch{return''}}
 function trustedMediaUrl(value){try{const url=new URL(value,location.href);if(url.origin===location.origin&&LOCAL_PREVIEW_PATH.test(url.pathname))return url.href;return url.protocol==='https:'&&MEDIA_HOSTS.has(url.hostname)?url.href:''}catch{return''}}

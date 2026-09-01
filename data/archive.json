@@ -268,7 +268,6 @@
       "relevanceType": "character",
       "subcategory": "וידאו, 06:24",
       "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
-      "assetCount": 1,
       "preview": {
         "kind": "youtube",
         "thumbnailUrl": "https://i.ytimg.com/vi/y29i9rfwmQI/hqdefault.jpg",
@@ -276,7 +275,8 @@
         "alt": "תמונה מקדימה לסרטון: Michael - Fallen Soldier of Israel",
         "caption": "YouTube · הנגן נטען רק בלחיצה",
         "loadLabel": "ניגון הסרט באתר"
-      }
+      },
+      "assetCount": 1
     },
     {
       "id": "ML-007",
@@ -299,7 +299,6 @@
       "relevanceType": "character",
       "subcategory": "וידאו, 48:52",
       "verificationNote": "מבוסס כותרת/מטא־דאטה ציבורית; נדרשת צפייה מלאה ו-shot list לפני קאט.",
-      "assetCount": 1,
       "preview": {
         "kind": "youtube",
         "thumbnailUrl": "https://i.ytimg.com/vi/aOERe4ncqkM/hqdefault.jpg",
@@ -307,7 +306,8 @@
         "alt": "תמונה מקדימה לסרטון: סיפור חייו ומותו של מייקל לוין",
         "caption": "YouTube · הנגן נטען רק בלחיצה",
         "loadLabel": "ניגון הסרט באתר"
-      }
+      },
+      "assetCount": 1
     },
     {
       "id": "ML-008",
@@ -330,7 +330,6 @@
       "relevanceType": "character",
       "subcategory": "דוקומנטרי, 09:09",
       "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
-      "assetCount": 1,
       "preview": {
         "kind": "youtube",
         "thumbnailUrl": "https://i.ytimg.com/vi/jbEBUBJ4AbY/hqdefault.jpg",
@@ -338,7 +337,8 @@
         "alt": "תמונה מקדימה לסרטון: Eternal Hero, Soldier of Israel",
         "caption": "YouTube · הנגן נטען רק בלחיצה",
         "loadLabel": "ניגון הסרט באתר"
-      }
+      },
+      "assetCount": 1
     },
     {
       "id": "ML-009",
@@ -361,7 +361,6 @@
       "relevanceType": "character",
       "subcategory": "וידאו, 06:30",
       "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
-      "assetCount": 1,
       "preview": {
         "kind": "youtube",
         "thumbnailUrl": "https://i.ytimg.com/vi/dh62xDQ3zjI/hqdefault.jpg",
@@ -369,7 +368,8 @@
         "alt": "תמונה מקדימה לסרטון: Michael Levin — Israel Video Productions",
         "caption": "YouTube · הנגן נטען רק בלחיצה",
         "loadLabel": "ניגון הסרט באתר"
-      }
+      },
+      "assetCount": 1
     },
     {
       "id": "ML-010",
@@ -438,7 +438,6 @@
       "relevanceType": "evidence",
       "subcategory": "עדות חבר, 10:00",
       "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
-      "assetCount": 0,
       "preview": {
         "kind": "youtube",
         "thumbnailUrl": "https://i.ytimg.com/vi/8qGXEUGpOY4/hqdefault.jpg",
@@ -446,7 +445,8 @@
         "alt": "תמונה מקדימה לסרטון: Soldier Friend Remembering Michael Levin",
         "caption": "YouTube · הנגן נטען רק בלחיצה",
         "loadLabel": "ניגון הסרט באתר"
-      }
+      },
+      "assetCount": 0
     },
     {
       "id": "ML-013",
@@ -469,14 +469,14 @@
       "relevanceType": "evidence",
       "subcategory": "וידאו",
       "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
-      "assetCount": 1,
       "preview": {
         "kind": "facebook",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fidfonline%2Fvideos%2F766815073341365%2F&show_text=false&width=900",
         "alt": "נגן Facebook לסרטון: מייקל לוין — Facebook IDF",
         "caption": "Facebook · נגן רשמי; זמינות תלויה בהרשאות המקור",
         "loadLabel": "ניגון הסרט באתר"
-      }
+      },
+      "assetCount": 1
     },
     {
       "id": "ML-014",
@@ -499,14 +499,14 @@
       "relevanceType": "evidence",
       "subcategory": "וידאו Facebook",
       "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
-      "assetCount": 1,
       "preview": {
         "kind": "facebook",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fyediotahronot%2Fvideos%2F1391453560882810%2F&show_text=false&width=900",
         "alt": "נגן Facebook לסרטון: Yedioth — הוריו ושני חיילים שהושפעו ממנו",
         "caption": "Facebook · נגן רשמי; זמינות תלויה בהרשאות המקור",
         "loadLabel": "ניגון הסרט באתר"
-      }
+      },
+      "assetCount": 1
     },
     {
       "id": "ML-015",
@@ -529,7 +529,6 @@
       "relevanceType": "evidence",
       "subcategory": "וידאו AP, 02:01",
       "verificationNote": "מבוסס כותרת/מטא־דאטה ציבורית; נדרשת צפייה מלאה ו-shot list לפני קאט.",
-      "assetCount": 1,
       "preview": {
         "kind": "youtube",
         "thumbnailUrl": "https://i.ytimg.com/vi/6W7eHdOjSAU/hqdefault.jpg",
@@ -537,7 +536,8 @@
         "alt": "תמונה מקדימה לסרטון: Thousands gather for funeral",
         "caption": "YouTube · הנגן נטען רק בלחיצה",
         "loadLabel": "ניגון הסרט באתר"
-      }
+      },
+      "assetCount": 1
     },
     {
       "id": "ML-016",
@@ -629,7 +629,6 @@
       "relevanceType": "story",
       "subcategory": "וידאו, 01:54",
       "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
-      "assetCount": 1,
       "preview": {
         "kind": "youtube",
         "thumbnailUrl": "https://i.ytimg.com/vi/W9Wj_EEdGXE/hqdefault.jpg",
@@ -637,7 +636,8 @@
         "alt": "תמונה מקדימה לסרטון: Har Herzl Memorial Service",
         "caption": "YouTube · הנגן נטען רק בלחיצה",
         "loadLabel": "ניגון הסרט באתר"
-      }
+      },
+      "assetCount": 1
     },
     {
       "id": "ML-020",
@@ -660,7 +660,6 @@
       "relevanceType": "story",
       "subcategory": "וידאו, 06:07",
       "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
-      "assetCount": 1,
       "preview": {
         "kind": "youtube",
         "thumbnailUrl": "https://i.ytimg.com/vi/6OhLz4dzRoU/hqdefault.jpg",
@@ -668,7 +667,8 @@
         "alt": "תמונה מקדימה לסרטון: Tribute at Har Herzl — 15 years",
         "caption": "YouTube · הנגן נטען רק בלחיצה",
         "loadLabel": "ניגון הסרט באתר"
-      }
+      },
+      "assetCount": 1
     },
     {
       "id": "ML-021",
@@ -691,7 +691,6 @@
       "relevanceType": "story",
       "subcategory": "וידאו, 02:05",
       "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
-      "assetCount": 1,
       "preview": {
         "kind": "youtube",
         "thumbnailUrl": "https://i.ytimg.com/vi/8aNrAEkBG7U/hqdefault.jpg",
@@ -699,7 +698,8 @@
         "alt": "תמונה מקדימה לסרטון: סרט לזכרו של מייקל",
         "caption": "YouTube · הנגן נטען רק בלחיצה",
         "loadLabel": "ניגון הסרט באתר"
-      }
+      },
+      "assetCount": 1
     },
     {
       "id": "ML-022",
@@ -722,7 +722,6 @@
       "relevanceType": "story",
       "subcategory": "וידאו",
       "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
-      "assetCount": 1,
       "preview": {
         "kind": "youtube",
         "thumbnailUrl": "https://i.ytimg.com/vi/rhFcKUmrmsI/hqdefault.jpg",
@@ -730,7 +729,8 @@
         "alt": "תמונה מקדימה לסרטון: Michael Levin memorial 2025",
         "caption": "YouTube · הנגן נטען רק בלחיצה",
         "loadLabel": "ניגון הסרט באתר"
-      }
+      },
+      "assetCount": 1
     },
     {
       "id": "ML-023",
@@ -753,7 +753,6 @@
       "relevanceType": "story",
       "subcategory": "וידאו",
       "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
-      "assetCount": 1,
       "preview": {
         "kind": "youtube",
         "thumbnailUrl": "https://i.ytimg.com/vi/RcFYBTuLIcA/hqdefault.jpg",
@@ -761,7 +760,8 @@
         "alt": "תמונה מקדימה לסרטון: Michael Levin — 20 years — Knesset",
         "caption": "YouTube · הנגן נטען רק בלחיצה",
         "loadLabel": "ניגון הסרט באתר"
-      }
+      },
+      "assetCount": 1
     },
     {
       "id": "ML-024",
@@ -784,7 +784,6 @@
       "relevanceType": "story",
       "subcategory": "וידאו, 32:00",
       "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
-      "assetCount": 1,
       "preview": {
         "kind": "youtube",
         "thumbnailUrl": "https://i.ytimg.com/vi/sZeveApk6Vc/hqdefault.jpg",
@@ -792,7 +791,8 @@
         "alt": "תמונה מקדימה לסרטון: Yom Hazikaron 2026 — The Base",
         "caption": "YouTube · הנגן נטען רק בלחיצה",
         "loadLabel": "ניגון הסרט באתר"
-      }
+      },
+      "assetCount": 1
     },
     {
       "id": "ML-025",
@@ -815,7 +815,6 @@
       "relevanceType": "story",
       "subcategory": "וידאו, 01:48:02",
       "verificationNote": "מבוסס כותרת/מטא־דאטה ציבורית; נדרשת צפייה מלאה ו-shot list לפני קאט.",
-      "assetCount": 1,
       "preview": {
         "kind": "youtube",
         "thumbnailUrl": "https://i.ytimg.com/vi/K8Ehyil0eh0/hqdefault.jpg",
@@ -823,7 +822,8 @@
         "alt": "תמונה מקדימה לסרטון: Yom Hazikaron 2025 — The Base",
         "caption": "YouTube · הנגן נטען רק בלחיצה",
         "loadLabel": "ניגון הסרט באתר"
-      }
+      },
+      "assetCount": 1
     },
     {
       "id": "ML-026",
@@ -846,7 +846,6 @@
       "relevanceType": "story",
       "subcategory": "וידאו + עמוד",
       "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
-      "assetCount": 1,
       "preview": {
         "kind": "youtube",
         "thumbnailUrl": "https://i.ytimg.com/vi/IRMwmMDg0mM/hqdefault.jpg",
@@ -854,7 +853,8 @@
         "alt": "תמונה מקדימה לסרטון: Because of Michael",
         "caption": "YouTube · הנגן נטען רק בלחיצה",
         "loadLabel": "ניגון הסרט באתר"
-      }
+      },
+      "assetCount": 1
     },
     {
       "id": "ML-027",
@@ -877,7 +877,6 @@
       "relevanceType": "story",
       "subcategory": "וידאו",
       "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
-      "assetCount": 1,
       "preview": {
         "kind": "youtube",
         "thumbnailUrl": "https://i.ytimg.com/vi/MYUnHt7_25I/hqdefault.jpg",
@@ -885,7 +884,8 @@
         "alt": "תמונה מקדימה לסרטון: Because of Michael — כתוביות עברית",
         "caption": "YouTube · הנגן נטען רק בלחיצה",
         "loadLabel": "ניגון הסרט באתר"
-      }
+      },
+      "assetCount": 1
     },
     {
       "id": "ML-028",
@@ -908,7 +908,6 @@
       "relevanceType": "story",
       "subcategory": "וידאו, 01:25",
       "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
-      "assetCount": 1,
       "preview": {
         "kind": "youtube",
         "thumbnailUrl": "https://i.ytimg.com/vi/Uv9Rfgcyuio/hqdefault.jpg",
@@ -916,7 +915,8 @@
         "alt": "תמונה מקדימה לסרטון: The Michael Levin Lone Soldier Foundation 2021",
         "caption": "YouTube · הנגן נטען רק בלחיצה",
         "loadLabel": "ניגון הסרט באתר"
-      }
+      },
+      "assetCount": 1
     },
     {
       "id": "ML-029",
@@ -939,7 +939,6 @@
       "relevanceType": "story",
       "subcategory": "וידאו, 02:35",
       "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
-      "assetCount": 1,
       "preview": {
         "kind": "youtube",
         "thumbnailUrl": "https://i.ytimg.com/vi/Se1SQKy-Gus/hqdefault.jpg",
@@ -947,7 +946,8 @@
         "alt": "תמונה מקדימה לסרטון: Sefer Torah Dedication",
         "caption": "YouTube · הנגן נטען רק בלחיצה",
         "loadLabel": "ניגון הסרט באתר"
-      }
+      },
+      "assetCount": 1
     },
     {
       "id": "ML-030",
@@ -970,7 +970,6 @@
       "relevanceType": "story",
       "subcategory": "וידאו, 06:19",
       "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
-      "assetCount": 1,
       "preview": {
         "kind": "youtube",
         "thumbnailUrl": "https://i.ytimg.com/vi/-iCMpxCbbsc/hqdefault.jpg",
@@ -978,7 +977,8 @@
         "alt": "תמונה מקדימה לסרטון: Lone Soldier Center Video.mov",
         "caption": "YouTube · הנגן נטען רק בלחיצה",
         "loadLabel": "ניגון הסרט באתר"
-      }
+      },
+      "assetCount": 1
     },
     {
       "id": "ML-031",
@@ -1001,7 +1001,6 @@
       "relevanceType": "story",
       "subcategory": "וידאו, 05:44",
       "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
-      "assetCount": 1,
       "preview": {
         "kind": "youtube",
         "thumbnailUrl": "https://i.ytimg.com/vi/7BdeUeMGTMI/hqdefault.jpg",
@@ -1009,7 +1008,8 @@
         "alt": "תמונה מקדימה לסרטון: The Lone Soldier Center in memory of Michael Levin",
         "caption": "YouTube · הנגן נטען רק בלחיצה",
         "loadLabel": "ניגון הסרט באתר"
-      }
+      },
+      "assetCount": 1
     },
     {
       "id": "ML-032",
@@ -1032,7 +1032,6 @@
       "relevanceType": "story",
       "subcategory": "וידאו, 07:31",
       "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
-      "assetCount": 1,
       "preview": {
         "kind": "youtube",
         "thumbnailUrl": "https://i.ytimg.com/vi/9lTEUkucKo0/hqdefault.jpg",
@@ -1040,7 +1039,8 @@
         "alt": "תמונה מקדימה לסרטון: IDF Lone Soldiers: Behind the Smiles",
         "caption": "YouTube · הנגן נטען רק בלחיצה",
         "loadLabel": "ניגון הסרט באתר"
-      }
+      },
+      "assetCount": 1
     },
     {
       "id": "ML-033",
@@ -1109,7 +1109,6 @@
       "relevanceType": "story",
       "subcategory": "אודיו",
       "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
-      "assetCount": 0,
       "preview": {
         "kind": "archive-audio",
         "thumbnailUrl": "https://archive.org/services/img/t3w9ah9luvvppsbtnaboisk7zc5xqvls1nlmik3i",
@@ -1117,7 +1116,8 @@
         "alt": "תמונה מקדימה לפריט האודיו: Rejuvenation: The Huge Legacy of Michael Levin",
         "caption": "Internet Archive · נגן אודיו מוטמע",
         "loadLabel": "ניגון האודיו באתר"
-      }
+      },
+      "assetCount": 0
     },
     {
       "id": "ML-036",
@@ -1278,7 +1278,6 @@
       "relevanceType": "character",
       "subcategory": "מצגת וידאו / סטילס ארכיוניים",
       "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
-      "assetCount": 1,
       "preview": {
         "kind": "youtube",
         "thumbnailUrl": "https://i.ytimg.com/vi/usVj7zibuIg/hqdefault.jpg",
@@ -1286,7 +1285,8 @@
         "alt": "תמונה מקדימה לסרטון: Remembering Michael Levin Z״L – The Michael Levin Base",
         "caption": "YouTube · הנגן נטען רק בלחיצה",
         "loadLabel": "ניגון הסרט באתר"
-      }
+      },
+      "assetCount": 1
     },
     {
       "id": "ML-043",
@@ -1309,7 +1309,6 @@
       "relevanceType": "character",
       "subcategory": "וידאו עדות",
       "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
-      "assetCount": 1,
       "preview": {
         "kind": "youtube",
         "thumbnailUrl": "https://i.ytimg.com/vi/uL3e-q0EHuM/hqdefault.jpg",
@@ -1317,7 +1316,8 @@
         "alt": "תמונה מקדימה לסרטון: Mark Levin telling Michael’s story",
         "caption": "YouTube · הנגן נטען רק בלחיצה",
         "loadLabel": "ניגון הסרט באתר"
-      }
+      },
+      "assetCount": 1
     },
     {
       "id": "ML-044",
@@ -1340,7 +1340,6 @@
       "relevanceType": "character",
       "subcategory": "שיחת וידאו / עדות הורים",
       "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
-      "assetCount": 1,
       "preview": {
         "kind": "youtube",
         "thumbnailUrl": "https://i.ytimg.com/vi/zRMowMhwdk8/hqdefault.jpg",
@@ -1348,7 +1347,8 @@
         "alt": "תמונה מקדימה לסרטון: A Hero in Heaven — discussion with Mark & Harriet Levin",
         "caption": "YouTube · הנגן נטען רק בלחיצה",
         "loadLabel": "ניגון הסרט באתר"
-      }
+      },
+      "assetCount": 1
     },
     {
       "id": "ML-045",
@@ -1371,7 +1371,6 @@
       "relevanceType": "story",
       "subcategory": "סרט מחווה מוסדי",
       "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
-      "assetCount": 1,
       "preview": {
         "kind": "youtube",
         "thumbnailUrl": "https://i.ytimg.com/vi/Oz3ypfrTaBs/hqdefault.jpg",
@@ -1379,7 +1378,8 @@
         "alt": "תמונה מקדימה לסרטון: טקס יום הזיכרון של הכנסת — סרטון לזכרו של מייקל לוין",
         "caption": "YouTube · הנגן נטען רק בלחיצה",
         "loadLabel": "ניגון הסרט באתר"
-      }
+      },
+      "assetCount": 1
     },
     {
       "id": "ML-046",
@@ -1402,7 +1402,6 @@
       "relevanceType": "character",
       "subcategory": "מצגת/סרט זיכרון",
       "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
-      "assetCount": 1,
       "preview": {
         "kind": "youtube",
         "thumbnailUrl": "https://i.ytimg.com/vi/RNNTbiS7TWs/hqdefault.jpg",
@@ -1410,7 +1409,8 @@
         "alt": "תמונה מקדימה לסרטון: In memory of IDF Hero Michael Levin",
         "caption": "YouTube · הנגן נטען רק בלחיצה",
         "loadLabel": "ניגון הסרט באתר"
-      }
+      },
+      "assetCount": 1
     },
     {
       "id": "ML-047",
@@ -1433,7 +1433,6 @@
       "relevanceType": "evidence",
       "subcategory": "סרט זיכרון מורכב",
       "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
-      "assetCount": 1,
       "preview": {
         "kind": "youtube",
         "thumbnailUrl": "https://i.ytimg.com/vi/KjyO6RWhpe0/hqdefault.jpg",
@@ -1441,7 +1440,8 @@
         "alt": "תמונה מקדימה לסרטון: Michael Levin: An Eternal Hero Living In Heaven",
         "caption": "YouTube · הנגן נטען רק בלחיצה",
         "loadLabel": "ניגון הסרט באתר"
-      }
+      },
+      "assetCount": 1
     },
     {
       "id": "ML-048",
@@ -1556,7 +1556,6 @@
       "relevanceType": "story",
       "subcategory": "וידאו ביתי/טקס",
       "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
-      "assetCount": 1,
       "preview": {
         "kind": "youtube",
         "thumbnailUrl": "https://i.ytimg.com/vi/830HEitIB0w/hqdefault.jpg",
@@ -1564,7 +1563,8 @@
         "alt": "תמונה מקדימה לסרטון: Michael Levin Shloshim II",
         "caption": "YouTube · הנגן נטען רק בלחיצה",
         "loadLabel": "ניגון הסרט באתר"
-      }
+      },
+      "assetCount": 1
     },
     {
       "id": "ML-053",
@@ -1587,7 +1587,6 @@
       "relevanceType": "story",
       "subcategory": "וידאו זיכרון",
       "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
-      "assetCount": 1,
       "preview": {
         "kind": "youtube",
         "thumbnailUrl": "https://i.ytimg.com/vi/nDOOK5oahzE/hqdefault.jpg",
@@ -1595,7 +1594,8 @@
         "alt": "תמונה מקדימה לסרטון: Remembering Michael Levin",
         "caption": "YouTube · הנגן נטען רק בלחיצה",
         "loadLabel": "ניגון הסרט באתר"
-      }
+      },
+      "assetCount": 1
     },
     {
       "id": "ML-054",
@@ -1618,7 +1618,6 @@
       "relevanceType": "story",
       "subcategory": "וידאו ביתי/עדות מקום",
       "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
-      "assetCount": 1,
       "preview": {
         "kind": "youtube",
         "thumbnailUrl": "https://i.ytimg.com/vi/aczEugdYSDk/hqdefault.jpg",
@@ -1626,7 +1625,8 @@
         "alt": "תמונה מקדימה לסרטון: Michael Levin Story on Mt. Herzl",
         "caption": "YouTube · הנגן נטען רק בלחיצה",
         "loadLabel": "ניגון הסרט באתר"
-      }
+      },
+      "assetCount": 1
     },
     {
       "id": "ML-055",
@@ -1649,7 +1649,6 @@
       "relevanceType": "story",
       "subcategory": "טקס מלא/שידור",
       "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
-      "assetCount": 1,
       "preview": {
         "kind": "youtube",
         "thumbnailUrl": "https://i.ytimg.com/vi/SE3tKlmTbOg/hqdefault.jpg",
@@ -1657,7 +1656,8 @@
         "alt": "תמונה מקדימה לסרטון: Lone Soldier Center's Yom Hazikaron Ceremony 2020",
         "caption": "YouTube · הנגן נטען רק בלחיצה",
         "loadLabel": "ניגון הסרט באתר"
-      }
+      },
+      "assetCount": 1
     },
     {
       "id": "ML-056",
@@ -1680,7 +1680,6 @@
       "relevanceType": "story",
       "subcategory": "סרט סיכום פעילות",
       "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
-      "assetCount": 1,
       "preview": {
         "kind": "youtube",
         "thumbnailUrl": "https://i.ytimg.com/vi/mwyMzjyI-wY/hqdefault.jpg",
@@ -1688,7 +1687,8 @@
         "alt": "תמונה מקדימה לסרטון: This Year in Review | The Michael Levin Base",
         "caption": "YouTube · הנגן נטען רק בלחיצה",
         "loadLabel": "ניגון הסרט באתר"
-      }
+      },
+      "assetCount": 1
     },
     {
       "id": "ML-057",
@@ -1711,7 +1711,6 @@
       "relevanceType": "story",
       "subcategory": "סרט תדמית/עדויות",
       "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
-      "assetCount": 1,
       "preview": {
         "kind": "youtube",
         "thumbnailUrl": "https://i.ytimg.com/vi/S_6jD-Co8p8/hqdefault.jpg",
@@ -1719,7 +1718,8 @@
         "alt": "תמונה מקדימה לסרטון: We Are The Michael Levin Base",
         "caption": "YouTube · הנגן נטען רק בלחיצה",
         "loadLabel": "ניגון הסרט באתר"
-      }
+      },
+      "assetCount": 1
     },
     {
       "id": "ML-058",
@@ -1742,7 +1742,6 @@
       "relevanceType": "story",
       "subcategory": "תיעוד טקס",
       "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
-      "assetCount": 1,
       "preview": {
         "kind": "youtube",
         "thumbnailUrl": "https://i.ytimg.com/vi/Z7E_4cu_EQg/hqdefault.jpg",
@@ -1750,7 +1749,8 @@
         "alt": "תמונה מקדימה לסרטון: Michael Levin Lone Soldier   Torah Dedication   02052022",
         "caption": "YouTube · הנגן נטען רק בלחיצה",
         "loadLabel": "ניגון הסרט באתר"
-      }
+      },
+      "assetCount": 1
     },
     {
       "id": "ML-059",
@@ -1773,7 +1773,6 @@
       "relevanceType": "story",
       "subcategory": "וידאו פעילות/אירוע",
       "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
-      "assetCount": 1,
       "preview": {
         "kind": "youtube",
         "thumbnailUrl": "https://i.ytimg.com/vi/8jEp7nHaa0s/hqdefault.jpg",
@@ -1781,7 +1780,8 @@
         "alt": "תמונה מקדימה לסרטון: Thanksgiving Recap 2022 | The Michael Levin Base",
         "caption": "YouTube · הנגן נטען רק בלחיצה",
         "loadLabel": "ניגון הסרט באתר"
-      }
+      },
+      "assetCount": 1
     },
     {
       "id": "ML-060",
@@ -1804,7 +1804,6 @@
       "relevanceType": "story",
       "subcategory": "סרט סיכום/תדמית",
       "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
-      "assetCount": 1,
       "preview": {
         "kind": "youtube",
         "thumbnailUrl": "https://i.ytimg.com/vi/MLygCijU1LM/hqdefault.jpg",
@@ -1812,7 +1811,8 @@
         "alt": "תמונה מקדימה לסרטון: The Michael Levin Base 2024",
         "caption": "YouTube · הנגן נטען רק בלחיצה",
         "loadLabel": "ניגון הסרט באתר"
-      }
+      },
+      "assetCount": 1
     },
     {
       "id": "ML-061",
@@ -1835,7 +1835,6 @@
       "relevanceType": "story",
       "subcategory": "טקס/וידאו",
       "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
-      "assetCount": 1,
       "preview": {
         "kind": "youtube",
         "thumbnailUrl": "https://i.ytimg.com/vi/BB_U2x5xl-E/hqdefault.jpg",
@@ -1843,7 +1842,8 @@
         "alt": "תמונה מקדימה לסרטון: Yom Hazikaron 2026 - The Michael Levin Base",
         "caption": "YouTube · הנגן נטען רק בלחיצה",
         "loadLabel": "ניגון הסרט באתר"
-      }
+      },
+      "assetCount": 1
     },
     {
       "id": "ML-062",
@@ -1866,7 +1866,6 @@
       "relevanceType": "story",
       "subcategory": "סרט אירוע/ארגון",
       "verificationNote": "מבוסס עמוד המקור והתיאור הפומבי; יש לאמת את הפריט המלא לפני קאט.",
-      "assetCount": 1,
       "preview": {
         "kind": "youtube",
         "thumbnailUrl": "https://i.ytimg.com/vi/sw3lSZ7b-ps/hqdefault.jpg",
@@ -1874,7 +1873,8 @@
         "alt": "תמונה מקדימה לסרטון: TLV Opening",
         "caption": "YouTube · הנגן נטען רק בלחיצה",
         "loadLabel": "ניגון הסרט באתר"
-      }
+      },
+      "assetCount": 1
     },
     {
       "id": "ML-063",
@@ -2012,7 +2012,6 @@
       "relevanceType": "story",
       "subcategory": "צילום סטילס",
       "verificationNote": "הרישיון והמטא־דאטה אומתו. מייקל אינו מופיע בפריט; זהו חומר הקשר בלבד.",
-      "assetCount": 1,
       "preview": {
         "kind": "open-image",
         "thumbnailUrl": "assets/previews/ML-068.webp",
@@ -2020,8 +2019,9 @@
         "caption": "Wikimedia Commons · תמונה ברישיון פתוח; תנאי הקרדיט בכרטיס"
       },
       "downloadAuthorized": true,
-      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Flickr_-_Israel_Defense_Forces_-_IDF_Lone_Soldiers_Celebrate_Thanksgiving%2C_Nov_2010_%281%29.jpg",
-      "downloadLabel": "הורדת קובץ מקור · CC BY-SA 3.0"
+      "downloadUrl": "assets/downloads/ML-068.jpg",
+      "downloadLabel": "הורדת קובץ מקור · CC BY-SA 3.0",
+      "assetCount": 1
     },
     {
       "id": "ML-069",
@@ -2044,7 +2044,6 @@
       "relevanceType": "story",
       "subcategory": "צילום סטילס",
       "verificationNote": "הרישיון והמטא־דאטה אומתו. מייקל אינו מופיע בפריט; זהו חומר הקשר בלבד.",
-      "assetCount": 1,
       "preview": {
         "kind": "open-image",
         "thumbnailUrl": "assets/previews/ML-069.webp",
@@ -2052,8 +2051,9 @@
         "caption": "Wikimedia Commons · תמונה ברישיון פתוח; תנאי הקרדיט בכרטיס"
       },
       "downloadAuthorized": true,
-      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Flickr_-_Israel_Defense_Forces_-_IDF_Lone_Soldiers_Celebrate_Thanksgiving%2C_Nov_2010_%282%29.jpg",
-      "downloadLabel": "הורדת קובץ מקור · CC BY-SA 3.0"
+      "downloadUrl": "assets/downloads/ML-069.jpg",
+      "downloadLabel": "הורדת קובץ מקור · CC BY-SA 3.0",
+      "assetCount": 1
     },
     {
       "id": "ML-070",
@@ -2099,7 +2099,6 @@
       "relevanceType": "story",
       "subcategory": "תצלום סטילס פתוח",
       "verificationNote": "הרישיון והמטא־דאטה אומתו. מייקל אינו מופיע בפריט; זהו חומר הקשר בלבד.",
-      "assetCount": 1,
       "preview": {
         "kind": "open-image",
         "thumbnailUrl": "assets/previews/ML-071.webp",
@@ -2107,8 +2106,9 @@
         "caption": "Wikimedia Commons · תמונה ברישיון פתוח; תנאי הקרדיט בכרטיס"
       },
       "downloadAuthorized": true,
-      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/0/09/Flickr_-_Israel_Defense_Forces_-_IDF_Lone_Soldiers_Celebrate_Thanksgiving%2C_Nov_2010.jpg",
-      "downloadLabel": "הורדת קובץ מקור · CC BY-SA 3.0"
+      "downloadUrl": "assets/downloads/ML-071.jpg",
+      "downloadLabel": "הורדת קובץ מקור · CC BY-SA 3.0",
+      "assetCount": 1
     },
     {
       "id": "ML-072",
@@ -2131,7 +2131,6 @@
       "relevanceType": "story",
       "subcategory": "תצלום סטילס פתוח",
       "verificationNote": "הרישיון והמטא־דאטה אומתו. מייקל אינו מופיע בפריט; זהו חומר הקשר בלבד.",
-      "assetCount": 1,
       "preview": {
         "kind": "open-image",
         "thumbnailUrl": "assets/previews/ML-072.webp",
@@ -2139,8 +2138,9 @@
         "caption": "Wikimedia Commons · תמונה ברישיון פתוח; תנאי הקרדיט בכרטיס"
       },
       "downloadAuthorized": true,
-      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/3/38/Flickr_-_Israel_Defense_Forces_-_IDF_Lone_Soldiers_Celebrate_Thanksgiving%2C_Nov_2010_%283%29.jpg",
-      "downloadLabel": "הורדת קובץ מקור · CC BY-SA 3.0"
+      "downloadUrl": "assets/downloads/ML-072.jpg",
+      "downloadLabel": "הורדת קובץ מקור · CC BY-SA 3.0",
+      "assetCount": 1
     }
   ]
 }

@@ -15,12 +15,7 @@ COMMONS_THUMBS={
     'ML-071':'assets/previews/ML-071.webp',
     'ML-072':'assets/previews/ML-072.webp',
 }
-AUTHORIZED_DOWNLOADS={
-    'ML-068':'https://upload.wikimedia.org/wikipedia/commons/0/0a/Flickr_-_Israel_Defense_Forces_-_IDF_Lone_Soldiers_Celebrate_Thanksgiving%2C_Nov_2010_%281%29.jpg',
-    'ML-069':'https://upload.wikimedia.org/wikipedia/commons/7/7a/Flickr_-_Israel_Defense_Forces_-_IDF_Lone_Soldiers_Celebrate_Thanksgiving%2C_Nov_2010_%282%29.jpg',
-    'ML-071':'https://upload.wikimedia.org/wikipedia/commons/0/09/Flickr_-_Israel_Defense_Forces_-_IDF_Lone_Soldiers_Celebrate_Thanksgiving%2C_Nov_2010.jpg',
-    'ML-072':'https://upload.wikimedia.org/wikipedia/commons/3/38/Flickr_-_Israel_Defense_Forces_-_IDF_Lone_Soldiers_Celebrate_Thanksgiving%2C_Nov_2010_%283%29.jpg',
-}
+AUTHORIZED_DOWNLOADS={item_id:f'assets/downloads/{item_id}.jpg' for item_id in ('ML-068','ML-069','ML-071','ML-072')}
 
 p=Path(__file__).resolve().parents[1]/'data'/'archive.json'
 d=json.loads(p.read_text(encoding='utf-8'))
