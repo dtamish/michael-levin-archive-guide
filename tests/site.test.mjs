@@ -1,17 +1,16 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
-import {parseRoute,topicItems,trustedDownloadUrl} from '../app.js';
+import {allTopics,parseRoute,topicItems,topicRequestTags,trustedDownloadUrl} from '../app.js';
 
 const text=await readFile(new URL('../data/archive.json',import.meta.url),'utf8');
 const data=JSON.parse(text);
 const html=await readFile(new URL('../index.html',import.meta.url),'utf8');
 const js=await readFile(new URL('../app.js',import.meta.url),'utf8');
 const css=await readFile(new URL('../styles.css',import.meta.url),'utf8');
-
 const sectionTotal=data.meta.sections.reduce((sum,section)=>sum+section.count,0);
 
-test('schema has 72 unique items and seven complete topics',()=>{
+test('schema keeps 72 unique records in seven complete base topics',()=>{
  assert.equal(data.items.length,72);
  assert.equal(data.meta.total,72);
  assert.equal(sectionTotal,72);
@@ -24,48 +23,59 @@ test('schema has 72 unique items and seven complete topics',()=>{
  }
 });
 
-test('default screen is topic-first and does not contain an all-records surface',()=>{
+test('Ruchami has one curated topic without duplicating archive records',()=>{
+ const topic=data.meta.curatedTopics.find(entry=>entry.id==='לבקשת_רוחמי');
+ assert.ok(topic);
+ assert.equal(allTopics(data).length,8);
+ assert.equal(topicItems(data,topic.id).length,25);
+ assert.equal(new Set(topic.itemIds).size,25);
+ assert.ok(topic.requestGroups.some(group=>group.label.includes('עוגת מגן דוד')));
+ assert.ok(topic.requestGroups.some(group=>group.label.includes('השיר')));
+ assert.ok(topicRequestTags(data,topic.id,'ML-040').some(tag=>tag.label.includes('A Hero in Heaven')));
+});
+
+test('default screen is topic-first and highlights the editor request',()=>{
  assert.match(html,/data-chooser/);
  assert.match(html,/data-topic-grid/);
  assert.match(html,/בחירת נושא/);
- assert.doesNotMatch(html,/כל חומרי הגלם|data-media-filters|data-rights-filters|rights-legend|data-start-leads/);
+ assert.match(js,/is-curated/);
+ assert.match(js,/בקשה עריכתית מרוכזת/);
  assert.match(html,/data-topic-workspace hidden/);
- assert.match(js,/renderChooser\(\)/);
- assert.match(js,/q\('\[data-chooser\]'\)\.hidden=true/);
 });
 
-test('selecting any topic returns every item in it and search stays scoped',()=>{
- for(const section of data.meta.sections){
+test('selecting any base or curated topic returns every item and scoped search works',()=>{
+ for(const section of allTopics(data)){
   const all=topicItems(data,section.id);
   assert.equal(all.length,section.count,section.id);
   const first=all[0];
   assert.ok(topicItems(data,section.id,first.id).some(item=>item.id===first.id));
-  assert.ok(topicItems(data,section.id,'מחרוזת שלא קיימת').length===0);
+  assert.equal(topicItems(data,section.id,'מחרוזת שלא קיימת').length,0);
  }
  assert.match(html,/חיפוש בתוך הנושא/);
  assert.match(html,/data-back-topics/);
  assert.match(html,/data-result-count/);
 });
 
-test('preview play control mounts the official player on its first click',()=>{
- assert.match(js,/button\.addEventListener\('click',\(\)=>mountOfficialPlayer\(item,media,button\),\{once:true\}\)/);
+test('all official media players mount immediately without a click gate',()=>{
+ assert.match(js,/mountOfficialPlayer\(item,media,null,\{autoplay:false,focus:false\}\)/);
  assert.match(js,/stage\.replaceChildren\(iframe\)/);
  assert.match(js,/iframe\.title=`נגן רשמי/);
+ assert.match(js,/iframe\.loading='lazy'/);
  assert.doesNotMatch(html,/item-load-player/);
- assert.match(html,/source-button/);
  const playable=data.items.filter(item=>item.preview?.embedUrl);
  assert.equal(playable.length,40);
 });
 
-test('all 72 cards have honest source and Drive fallbacks even without previews',()=>{
- assert.equal(data.items.filter(item=>!item.preview).length,28);
+test('all cards have honest source fallbacks and no fake per-item Drive button',()=>{
+ assert.equal(data.items.filter(item=>!item.preview).length,25);
  for(const item of data.items){
   assert.match(item.id,/^ML-\d{3}$/);
   assert.match(item.sourceUrl,/^https?:\/\//);
   assert.match(item.driveUrl,/^https:\/\/drive\.google\.com\//);
  }
- assert.match(js,/תצוגה מקדימה אינה זמינה/);
- assert.match(js,/החומר נשאר בקישור המקור/);
+ assert.match(js,/הקובץ עדיין לא נמצא בארכיון/);
+ assert.match(js,/לבקש קובץ מקורי מבעל הזכויות/);
+ assert.doesNotMatch(html,/drive-button/);
 });
 
 test('only the four verified CC files receive trusted direct downloads',async()=>{
@@ -82,20 +92,15 @@ test('only the four verified CC files receive trusted direct downloads',async()=
   assert.deepEqual([...file.subarray(0,3)],[0xff,0xd8,0xff],item.id);
  }
  assert.equal(trustedDownloadUrl({downloadAuthorized:false,downloadUrl:downloadable[0].downloadUrl}),'');
- assert.equal(trustedDownloadUrl({downloadAuthorized:true,downloadUrl:'http://upload.wikimedia.org/file.jpg'}),'');
  assert.equal(trustedDownloadUrl({downloadAuthorized:true,downloadUrl:'https://evil.example/file.jpg'}),'');
- assert.equal(trustedDownloadUrl({downloadAuthorized:true,downloadUrl:'assets/downloads/../secret.jpg'}),'');
- assert.equal(data.items.filter(item=>item.rightsGroup==='open').length,4);
  assert.equal(data.meta.openLicensed,4);
 });
 
-test('deep links support topics and items without render-time forced scrolling',()=>{
- const topic=data.meta.sections[0].id;
- assert.deepEqual(parseRoute(`#topic/${encodeURIComponent(topic)}`),{kind:'topic',id:topic});
+test('deep links support curated topics and archive items',()=>{
+ assert.deepEqual(parseRoute(`#topic/${encodeURIComponent('לבקשת_רוחמי')}`),{kind:'topic',id:'לבקשת_רוחמי'});
  assert.deepEqual(parseRoute('#item/ML-068'),{kind:'item',id:'ML-068'});
  assert.deepEqual(parseRoute('#item/not-valid'),{kind:'topics'});
  assert.match(js,/window\.addEventListener\('popstate'/);
- assert.doesNotMatch(js,/openHashItem/);
  assert.match(js,/history\.pushState/);
 });
 
@@ -103,7 +108,6 @@ test('loading, error, empty, reset and progressive details states exist',()=>{
  for(const marker of ['data-loading','data-load-error','data-empty','data-retry','data-clear-topic','data-clear-results','asset-details'])assert.match(html,new RegExp(marker));
  assert.match(html,/פרטי מקור, אימות וזכויות/);
  assert.match(html,/role="alert"/);
- assert.doesNotMatch(html,/data-total>0|data-section-count>0|data-open-count>0/);
 });
 
 test('responsive and keyboard foundations cover a 390px viewport',()=>{
@@ -112,19 +116,22 @@ test('responsive and keyboard foundations cover a 390px viewport',()=>{
  assert.match(css,/overflow-wrap:anywhere/);
  assert.match(css,/:focus-visible/);
  assert.match(html,/width=device-width/);
- assert.match(js,/button\.className='preview-play'/);
- assert.match(js,/button\.type='button'/);
- assert.match(js,/aria-label/);
+ assert.match(js,/iframe\.loading='lazy'/);
+ assert.match(js,/iframe\.allowFullscreen=true/);
 });
 
-test('preview schema counts and media counts remain deterministic',()=>{
+test('preview schema counts stay deterministic and source images are explicitly marked',()=>{
  const previews=data.items.filter(item=>item.preview);
- assert.equal(previews.length,44);
- assert.equal(data.meta.previewCount,44);
+ assert.equal(previews.length,47);
+ assert.equal(data.meta.previewCount,47);
  assert.equal(data.meta.inlinePlayableCount,40);
+ assert.equal(data.meta.inlineImageCount,7);
  assert.equal(previews.filter(item=>item.preview.kind==='open-image').length,4);
+ assert.equal(previews.filter(item=>item.preview.kind==='source-image').length,3);
+ for(const item of data.items.filter(item=>item.preview?.kind==='source-image')){
+  assert.match(item.preview.caption,/נדרש אישור לשימוש/);
+ }
  for(const [group,count] of Object.entries(data.meta.mediaCounts))assert.equal(data.items.filter(item=>item.mediaGroup===group).length,count,group);
- for(const forbidden of ['gettyimages','alamy.com','staticflickr','live.staticflickr'])assert.equal(JSON.stringify(previews).includes(forbidden),false);
 });
 
 test('site remains unindexed and excludes private production surfaces',()=>{

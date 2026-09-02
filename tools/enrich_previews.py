@@ -15,6 +15,23 @@ COMMONS_THUMBS={
     'ML-071':'assets/previews/ML-071.webp',
     'ML-072':'assets/previews/ML-072.webp',
 }
+SOURCE_IMAGE_PREVIEWS={
+    'ML-001':{
+        'thumbnailUrl':'https://cdn.prod.website-files.com/68ef77dc59034a0e3ac1a1da/690dd78d486e6976c7d1e615_Michel.webp',
+        'alt':'מייקל לוין — תמונה מתוך אתר הקרן',
+        'caption':'תצוגת מקור · Michael Levin Lone Soldier Foundation · נדרש אישור לשימוש',
+    },
+    'ML-005':{
+        'thumbnailUrl':'https://images.squarespace-cdn.com/content/v1/61091e3657fe3e7eb97c43f9/dc287aab-2914-41fc-9cb0-a73bf1e6f2f8/michael-nns1z6pw089l5xad2vr0bxsc755ze8zcs689j34z9c.png',
+        'alt':'מייקל לוין — תמונה מתוך אתר The Michael Levin Base',
+        'caption':'תצוגת מקור · The Michael Levin Base · נדרש אישור לשימוש',
+    },
+    'ML-041':{
+        'thumbnailUrl':'https://images.squarespace-cdn.com/content/v1/61091e3657fe3e7eb97c43f9/eea88e2e-23b0-4918-b5ba-05c0a95903e0/Harriet-and-Mikey-2.jpg',
+        'alt':'הרייט לוין עם בנה מייקל',
+        'caption':'תצוגת מקור · The Michael Levin Base / משפחת לוין · נדרש אישור לשימוש',
+    },
+}
 AUTHORIZED_DOWNLOADS={item_id:f'assets/downloads/{item_id}.jpg' for item_id in ('ML-068','ML-069','ML-071','ML-072')}
 
 p=Path(__file__).resolve().parents[1]/'data'/'archive.json'
@@ -29,7 +46,9 @@ for item in d['items']:
     parsed=urlparse(url)
     host=parsed.netloc.lower()
     preview=None
-    if host in {'www.youtube.com','youtube.com','m.youtube.com'}:
+    if item['id'] in SOURCE_IMAGE_PREVIEWS:
+        preview={'kind':'source-image',**SOURCE_IMAGE_PREVIEWS[item['id']]}
+    elif host in {'www.youtube.com','youtube.com','m.youtube.com'}:
         video_id=parse_qs(parsed.query).get('v',[''])[0]
         if len(video_id)==11:
             preview={
@@ -83,6 +102,6 @@ meta['inlineImageCount']=image_count
 meta['metricRouteValue']=str(meta['previewCount'])
 meta['metricRouteLabel']='פריטים עם preview או נגן באתר'
 meta['heroRule']='רואים באתר · מבינים · ורק אז עוברים למקור'
-meta['heroRuleNote']='נגנים רשמיים ותמונות ברישיון פתוח מוצגים כאן; חומר מוגן נשאר בקישור המקור.'
+meta['heroRuleNote']='נגנים רשמיים, תמונות ברישיון פתוח ותצוגות מקור מסומנות מוצגים כאן; שימוש בחומר מוגן עדיין דורש אישור.'
 p.write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 print(json.dumps({'items':len(d['items']),'previews':meta['previewCount'],'playable':playable,'images':image_count},ensure_ascii=False))

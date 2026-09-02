@@ -30,6 +30,32 @@ for s in meta['sections']:
     key=s['id'].split('_',1)[0]
     label,desc,use=sections[key]
     s.update(label=label,description=desc,editorialUse=use)
+
+# This is a deliberately overlapping editor brief, not an eighth archive bucket.
+# Each requested shot is mapped to honest candidates; wording must not imply that
+# an unverified visual or timecode was found.
+meta['curatedTopics']=[{
+    'id':'לבקשת_רוחמי',
+    'label':'לבקשת רוחמי',
+    'kind':'editor-request',
+    'description':'ריכוז ממוקד של חומרי הילדות, השירות, ההלוויה, הקבר, ארגוני ההנצחה והסרט התיעודי שביקשה רוחמי. תגיות „לאיתור” הן משימות צפייה ואימות — לא טענה שהשוט כבר נמצא.',
+    'editorialUse':'פותחים את הסרטים והתמונות בתוך העמוד. הורדה ישירה מופיעה רק לקובץ אמיתי שהרשאתו תועדה; בכל היתר פותחים מקור ומבקשים master מבעל הזכויות.',
+    'itemIds':['ML-001','ML-005','ML-007','ML-008','ML-041','ML-006','ML-009','ML-013','ML-042','ML-047','ML-015','ML-018','ML-048','ML-049','ML-050','ML-051','ML-063','ML-064','ML-065','ML-066','ML-026','ML-031','ML-036','ML-057','ML-040'],
+    'requestGroups':[
+        {'label':'ילדות · כולל עוגת מגן דוד','itemIds':['ML-001','ML-005','ML-007','ML-008','ML-041'],'note':'תמונות וסרטים ביוגרפיים; העוגה והטיימקוד טרם אומתו.'},
+        {'label':'גיוס','itemIds':['ML-006','ML-009'],'note':'מועמדים לרצף הדרך לגיוס; יש לאמת שוט וטיימקוד.'},
+        {'label':'חייל עם חברים','itemIds':['ML-013','ML-042','ML-047'],'note':'מועמדים לתצלומי מדים וחברים; יש לאמת כל פריים ובעלות.'},
+        {'label':'לחימה','itemIds':['ML-009','ML-047'],'note':'מועמדים לחומרי שירות; אין להסיק מן הכותרת שיש תיעוד לחימה.'},
+        {'label':'הלוויה · תמונות ווידאו','itemIds':['ML-015','ML-018','ML-048'],'note':'וידאו AP, פוסט ותצלום Getty; רישוי נדרש.'},
+        {'label':'הורים בהלוויה','itemIds':['ML-015','ML-049','ML-050'],'note':'וידאו ותצלומי ההורים; מצב רגשי מדויק חייב אימות לפני בחירה.'},
+        {'label':'קבר עם פרחים','itemIds':['ML-051','ML-063','ML-064','ML-065','ML-066'],'note':'תצלומי קבר; ML-051 מתואר כקבר מכוסה זרים. יש לאמת ולרכוש רישיון לפי המקור.'},
+        {'label':'העמותה והמבנה לזכרו','itemIds':['ML-026','ML-031','ML-036','ML-057'],'note':'סרטים ואתרי הארגונים; יש לבקש masters ותיעוד חזותי של המבנה.'},
+        {'label':'השיר מתוך A Hero in Heaven','itemIds':['ML-040'],'note':'הסרט הוא מקור האיתור; זהות השיר, cue והזכויות טרם אומתו. יש לבקש screener ו-cue sheet.'}
+    ]
+}]
+for topic in meta['curatedTopics']:
+    topic['count']=len(topic['itemIds'])
+
 for x in d['items']:
     key=x['section'].split('_',1)[0]
     desc=x.get('description','')
